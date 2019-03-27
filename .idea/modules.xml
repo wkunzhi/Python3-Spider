@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/DianPingParsePoi.iml" filepath="$PROJECT_DIR$/.idea/DianPingParsePoi.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../SpideCrackDemo/.idea/SpideCrackDemo.iml" filepath="$PROJECT_DIR$/../SpideCrackDemo/.idea/SpideCrackDemo.iml" />
     </modules>
   </component>
 </project>
