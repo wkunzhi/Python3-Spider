@@ -46,7 +46,7 @@ class Login(object):
             html = etree.HTML(response.content.decode())
             if html.xpath('/html/body/div[1]/header/div[7]/details/summary'):
                 pro_list = html.xpath('//ul[@class="list-style-none"]/li/div/a/span[2]/text()')
-                print("登录成功！正在拉取你的所有项目")
+                print("登录成功！正在拉取你的所有项目...")
                 print(pro_list)
 
             else:

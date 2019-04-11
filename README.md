@@ -10,3 +10,5 @@ Web site cracking  解决各站点反爬Demo 大众点评、淘宝
   - 模拟登陆 利用微博账号登陆
 - 美团 MeiTuan
   - 美食商店正则匹配页面数据
+- GitHub 
+  - post登陆github
