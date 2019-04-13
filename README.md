@@ -1,5 +1,5 @@
 # SpiderCrackDemo
-Web site cracking  各站点反爬Demo 大众点评、淘宝
+Anti - crawling website crack Demo, we hope to update together
 
 ![](https://zok-blog.oss-cn-hangzhou.aliyuncs.com/ico/python-3.7-green.svg) 
 ![](https://zok-blog.oss-cn-hangzhou.aliyuncs.com/ico/Scrapy-1.6.0-blue.svg) 
@@ -12,20 +12,20 @@ Web site cracking  各站点反爬Demo 大众点评、淘宝
 
 -------
 
-# 目录 directory
+# directory
 
 
 
 ```
-├── DianPing                            // 【大众点评】
+├── DianPing                            // -----大众点评-----
 │   ├── parse_address_poi.py            // 坐标加密
 │   └── parse_font_css.py               // CSS字体解密
-├── GitHub                              // GitHub
+├── GitHub                              // ------GitHub-----
 │   └── login.py                        // GitHub自动登陆
-├── JingDong                            // 【京东】
-├── MeiTuan                             // 【美团】
+├── JingDong                            // -------京东-------
+├── MeiTuan                             // -------美团-------
 │   └── parse_re_data.py                // 正则解析美团餐饮数据
-└── TaoBao                              // 【淘宝】
+└── TaoBao                              // -------淘宝-------
     ├── login.py                        // 登陆1
     └── login2.py                       // 自动登陆2
 ```

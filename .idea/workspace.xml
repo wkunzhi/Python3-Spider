@@ -20,8 +20,8 @@
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="346">
-                <caret line="27" column="47" selection-start-line="27" selection-start-column="47" selection-end-line="27" selection-end-column="47" />
+              <first_editor relative-caret-position="162">
+                <caret line="9" column="29" lean-forward="true" selection-start-line="9" selection-start-column="29" selection-end-line="9" selection-end-column="29" />
               </first_editor>
               <second_editor />
             </state>
@@ -227,7 +227,7 @@
       <workItem from="1554961851485" duration="3006000" />
       <workItem from="1554965512656" duration="629000" />
       <workItem from="1555060052080" duration="33000" />
-      <workItem from="1555116421140" duration="1765000" />
+      <workItem from="1555116421140" duration="1998000" />
     </task>
     <task id="LOCAL-00001" summary="add new taobao login2">
       <created>1554951565001</created>
@@ -268,7 +268,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7824000" />
+    <option name="totallyTimeSpent" value="8057000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1681" y="27" width="1600" height="877" extended-state="6" />
@@ -366,8 +366,8 @@
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="346">
-            <caret line="27" column="47" selection-start-line="27" selection-start-column="47" selection-end-line="27" selection-end-column="47" />
+          <first_editor relative-caret-position="162">
+            <caret line="9" column="29" lean-forward="true" selection-start-line="9" selection-start-column="29" selection-end-line="9" selection-end-column="29" />
           </first_editor>
           <second_editor />
         </state>
