@@ -2,12 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="993ad7df-9322-474e-a108-80fdc8d77ae5" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GitHub/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MeiTuan/__init__.py" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TaoBao/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TaoBao/__init__.py" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -25,8 +20,8 @@
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="400">
-                <caret line="32" selection-start-line="32" selection-end-line="45" />
+              <first_editor relative-caret-position="346">
+                <caret line="27" column="47" selection-start-line="27" selection-start-column="47" selection-end-line="27" selection-end-column="47" />
               </first_editor>
               <second_editor />
             </state>
@@ -232,7 +227,7 @@
       <workItem from="1554961851485" duration="3006000" />
       <workItem from="1554965512656" duration="629000" />
       <workItem from="1555060052080" duration="33000" />
-      <workItem from="1555116421140" duration="1497000" />
+      <workItem from="1555116421140" duration="1765000" />
     </task>
     <task id="LOCAL-00001" summary="add new taobao login2">
       <created>1554951565001</created>
@@ -273,7 +268,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7556000" />
+    <option name="totallyTimeSpent" value="7824000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1681" y="27" width="1600" height="877" extended-state="6" />
@@ -371,8 +366,8 @@
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="400">
-            <caret line="32" selection-start-line="32" selection-end-line="45" />
+          <first_editor relative-caret-position="346">
+            <caret line="27" column="47" selection-start-line="27" selection-start-column="47" selection-end-line="27" selection-end-column="47" />
           </first_editor>
           <second_editor />
         </state>
