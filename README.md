@@ -13,6 +13,26 @@ Web site cracking  各站点反爬Demo 大众点评、淘宝
 -------
 
 # 目录 directory
+
+
+
+```
+├── DianPing                            // 大众点评
+│   ├── parse_address_poi.py            // 坐标加密
+│   └── parse_font_css.py               // CSS字体解密
+├── GitHub                              // GitHub
+│   └── login.py                        // GitHub自动登陆
+├── JingDong                            // 京东
+├── MeiTuan                             // 美团
+│   └── parse_re_data.py                // 正则解析美团餐饮数据
+└── TaoBao                              // 淘宝
+    ├── login.py                        // 登陆1
+    └── login2.py                       // 自动登陆2
+```
+
+
+
+
 - 大众点评 dianping
   - css字体加密
   - 各坐标加密
@@ -25,3 +45,4 @@ Web site cracking  各站点反爬Demo 大众点评、淘宝
   - post登陆github
 - 京东 JD
   - 京东登陆
+  
