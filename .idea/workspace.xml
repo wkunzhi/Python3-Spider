@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="993ad7df-9322-474e-a108-80fdc8d77ae5" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/DianPing/parse_font_css.py" beforeDir="false" afterPath="$PROJECT_DIR$/DianPing/parse_font_css.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -21,8 +22,8 @@
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="432">
-                <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
+              <first_editor relative-caret-position="198">
+                <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
               </first_editor>
               <second_editor />
             </state>
@@ -83,6 +84,7 @@
         <option value="$PROJECT_DIR$/GitHub/login.py" />
         <option value="$PROJECT_DIR$/TaoBao/README.md" />
         <option value="$PROJECT_DIR$/TianYanCha/login.py" />
+        <option value="$PROJECT_DIR$/DianPing/parse_font_css.py" />
         <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
@@ -101,22 +103,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="SpideCrackDemo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SpideCrackDemo" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SpideCrackDemo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SpideCrackDemo" type="462c0819:PsiDirectoryNode" />
-              <item name="TianYanCha" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
+      <pane id="ProjectPane" />
       <pane id="Scope" />
     </panes>
   </component>
@@ -243,7 +230,7 @@
       <workItem from="1555116421140" duration="2352000" />
       <workItem from="1555163939768" duration="599000" />
       <workItem from="1555165582591" duration="2787000" />
-      <workItem from="1555215153911" duration="4232000" />
+      <workItem from="1555215153911" duration="4863000" />
     </task>
     <task id="LOCAL-00001" summary="add new taobao login2">
       <created>1554951565001</created>
@@ -284,7 +271,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="16029000" />
+    <option name="totallyTimeSpent" value="16660000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="54" y="23" width="1626" height="1027" extended-state="6" />
@@ -387,11 +374,14 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/DianPing/parse_font_css.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="432">
-            <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
+          <first_editor relative-caret-position="198">
+            <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
           </first_editor>
           <second_editor />
         </state>
