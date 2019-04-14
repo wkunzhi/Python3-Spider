@@ -11,6 +11,17 @@ Anti - crawling website crack Demo, we hope to update together
 | BLOG | www.zhangkunzhi.com |
 
 -------
+## 更新
+- [x] [大众点评-字体解密](https://github.com/wkunzhi/SpiderCrackDemo/tree/master/DianPing)
+- [x] [大众点评-坐标解密](https://github.com/wkunzhi/SpiderCrackDemo/tree/master/DianPing)
+- [x] [GitHub-post自动登陆](https://github.com/wkunzhi/SpiderCrackDemo/tree/master/GitHub)
+- [x] [淘宝登陆1-mitmproxy](https://github.com/wkunzhi/SpiderCrackDemo/tree/master/TaoBao)
+- [x] [淘宝登陆2-入口2](https://github.com/wkunzhi/SpiderCrackDemo/tree/master/TaoBao)
+- [x] [天眼查-登陆](https://github.com/wkunzhi/SpiderCrackDemo/tree/master/TianYanCha)
+
+
+<hr>
+
 
 # directory tree
 
@@ -33,22 +44,5 @@ Anti - crawling website crack Demo, we hope to update together
 ```
 
 
-<hr>
 
-## 目录
 
-- 大众点评 dianping
-  - css字体加密
-  - 各坐标加密
-- 淘宝 TaoBao
-  - 模拟登陆 注入修改特征码demo
-  - 模拟登陆 利用微博账号登陆
-- 美团 MeiTuan
-  - 美食商店正则匹配页面数据
-- GitHub 
-  - post登陆github
-- 京东 JD
-  - 京东登陆
-- 天眼查 TianYanCha
-  - 自动登陆并获取企业信息、电话
-  
