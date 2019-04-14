@@ -12,7 +12,7 @@ Anti - crawling website crack Demo, we hope to update together
 
 -------
 
-# directory
+# directory tree
 
 
 
@@ -25,13 +25,17 @@ Anti - crawling website crack Demo, we hope to update together
 ├── JingDong                            // -------京东-------
 ├── MeiTuan                             // -------美团-------
 │   └── parse_re_data.py                // 正则解析美团餐饮数据
-└── TaoBao                              // -------淘宝-------
-    ├── login.py                        // 登陆1
-    └── login2.py                       // 自动登陆2
+├── TaoBao                              // -------淘宝-------
+│   ├── login.py                        // 登陆1
+│   └── login2.py                       // 自动登陆2
+└── TianYanCha                          // -------天眼查-------
+    └── login.py                        // 自动登陆，并获取企业信息
 ```
 
 
+<hr>
 
+## 目录
 
 - 大众点评 dianping
   - css字体加密
@@ -45,4 +49,6 @@ Anti - crawling website crack Demo, we hope to update together
   - post登陆github
 - 京东 JD
   - 京东登陆
+- 天眼查 TianYanCha
+  - 自动登陆并获取企业信息、电话
   
