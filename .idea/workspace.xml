@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="993ad7df-9322-474e-a108-80fdc8d77ae5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/51Job/select_job.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MeiTuan/parse_comments.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
@@ -13,8 +14,10 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/SpideCrackDemo$login__1_.coverage" NAME="login (1) Coverage Results" MODIFIED="1555222485478" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/TianYanCha" />
+    <SUITE FILE_PATH="coverage/SpideCrackDemo$parse_comments.coverage" NAME="parse_comments Coverage Results" MODIFIED="1555485882357" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/MeiTuan" />
+    <SUITE FILE_PATH="coverage/SpideCrackDemo$login__1_.coverage" NAME="login (1) Coverage Results" MODIFIED="1555334406059" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/TianYanCha" />
     <SUITE FILE_PATH="coverage/SpideCrackDemo$test.coverage" NAME="test Coverage Results" MODIFIED="1554964152014" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/SpideCrackDemo$select_job.coverage" NAME="select_job Coverage Results" MODIFIED="1555334429591" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/51Job" />
     <SUITE FILE_PATH="coverage/SpideCrackDemo$login.coverage" NAME="login Coverage Results" MODIFIED="1554964154732" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/GitHub" />
   </component>
   <component name="FileEditorManager">
@@ -23,8 +26,8 @@
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="730">
-                <caret line="54" column="94" selection-start-line="54" selection-start-column="94" selection-end-line="54" selection-end-column="94" />
+              <first_editor relative-caret-position="216">
+                <caret line="12" column="7" lean-forward="true" selection-start-line="12" selection-start-column="7" selection-end-line="13" selection-end-column="7" />
               </first_editor>
               <second_editor />
             </state>
@@ -32,10 +35,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/51Job/select_job.py">
+        <entry file="file://$PROJECT_DIR$/MeiTuan/parse_comments.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="693">
-              <caret line="43" column="43" lean-forward="true" selection-start-line="43" selection-start-column="43" selection-end-line="43" selection-end-column="43" />
+            <state relative-caret-position="296">
+              <caret line="74" lean-forward="true" selection-start-line="74" selection-end-line="74" />
               <folding>
                 <element signature="e#96#111#0" expanded="true" />
               </folding>
@@ -55,6 +58,7 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>login_url</find>
+      <find>timeStamp</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -76,15 +80,16 @@
         <option value="$PROJECT_DIR$/DianPing/parse_font_css.py" />
         <option value="$PROJECT_DIR$/51Job/SelectJob.py" />
         <option value="$PROJECT_DIR$/51Job/select_job.py" />
+        <option value="$PROJECT_DIR$/MeiTuan/parse_comments.py" />
         <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="51" />
+    <option name="x" value="1680" />
     <option name="y" value="23" />
-    <option name="width" value="1629" />
-    <option name="height" value="1027" />
+    <option name="width" value="1600" />
+    <option name="height" value="877" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -94,7 +99,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -102,15 +106,11 @@
               <item name="SpideCrackDemo" type="b2602c69:ProjectViewProjectNode" />
               <item name="SpideCrackDemo" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="SpideCrackDemo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SpideCrackDemo" type="462c0819:PsiDirectoryNode" />
-              <item name="51Job" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -139,7 +139,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.login (1)">
+  <component name="RunManager" selected="Python.parse_comments">
     <configuration name="login (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="SpideCrackDemo" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -184,6 +184,50 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="parse_comments" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="SpideCrackDemo" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/MeiTuan" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/MeiTuan/parse_comments.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="select_job" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="SpideCrackDemo" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/51Job" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/51Job/select_job.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="test" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="SpideCrackDemo" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -208,6 +252,8 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.parse_comments" />
+        <item itemvalue="Python.select_job" />
         <item itemvalue="Python.login (1)" />
         <item itemvalue="Python.login" />
         <item itemvalue="Python.test" />
@@ -237,7 +283,9 @@
       <workItem from="1555163939768" duration="599000" />
       <workItem from="1555165582591" duration="2787000" />
       <workItem from="1555215153911" duration="4891000" />
-      <workItem from="1555333345489" duration="750000" />
+      <workItem from="1555333345489" duration="1663000" />
+      <workItem from="1555425124712" duration="249000" />
+      <workItem from="1555483627954" duration="2492000" />
     </task>
     <task id="LOCAL-00001" summary="add new taobao login2">
       <created>1554951565001</created>
@@ -278,18 +326,18 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="17438000" />
+    <option name="totallyTimeSpent" value="21092000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="51" y="23" width="1629" height="1027" extended-state="6" />
+    <frame x="1680" y="23" width="1600" height="877" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1368938" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.13875" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.35983264" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.4057072" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39958158" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -358,9 +406,7 @@
     <entry file="file://$PROJECT_DIR$/DianPing/parse_font_css.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/51Job/SelectJob.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/51Job/SelectJob.py" />
     <entry file="file://$PROJECT_DIR$/TianYanCha/login.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
@@ -383,8 +429,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/51Job/select_job.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="693">
-          <caret line="43" column="43" lean-forward="true" selection-start-line="43" selection-start-column="43" selection-end-line="43" selection-end-column="43" />
+        <state relative-caret-position="206">
+          <caret line="43" column="43" lean-forward="true" selection-start-line="41" selection-start-column="12" selection-end-line="43" selection-end-column="43" />
+          <folding>
+            <element signature="e#96#111#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MeiTuan/parse_comments.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="296">
+          <caret line="74" lean-forward="true" selection-start-line="74" selection-end-line="74" />
           <folding>
             <element signature="e#96#111#0" expanded="true" />
           </folding>
@@ -394,8 +450,8 @@
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="730">
-            <caret line="54" column="94" selection-start-line="54" selection-start-column="94" selection-end-line="54" selection-end-column="94" />
+          <first_editor relative-caret-position="216">
+            <caret line="12" column="7" lean-forward="true" selection-start-line="12" selection-start-column="7" selection-end-line="13" selection-end-column="7" />
           </first_editor>
           <second_editor />
         </state>
