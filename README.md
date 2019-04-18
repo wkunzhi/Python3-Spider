@@ -20,6 +20,7 @@ Anti - crawling website crack Demo, we hope to update together
 - [x] [天眼查-登陆](https://github.com/wkunzhi/SpiderCrackDemo/tree/master/TianYanCha)
 - [x] [51job-查岗位](https://github.com/wkunzhi/SpiderCrackDemo/tree/master/51Job)
 - [x] [美团网-爬用户评论](https://github.com/wkunzhi/SpiderCrackDemo/tree/master/MeiTuan)
+- [x] [美团网-解析餐馆数据](https://github.com/wkunzhi/SpiderCrackDemo/tree/master/MeiTuan)
 
 
 <hr>
@@ -37,8 +38,8 @@ Anti - crawling website crack Demo, we hope to update together
 │   └── login.py                        // GitHub自动登陆
 ├── JingDong                            // -------京东-------
 ├── MeiTuan                             // -------美团-------
-├   ├── parse_comments.py               // 获取用户评论数据
-│   └── parse_re_data.py                // 正则解析美团餐饮数据
+│   ├── parse_comments.py               // 获取用户评论数据
+│   └── parse_restaurant_info.py        // 解析餐馆数据
 ├── TaoBao                              // -------淘宝-------
 │   ├── login.py                        // 登陆1
 │   └── login2.py                       // 自动登陆2
@@ -55,6 +56,10 @@ Anti - crawling website crack Demo, we hope to update together
 
 # The sample picture
 
+**美团餐饮数据解析**
+
+![gif](https://zok-blog.oss-cn-hangzhou.aliyuncs.com/gif/%E7%BE%8E%E5%9B%A2%E9%A4%90%E9%A6%86%E6%95%B0%E6%8D%AE%E6%BC%94%E7%A4%BA.gif)
+
 
 ![](https://zok-blog.oss-cn-hangzhou.aliyuncs.com/images/51Job-CSV%E5%82%A8%E5%AD%98-green.svg) 
 
@@ -63,4 +68,5 @@ Anti - crawling website crack Demo, we hope to update together
 ![](https://zok-blog.oss-cn-hangzhou.aliyuncs.com/ico/%E7%BE%8E%E5%9B%A2-csv-green.svg) 
 
 ![image](https://zok-blog.oss-cn-hangzhou.aliyuncs.com/images/%E7%BE%8E%E5%9B%A2%E8%AF%84%E8%AE%BA.png)
+
 
