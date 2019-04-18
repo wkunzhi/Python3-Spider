@@ -56,9 +56,9 @@ Anti - crawling website crack Demo, we hope to update together
 
 # The sample picture
 
-**美团餐饮数据解析**
+- [x] **美团餐饮数据解析**
 
-![gif](https://zok-blog.oss-cn-hangzhou.aliyuncs.com/gif/%E7%BE%8E%E5%9B%A2%E9%A4%90%E9%A6%86%E6%95%B0%E6%8D%AE%E6%BC%94%E7%A4%BA.gif)
+![image](https://zok-blog.oss-cn-hangzhou.aliyuncs.com/gif/%E7%BE%8E%E5%9B%A2%E9%A4%90%E9%A6%86%E6%95%B0%E6%8D%AE%E6%BC%94%E7%A4%BA.gif)
 
 
 ![](https://zok-blog.oss-cn-hangzhou.aliyuncs.com/images/51Job-CSV%E5%82%A8%E5%AD%98-green.svg) 
