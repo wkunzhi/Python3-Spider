@@ -19,8 +19,9 @@ Anti - crawling website crack Demo, we hope to update together
 - [x] [淘宝登陆2-新浪入口](https://github.com/wkunzhi/SpiderCrackDemo/tree/master/TaoBao)
 - [x] [天眼查-登陆](https://github.com/wkunzhi/SpiderCrackDemo/tree/master/TianYanCha)
 - [x] [51job-查岗位](https://github.com/wkunzhi/SpiderCrackDemo/tree/master/51Job)
-- [x] [美团网-爬用户评论](https://github.com/wkunzhi/SpiderCrackDemo/tree/master/MeiTuan)
-- [x] [美团网-解析餐馆数据](https://github.com/wkunzhi/SpiderCrackDemo/tree/master/MeiTuan)
+- [x] [美团-爬用户评论](https://github.com/wkunzhi/SpiderCrackDemo/tree/master/MeiTuan)
+- [x] [美团-解析餐馆数据](https://github.com/wkunzhi/SpiderCrackDemo/tree/master/MeiTuan)
+- [x] [美团-餐饮页token生成](https://github.com/wkunzhi/SpiderCrackDemo/tree/master/MeiTuan)
 
 
 <hr>
@@ -39,6 +40,7 @@ Anti - crawling website crack Demo, we hope to update together
 ├── JingDong                            // -------京东-------
 ├── MeiTuan                             // -------美团-------
 │   ├── parse_comments.py               // 获取用户评论数据
+│   ├── create_food_token.py            // 餐饮页Token生成器
 │   └── parse_restaurant_info.py        // 解析餐馆数据
 ├── TaoBao                              // -------淘宝-------
 │   ├── login.py                        // 登陆1

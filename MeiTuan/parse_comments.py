@@ -56,9 +56,9 @@ class ParseComments(object):
             """.format(userName=item.get('userName'), comment=item.get('comment'), create_time=create_time,
                        reviewId=item.get('reviewId'))
             print(print_str)
-            with open('MeiTuan.csv', 'a', encoding='utf-8') as f:
-                job_list = [item.get('userName'), item.get('comment'), create_time, item.get('reviewId'), '\n']
-                f.write(','.join(job_list))
+            # with open('MeiTuan.csv', 'a', encoding='utf-8') as f:
+            #     job_list = [item.get('userName'), item.get('comment'), create_time, item.get('reviewId'), '\n']
+            #     f.write(','.join(job_list))
 
     @staticmethod
     def parse_time(timeStamp):

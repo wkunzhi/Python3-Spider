@@ -102,7 +102,7 @@ class ParseRestaurantInfo(object):
 
             # 打印推荐菜
             for item in list(recommended):
-                recommend_id = item['id']  # 推荐菜id
+                # recommend_id = item['id']  # 推荐菜id
                 recommend_name = item['name']  # 推荐菜名
                 recommend_price = item['price']  # 菜品价格
                 recommend_img = item['frontImgUrl']  # 菜品图片
