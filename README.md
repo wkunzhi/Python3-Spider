@@ -1,9 +1,18 @@
 # SpiderCrackDemo
-Anti - crawling website crack Demo, we hope to update together
+
 
 ![](https://zok-blog.oss-cn-hangzhou.aliyuncs.com/ico/python-3.7-green.svg) 
 ![](https://zok-blog.oss-cn-hangzhou.aliyuncs.com/ico/Scrapy-1.6.0-blue.svg) 
 ![](https://zok-blog.oss-cn-hangzhou.aliyuncs.com/ico/selenium-3.141.0-yellew.svg) 
+
+Anti - crawling website crack Demo, we hope to update together
+
+各站点爬虫攻略、不断更新中..
+- [x] 数据解密
+- [x] 反爬处理
+- [x] 模拟登陆
+- [x] POST登陆
+
 
 | Author  | Zok |
 | --- | --- |
