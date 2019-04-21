@@ -7,17 +7,15 @@
 
 Anti - crawling website crack Demo, we hope to update together
 
-各站点爬虫攻略、不断更新中..
-- [x] 数据解密
-- [x] 反爬处理
-- [x] 模拟登陆
-- [x] POST登陆
+> 各站反爬处理攻略、不断更新中..
 
 
 | Author  | Zok |
 | --- | --- |
 | Email | 362416272@qq.com  |
 | BLOG | www.zhangkunzhi.com |
+| Introduce | 数据解密、反爬处理、模拟登陆、POST登陆 |
+
 
 -------
 ## Demo

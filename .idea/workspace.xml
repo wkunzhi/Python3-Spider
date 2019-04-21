@@ -26,8 +26,8 @@
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="162">
-                <caret line="9" column="15" selection-start-line="9" selection-start-column="15" selection-end-line="9" selection-end-column="15" />
+              <first_editor relative-caret-position="118">
+                <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
               </first_editor>
               <second_editor />
             </state>
@@ -288,7 +288,7 @@
       <workItem from="1555493171999" duration="6000" />
       <workItem from="1555550293508" duration="14898000" />
       <workItem from="1555821806207" duration="58000" />
-      <workItem from="1555852110766" duration="676000" />
+      <workItem from="1555852110766" duration="1765000" />
     </task>
     <task id="LOCAL-00001" summary="add new taobao login2">
       <created>1554951565001</created>
@@ -329,7 +329,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="37254000" />
+    <option name="totallyTimeSpent" value="38343000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="51" y="23" width="1629" height="1027" extended-state="6" />
@@ -465,8 +465,8 @@
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="162">
-            <caret line="9" column="15" selection-start-line="9" selection-start-column="15" selection-end-line="9" selection-end-column="15" />
+          <first_editor relative-caret-position="118">
+            <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
           </first_editor>
           <second_editor />
         </state>
