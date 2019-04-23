@@ -4,6 +4,7 @@
 ![](https://zok-blog.oss-cn-hangzhou.aliyuncs.com/ico/python-3.7-green.svg) 
 ![](https://zok-blog.oss-cn-hangzhou.aliyuncs.com/ico/Scrapy-1.6.0-blue.svg) 
 ![](https://zok-blog.oss-cn-hangzhou.aliyuncs.com/ico/selenium-3.141.0-yellew.svg) 
+![](https://zok-blog.oss-cn-hangzhou.aliyuncs.com/ico/Pyppeteer-0.0.25-orange.svg) 
 
 Anti - crawling website crack Demo, we hope to update together
 
@@ -22,9 +23,9 @@ Anti - crawling website crack Demo, we hope to update together
 - [x] [大众点评-字体解密](https://github.com/wkunzhi/SpiderCrackDemo/tree/master/DianPing)
 - [x] [大众点评-坐标解密](https://github.com/wkunzhi/SpiderCrackDemo/tree/master/DianPing)
 - [x] [GitHub-post自动登陆](https://github.com/wkunzhi/SpiderCrackDemo/tree/master/GitHub)
-- [x] [淘宝-登陆mitmproxy](https://github.com/wkunzhi/SpiderCrackDemo/tree/master/TaoBao)
-- [x] [淘宝-登陆新浪入口](https://github.com/wkunzhi/SpiderCrackDemo/tree/master/TaoBao)
-- [x] [淘宝-webdriver检测跳过方法](https://github.com/wkunzhi/SpiderCrackDemo/tree/master/TaoBao)
+- [x] [淘宝-自动登陆](https://github.com/wkunzhi/SpiderCrackDemo/tree/master/TaoBao)
+- [x] [淘宝-pyppeteer过webdriver检测](https://github.com/wkunzhi/SpiderCrackDemo/tree/master/TaoBao)
+- [x] [淘宝-mitmproxy过webdriver检测](https://github.com/wkunzhi/SpiderCrackDemo/tree/master/TaoBao)
 - [x] [天眼查-登陆](https://github.com/wkunzhi/SpiderCrackDemo/tree/master/TianYanCha)
 - [x] [51job-查岗位](https://github.com/wkunzhi/SpiderCrackDemo/tree/master/51Job)
 - [x] [美团-爬用户评论](https://github.com/wkunzhi/SpiderCrackDemo/tree/master/MeiTuan)
