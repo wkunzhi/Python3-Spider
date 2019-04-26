@@ -26,6 +26,7 @@ Anti - crawling website crack Demo, we hope to update together
 - [x] [淘宝-自动登陆](https://github.com/wkunzhi/SpiderCrackDemo/tree/master/TaoBao)
 - [x] [淘宝-pyppeteer过webdriver检测](https://github.com/wkunzhi/SpiderCrackDemo/tree/master/TaoBao)
 - [x] [淘宝-mitmproxy过webdriver检测](https://github.com/wkunzhi/SpiderCrackDemo/tree/master/TaoBao)
+- [x] [百度-翻译](https://github.com/wkunzhi/SpiderCrackDemo/tree/master/BaiDu)
 - [x] [天眼查-登陆](https://github.com/wkunzhi/SpiderCrackDemo/tree/master/TianYanCha)
 - [x] [51job-查岗位](https://github.com/wkunzhi/SpiderCrackDemo/tree/master/51Job)
 - [x] [美团-爬用户评论](https://github.com/wkunzhi/SpiderCrackDemo/tree/master/MeiTuan)
@@ -47,6 +48,8 @@ Anti - crawling website crack Demo, we hope to update together
 ├── GitHub                              // ------GitHub-----
 │   └── login.py                        // GitHub自动登陆
 ├── JingDong                            // -------京东-------
+├── BaiDu                               // -------百度-------
+│   └── translation.py                  // 百度翻译
 ├── MeiTuan                             // -------美团-------
 │   ├── parse_comments.py               // 获取用户评论数据
 │   ├── create_food_token.py            // 餐饮页Token生成器
