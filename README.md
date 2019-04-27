@@ -23,7 +23,8 @@ Anti - crawling website crack Demo, we hope to update together
 - [x] [大众点评-字体解密](https://github.com/wkunzhi/SpiderCrackDemo/tree/master/DianPing)
 - [x] [大众点评-坐标解密](https://github.com/wkunzhi/SpiderCrackDemo/tree/master/DianPing)
 - [x] [GitHub-post自动登陆](https://github.com/wkunzhi/SpiderCrackDemo/tree/master/GitHub)
-- [x] [淘宝-自动登陆](https://github.com/wkunzhi/SpiderCrackDemo/tree/master/TaoBao)
+- [x] [淘宝-自动登陆-新浪入口](https://github.com/wkunzhi/SpiderCrackDemo/tree/master/TaoBao)
+- [x] [淘宝-自动登陆-淘宝账号](https://github.com/wkunzhi/SpiderCrackDemo/tree/master/TaoBao)
 - [x] [淘宝-pyppeteer过webdriver检测](https://github.com/wkunzhi/SpiderCrackDemo/tree/master/TaoBao)
 - [x] [淘宝-mitmproxy过webdriver检测](https://github.com/wkunzhi/SpiderCrackDemo/tree/master/TaoBao)
 - [x] [百度-翻译](https://github.com/wkunzhi/SpiderCrackDemo/tree/master/BaiDu)
@@ -55,7 +56,8 @@ Anti - crawling website crack Demo, we hope to update together
 │   ├── create_food_token.py            // 餐饮页Token生成器
 │   └── parse_restaurant_info.py        // 解析餐馆数据
 ├── TaoBao                              // -------淘宝-------
-│   ├── login_for_sina.py               // 淘宝自动登陆
+│   ├── login_for_sina.py               // 淘宝自动登陆-新浪入口
+│   ├── auto_login_pyppeteer.py         // 淘宝自动登陆-淘宝账号
 │   ├── login_for_pyppeteer.py          // 利用pyppeteer过webdriver检测
 │   └── login_for_mitmproxy.py          // 利用mitmproxy过webdriver检测
 ├── TianYanCha                          // -------天眼查-------
