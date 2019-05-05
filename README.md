@@ -33,9 +33,10 @@ Anti - crawling website crack Demo, we hope to update together
 - [x] [美团-爬用户评论](https://github.com/wkunzhi/SpiderCrackDemo/tree/master/MeiTuan)
 - [x] [美团-解析餐馆数据](https://github.com/wkunzhi/SpiderCrackDemo/tree/master/MeiTuan)
 - [x] [美团-餐饮页token生成](https://github.com/wkunzhi/SpiderCrackDemo/tree/master/MeiTuan)
+- [x] [美团-三级区域解析器](https://github.com/wkunzhi/SpiderCrackDemo/tree/master/MeiTuan)
 
 
-<hr>
+-------
 
 
 # directory tree
@@ -54,6 +55,7 @@ Anti - crawling website crack Demo, we hope to update together
 ├── MeiTuan                             // -------美团-------
 │   ├── parse_comments.py               // 获取用户评论数据
 │   ├── create_food_token.py            // 餐饮页Token生成器
+│   ├── parse_play_areas.py             // 三级区域解析器(休闲板块)
 │   └── parse_restaurant_info.py        // 解析餐馆数据
 ├── TaoBao                              // -------淘宝-------
 │   ├── login_for_sina.py               // 淘宝自动登陆-新浪入口
@@ -72,6 +74,13 @@ Anti - crawling website crack Demo, we hope to update together
 
 
 # The sample picture
+
+- [x] **美团三级区域解析器**
+
+![image](https://www.zhangkunzhi.com/images/区域解析.png)
+![image](https://www.zhangkunzhi.com/images/json格式化.png)
+
+------
 
 - [x] **TB过检测登陆**
 
