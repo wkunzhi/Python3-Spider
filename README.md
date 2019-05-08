@@ -8,8 +8,6 @@
 
 Anti - crawling website crack Demo, we hope to update together
 
-> 各站反爬处理攻略、不断更新中..
-
 
 | Author  | Zok |
 | --- | --- |
@@ -19,6 +17,9 @@ Anti - crawling website crack Demo, we hope to update together
 
 
 -------
+
+最近在做MT和DP的整站爬取，所以经常更新一些拆分开来的小demo
+
 ## Demo
 - [x] [大众点评-字体解密](https://github.com/wkunzhi/SpiderCrackDemo/tree/master/DianPing)
 - [x] [大众点评-坐标解密](https://github.com/wkunzhi/SpiderCrackDemo/tree/master/DianPing)
@@ -34,6 +35,7 @@ Anti - crawling website crack Demo, we hope to update together
 - [x] [美团-解析餐馆数据](https://github.com/wkunzhi/SpiderCrackDemo/tree/master/MeiTuan)
 - [x] [美团-餐饮页token生成](https://github.com/wkunzhi/SpiderCrackDemo/tree/master/MeiTuan)
 - [x] [美团-三级区域解析器](https://github.com/wkunzhi/SpiderCrackDemo/tree/master/MeiTuan)
+- [x] [美团-休闲会所店铺信息解析器](https://github.com/wkunzhi/SpiderCrackDemo/tree/master/MeiTuan)
 
 
 -------
@@ -56,6 +58,7 @@ Anti - crawling website crack Demo, we hope to update together
 │   ├── parse_comments.py               // 获取用户评论数据
 │   ├── create_food_token.py            // 餐饮页Token生成器
 │   ├── parse_play_areas.py             // 三级区域解析器(休闲板块)
+│   ├── parse_play_areas.py             // 休闲会所商铺数据解析
 │   └── parse_restaurant_info.py        // 解析餐馆数据
 ├── TaoBao                              // -------淘宝-------
 │   ├── login_for_sina.py               // 淘宝自动登陆-新浪入口
@@ -79,6 +82,12 @@ Anti - crawling website crack Demo, we hope to update together
 
 ![image](https://www.zhangkunzhi.com/images/区域解析.png)
 ![image](https://www.zhangkunzhi.com/images/json格式化.png)
+
+------
+
+- [x] **美团休闲娱乐商铺信息**
+
+![image](https://www.zhangkunzhi.com/images/休闲娱乐.png)
 
 ------
 
