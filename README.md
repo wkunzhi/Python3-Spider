@@ -23,6 +23,7 @@ Anti - crawling website crack Demo, we hope to update together
 ## Demo
 - [x] [大众点评-字体解密](https://github.com/wkunzhi/SpiderCrackDemo/tree/master/DianPing)
 - [x] [大众点评-坐标解密](https://github.com/wkunzhi/SpiderCrackDemo/tree/master/DianPing)
+- [x] [bilibili-视频下载器](https://github.com/wkunzhi/SpiderCrackDemo/tree/master/bilibili)
 - [x] [GitHub-post自动登陆](https://github.com/wkunzhi/SpiderCrackDemo/tree/master/GitHub)
 - [x] [淘宝-自动登陆-新浪入口](https://github.com/wkunzhi/SpiderCrackDemo/tree/master/TaoBao)
 - [x] [淘宝-自动登陆-淘宝账号](https://github.com/wkunzhi/SpiderCrackDemo/tree/master/TaoBao)
@@ -58,7 +59,7 @@ Anti - crawling website crack Demo, we hope to update together
 │   ├── parse_comments.py               // 获取用户评论数据
 │   ├── create_food_token.py            // 餐饮页Token生成器
 │   ├── parse_play_areas.py             // 三级区域解析器(休闲板块)
-│   ├── parse_play_info.py             // 休闲会所商铺数据解析
+│   ├── parse_play_info.py              // 休闲会所商铺数据解析
 │   └── parse_restaurant_info.py        // 解析餐馆数据
 ├── TaoBao                              // -------淘宝-------
 │   ├── login_for_sina.py               // 淘宝自动登陆-新浪入口
@@ -67,6 +68,8 @@ Anti - crawling website crack Demo, we hope to update together
 │   └── login_for_mitmproxy.py          // 利用mitmproxy过webdriver检测
 ├── TianYanCha                          // -------天眼查-------
 │   └── login.py                        // 自动登陆，并获取企业信息
+├── BiliBili                            // -------BiliBili-------
+│   └── login.py                        // 视频下载器
 └── 51Job                               // -------51job-------
     └── select_job.py                   // 编码转换，岗位查询
 
