@@ -19,7 +19,7 @@ class DownVideo(object):
         @blocksize: 数据块的大小
         @totalsize: 远程文件的大小
     """
-    start_time = None
+    # start_time = None
 
     def __init__(self,start_go):
         self.start_go = start_go
