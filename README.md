@@ -60,6 +60,7 @@ Anti - crawling website crack Demo, we hope to update together
 │   ├── create_food_token.py            // 餐饮页Token生成器
 │   ├── parse_play_areas.py             // 三级区域解析器(休闲板块)
 │   ├── parse_play_info.py              // 休闲会所商铺数据解析
+│   ├── get_login_cookies.py            // 基于pyppeteer登陆并获取cookies
 │   └── parse_restaurant_info.py        // 解析餐馆数据
 ├── TaoBao                              // -------淘宝-------
 │   ├── login_for_sina.py               // 淘宝自动登陆-新浪入口
