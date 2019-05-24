@@ -82,8 +82,6 @@ Anti - crawling website crack Demo, we hope to update together
 
 
 # The sample picture
-- [x] **全国区域分级采集器**
-![image](https://zok-blog.oss-cn-hangzhou.aliyuncs.com/images/区域坐标.png)
 
 - [x] **美团三级区域解析器**
 

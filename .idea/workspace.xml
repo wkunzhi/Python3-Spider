@@ -2,24 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="993ad7df-9322-474e-a108-80fdc8d77ae5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/MeiTuanArea/.idea/MeiTuanArea.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MeiTuanArea/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MeiTuanArea/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MeiTuanArea/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MeiTuanArea/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MeiTuanArea/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MeiTuanArea/MeiTuanArea/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MeiTuanArea/MeiTuanArea/items.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MeiTuanArea/MeiTuanArea/middlewares.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MeiTuanArea/MeiTuanArea/pipelines.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MeiTuanArea/MeiTuanArea/settings.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MeiTuanArea/MeiTuanArea/spiders/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MeiTuanArea/MeiTuanArea/spiders/area_coord.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MeiTuanArea/MeiTuanArea/spiders/areas.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MeiTuanArea/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MeiTuanArea/scrapy.cfg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MeiTuanArea/初始化.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -45,12 +27,12 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="712">
-                <caret line="101" selection-start-line="101" selection-end-line="101" />
+              <first_editor relative-caret-position="406">
+                <caret line="84" lean-forward="true" selection-start-line="84" selection-end-line="84" />
               </first_editor>
               <second_editor />
             </state>
@@ -66,7 +48,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/MeiTuanArea/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
@@ -142,8 +124,8 @@
         <option value="$PROJECT_DIR$/TianYanCha/pyppeteer_login.py" />
         <option value="$PROJECT_DIR$/MeiTuan/get_login_cookies.py" />
         <option value="$PROJECT_DIR$/MeiTuanArea/MeiTuanArea/settings.py" />
-        <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/MeiTuanArea/README.md" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -393,7 +375,7 @@
       <workItem from="1558258869545" duration="893000" />
       <workItem from="1558405803414" duration="655000" />
       <workItem from="1558614203299" duration="291000" />
-      <workItem from="1558659409210" duration="199000" />
+      <workItem from="1558659409210" duration="262000" />
     </task>
     <task id="LOCAL-00001" summary="add new taobao login2">
       <created>1554951565001</created>
@@ -434,7 +416,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="74961000" />
+    <option name="totallyTimeSpent" value="75024000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="54" y="23" width="1626" height="1027" extended-state="0" />
@@ -665,16 +647,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="712">
-            <caret line="101" selection-start-line="101" selection-end-line="101" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/MeiTuanArea/MeiTuanArea/settings.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="630">
@@ -687,6 +659,16 @@
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="270">
             <caret line="15" column="37" selection-start-line="15" selection-start-column="37" selection-end-line="15" selection-end-column="37" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="406">
+            <caret line="84" lean-forward="true" selection-start-line="84" selection-end-line="84" />
           </first_editor>
           <second_editor />
         </state>
