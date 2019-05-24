@@ -71,6 +71,7 @@ Anti - crawling website crack Demo, we hope to update together
 │   └── login.py                        // 自动登陆，并获取企业信息
 ├── BiliBili                            // -------BiliBili-------
 │   └── login.py                        // 视频下载器
+├── MeiTuanArea                         // -------基于美团全国区域采集器-------
 └── 51Job                               // -------51job-------
     └── select_job.py                   // 编码转换，岗位查询
 
@@ -81,6 +82,8 @@ Anti - crawling website crack Demo, we hope to update together
 
 
 # The sample picture
+- [x] **全国区域分级采集器**
+![image](https://zok-blog.oss-cn-hangzhou.aliyuncs.com/images/区域坐标.png)
 
 - [x] **美团三级区域解析器**
 
