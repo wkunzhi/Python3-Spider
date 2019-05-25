@@ -37,6 +37,7 @@ Anti - crawling website crack Demo, we hope to update together
 - [x] [美团-餐饮页token生成](https://github.com/wkunzhi/SpiderCrackDemo/tree/master/MeiTuan)
 - [x] [美团-三级区域解析器](https://github.com/wkunzhi/SpiderCrackDemo/tree/master/MeiTuan)
 - [x] [美团-休闲会所店铺信息解析器](https://github.com/wkunzhi/SpiderCrackDemo/tree/master/MeiTuan)
+- [x] [美团-全国区域scrapy爬虫](https://github.com/wkunzhi/SpiderCrackDemo/tree/master/MeiTuanArea)
 
 
 -------
