@@ -38,6 +38,7 @@ Anti - crawling website crack Demo, we hope to update together
 - [x] [美团-三级区域解析器](https://github.com/wkunzhi/SpiderCrackDemo/tree/master/MeiTuan)
 - [x] [美团-休闲会所店铺信息解析器](https://github.com/wkunzhi/SpiderCrackDemo/tree/master/MeiTuan)
 - [x] [美团-全国区域scrapy爬虫](https://github.com/wkunzhi/SpiderCrackDemo/tree/master/MeiTuanArea)
+- [x] [快递110-快递单号查询](https://github.com/wkunzhi/SpiderCrackDemo/tree/master/KuaiDi)
 
 
 -------
@@ -73,6 +74,7 @@ Anti - crawling website crack Demo, we hope to update together
 ├── BiliBili                            // -------BiliBili-------
 │   └── login.py                        // 视频下载器
 ├── MeiTuanArea                         // -------基于美团全国区域采集器-------
+├── KuaiDi                              // -------快递单号快速查询-------
 └── 51Job                               // -------51job-------
     └── select_job.py                   // 编码转换，岗位查询
 
@@ -82,7 +84,12 @@ Anti - crawling website crack Demo, we hope to update together
 <hr>
 
 
+
 # The sample picture
+- [x] **快递单号快速查询**
+
+![image](https://www.zhangkunzhi.com/images/快递单号查询.png)
+
 
 - [x] **美团三级区域解析器**
 
