@@ -20,7 +20,7 @@ sign = function() {
     }
     function o(t, e) {
         var i, s, a;
-        if ("undefined" != typeof o._x1l0o && e && t || (o._x1l0o = -1,
+        if ("undefined" != typeof o._x1l0o && e &&t t || (o._x1l0o = -1,
         t)) {
             for (i = o._x1l0o,
             s = 0,

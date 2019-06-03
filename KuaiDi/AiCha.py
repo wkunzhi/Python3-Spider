@@ -73,6 +73,7 @@ class AiCha(object):
 
 
 if __name__ == '__main__':
+    # 在查询之前还需要做一个请求登陆验证
     ac = AiCha('75150911849051')
     ac.start()
 
