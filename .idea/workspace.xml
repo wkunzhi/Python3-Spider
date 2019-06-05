@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="993ad7df-9322-474e-a108-80fdc8d77ae5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/MeiTuan/parse_hotel_info.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MeiTuan/test.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MeiTuan/test.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MeiTuan/parse_hotel_info.py" beforeDir="false" afterPath="$PROJECT_DIR$/MeiTuan/parse_hotel_info.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -15,7 +17,8 @@
     <SUITE FILE_PATH="coverage/SpideCrackDemo$geetest.coverage" NAME="geetest Coverage Results" MODIFIED="1556354272765" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Geetest" />
     <SUITE FILE_PATH="coverage/SpideCrackDemo$video_download.coverage" NAME="video_download Coverage Results" MODIFIED="1557379335289" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/bilibili" />
     <SUITE FILE_PATH="coverage/SpideCrackDemo$login__1_.coverage" NAME="login (1) Coverage Results" MODIFIED="1555334406059" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/TianYanCha" />
-    <SUITE FILE_PATH="coverage/SpideCrackDemo$test.coverage" NAME="test Coverage Results" MODIFIED="1557372603753" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/SpideCrackDemo$test.coverage" NAME="test Coverage Results" MODIFIED="1559729443107" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/MeiTuan" />
+    <SUITE FILE_PATH="coverage/SpideCrackDemo$parse_hotel_info.coverage" NAME="parse_hotel_info Coverage Results" MODIFIED="1559730180903" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/MeiTuan" />
     <SUITE FILE_PATH="coverage/SpideCrackDemo$select_job.coverage" NAME="select_job Coverage Results" MODIFIED="1555334429591" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/51Job" />
     <SUITE FILE_PATH="coverage/SpideCrackDemo$get_login_cookies.coverage" NAME="get_login_cookies Coverage Results" MODIFIED="1558406237289" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/MeiTuan" />
     <SUITE FILE_PATH="coverage/SpideCrackDemo$login.coverage" NAME="login Coverage Results" MODIFIED="1554964154732" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/GitHub" />
@@ -51,26 +54,23 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/MeiTuan/parse_hotel_info.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="144">
-              <caret line="8" column="3" lean-forward="true" selection-start-line="8" selection-start-column="3" selection-end-line="8" selection-end-column="3" />
+            <state relative-caret-position="257">
+              <caret line="63" column="17" lean-forward="true" selection-start-line="63" selection-start-column="17" selection-end-line="63" selection-end-column="17" />
               <folding>
-                <element signature="e#152#167#0" expanded="true" />
+                <element signature="e#153#168#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/MeiTuan/parse_play_info.py">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/MeiTuan/test.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="723">
-              <caret line="63" selection-start-line="63" selection-end-line="69" />
-              <folding>
-                <element signature="e#152#167#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="198">
+              <caret line="11" column="31" selection-start-line="11" selection-start-column="7" selection-end-line="11" selection-end-column="31" />
             </state>
           </provider>
         </entry>
@@ -130,7 +130,6 @@
         <option value="$PROJECT_DIR$/MeiTuan/parse_restaurant_info.py" />
         <option value="$PROJECT_DIR$/MeiTuan/parse_play_areas.py" />
         <option value="$PROJECT_DIR$/test.html" />
-        <option value="$PROJECT_DIR$/MeiTuan/parse_play_info.py" />
         <option value="$PROJECT_DIR$/zhihu.js" />
         <option value="$PROJECT_DIR$/test.py" />
         <option value="$PROJECT_DIR$/bilibili/VideoDownload.py" />
@@ -144,15 +143,17 @@
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/KuaiDi/make.js" />
         <option value="$PROJECT_DIR$/KuaiDi/AiCha.py" />
+        <option value="$PROJECT_DIR$/MeiTuan/parse_play_info.py" />
+        <option value="$PROJECT_DIR$/MeiTuan/test.py" />
         <option value="$PROJECT_DIR$/MeiTuan/parse_hotel_info.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="1680" />
+    <option name="x" value="54" />
     <option name="y" value="23" />
-    <option name="width" value="1920" />
-    <option name="height" value="1057" />
+    <option name="width" value="1626" />
+    <option name="height" value="1027" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -190,15 +191,15 @@
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$" />
-      <recent name="$PROJECT_DIR$/MeiTuan" />
-      <recent name="$PROJECT_DIR$/BaiDu" />
-      <recent name="$PROJECT_DIR$/TianYanCha" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/MeiTuan" />
       <recent name="$PROJECT_DIR$" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/MeiTuan" />
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/BaiDu" />
+      <recent name="$PROJECT_DIR$/TianYanCha" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -213,7 +214,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.AiCha">
+  <component name="RunManager" selected="Python.parse_hotel_info">
     <configuration name="AiCha" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="SpideCrackDemo" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -280,7 +281,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="translation" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="parse_hotel_info" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="SpideCrackDemo" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -288,12 +289,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/BaiDu" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/MeiTuan" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/BaiDu/translation.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/MeiTuan/parse_hotel_info.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -302,7 +303,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="video_download" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="test" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="SpideCrackDemo" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -310,12 +311,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/bilibili" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/MeiTuan" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/bilibili/video_download.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/MeiTuan/test.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -326,11 +327,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.parse_hotel_info" />
+        <item itemvalue="Python.test" />
         <item itemvalue="Python.AiCha" />
         <item itemvalue="Python.check_express" />
         <item itemvalue="Python.get_login_cookies" />
-        <item itemvalue="Python.translation" />
-        <item itemvalue="Python.video_download" />
       </list>
     </recent_temporary>
   </component>
@@ -394,7 +395,7 @@
       <workItem from="1559228793347" duration="41000" />
       <workItem from="1559229472223" duration="8572000" />
       <workItem from="1559443550706" duration="1213000" />
-      <workItem from="1559725662559" duration="114000" />
+      <workItem from="1559725662559" duration="4602000" />
     </task>
     <task id="LOCAL-00001" summary="add new taobao login2">
       <created>1554951565001</created>
@@ -435,18 +436,18 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="95045000" />
+    <option name="totallyTimeSpent" value="99533000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1680" y="23" width="1920" height="1057" extended-state="6" />
+    <frame x="54" y="23" width="1626" height="1027" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.12447917" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.14698647" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" visible="true" weight="0.3294979" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.35669455" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3671548" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39958158" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -710,22 +711,42 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/MeiTuan/parse_hotel_info.py">
+    <entry file="file://$PROJECT_DIR$/MeiTuan/正则测试.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MeiTuan/test.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file:///Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/json/decoder.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="8" column="3" lean-forward="true" selection-start-line="8" selection-start-column="3" selection-end-line="8" selection-end-column="3" />
+        <state relative-caret-position="203">
+          <caret line="339" selection-start-line="339" selection-end-line="340" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MeiTuan/parse_play_info.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="835">
+          <caret line="60" column="27" lean-forward="true" selection-start-line="38" selection-start-column="4" selection-end-line="60" selection-end-column="27" />
           <folding>
             <element signature="e#152#167#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/MeiTuan/parse_play_info.py">
+    <entry file="file://$PROJECT_DIR$/MeiTuan/test.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="723">
-          <caret line="63" selection-start-line="63" selection-end-line="69" />
+        <state relative-caret-position="198">
+          <caret line="11" column="31" selection-start-line="11" selection-start-column="7" selection-end-line="11" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MeiTuan/parse_hotel_info.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="257">
+          <caret line="63" column="17" lean-forward="true" selection-start-line="63" selection-start-column="17" selection-end-line="63" selection-end-column="17" />
           <folding>
-            <element signature="e#152#167#0" expanded="true" />
+            <element signature="e#153#168#0" expanded="true" />
           </folding>
         </state>
       </provider>
