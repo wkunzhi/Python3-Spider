@@ -47,7 +47,7 @@ class ParseHotelInfo(object):
         print('地址', data.get('addr'))
         print('lng', data.get('lng'))
         print('lat', data.get('lat'))
-        print('封面', data.get('frontImg'))
+        print('封面', data.get('frontImg').replace('w.h', '750.0'))
         print('wifi', data.get('wifi'))
         print('地区id', data.get('areaId'))
         print('地区名', data.get('areaName'))
