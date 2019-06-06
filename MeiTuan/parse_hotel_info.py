@@ -57,19 +57,20 @@ class ParseHotelInfo(object):
         print('简介', data.get('introduction'))
         print('星级', data.get('highHotelStar'))
         print('舒适类型', data.get('hotelStar'))
-        print('电话', data.get('phoneList'))
+        print('电话', [i.get('phone') for i in data.get('phoneList')])
         print('平均分', data.get('avgScore'))
         print('标签', data.get('poiAttrTagList'))
         print('城市名', data.get('cityName'))
         print('城市拼音', data.get('cityPinyin'))
 
         poi_data = data_dict.get('poiExt')  # 酒店详情
-        print('服务', poi_data.get('serviceIconsInfo').get('serviceIcons'))
+        print('服务', [i.get('attrDesc') for i in poi_data.get('serviceIconsInfo').get('serviceIcons')])
+        print('酒店介绍', {i.get('attrDesc'): i.get('attrValue') for i in poi_data.get('hotelIntroInfo').get('poiExtendsInfos')})
 
 
 if __name__ == '__main__':
     print("""\033[1;33m请输入酒店ID \033[0m""")
-    # _id = input('(链接末尾数字就是ID)')
-    _id = '41823880'  # 测试
+    _id = input('(链接末尾数字就是ID)')
+    # _id = '41823880'  # 测试
     hotel = ParseHotelInfo(_id)
     hotel.go_to_hotel()
