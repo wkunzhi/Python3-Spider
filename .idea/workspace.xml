@@ -3,8 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="993ad7df-9322-474e-a108-80fdc8d77ae5" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MeiTuan/test.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MeiTuan/test.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/KuaiDi/AiCha.py" beforeDir="false" afterPath="$PROJECT_DIR$/KuaiDi/AiCha.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -33,11 +32,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/KuaiDi/AiCha.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="873">
-              <caret line="58" column="26" selection-start-line="58" selection-start-column="26" selection-end-line="58" selection-end-column="26" />
+            <state relative-caret-position="306">
+              <caret line="17" column="38" lean-forward="true" selection-start-line="17" selection-start-column="38" selection-end-line="17" selection-end-column="38" />
               <folding>
                 <element signature="e#96#108#0" expanded="true" />
               </folding>
@@ -45,12 +44,12 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="251">
-                <caret line="65" column="47" selection-start-line="65" selection-start-column="47" selection-end-line="65" selection-end-column="47" />
+              <first_editor relative-caret-position="360">
+                <caret line="20" column="30" lean-forward="true" selection-start-line="20" selection-start-column="30" selection-end-line="20" selection-end-column="30" />
               </first_editor>
               <second_editor />
             </state>
@@ -123,10 +122,10 @@
         <option value="$PROJECT_DIR$/MeiTuanArea/README.md" />
         <option value="$PROJECT_DIR$/KuaiDi/check_express.py" />
         <option value="$PROJECT_DIR$/KuaiDi/make.js" />
-        <option value="$PROJECT_DIR$/KuaiDi/AiCha.py" />
         <option value="$PROJECT_DIR$/MeiTuan/parse_play_info.py" />
         <option value="$PROJECT_DIR$/MeiTuan/test.py" />
         <option value="$PROJECT_DIR$/MeiTuan/parse_hotel_info.py" />
+        <option value="$PROJECT_DIR$/KuaiDi/AiCha.py" />
         <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
@@ -151,11 +150,6 @@
             <path>
               <item name="SpideCrackDemo" type="b2602c69:ProjectViewProjectNode" />
               <item name="SpideCrackDemo" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SpideCrackDemo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SpideCrackDemo" type="462c0819:PsiDirectoryNode" />
-              <item name="MeiTuan" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -378,7 +372,8 @@
       <workItem from="1559229472223" duration="8572000" />
       <workItem from="1559443550706" duration="1213000" />
       <workItem from="1559725662559" duration="10138000" />
-      <workItem from="1559918172805" duration="64000" />
+      <workItem from="1559918172805" duration="587000" />
+      <workItem from="1560091946258" duration="163000" />
     </task>
     <task id="LOCAL-00001" summary="add new taobao login2">
       <created>1554951565001</created>
@@ -419,7 +414,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="105133000" />
+    <option name="totallyTimeSpent" value="105819000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="54" y="23" width="1626" height="1027" extended-state="6" />
@@ -668,9 +663,7 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/MeiTuan/正则测试.py" />
-    <entry file="file://$PROJECT_DIR$/MeiTuan/test.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/MeiTuan/test.html" />
     <entry file="file:///Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/json/decoder.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="203">
@@ -695,23 +688,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/MeiTuan/test.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="11" column="31" selection-start-line="11" selection-start-column="7" selection-end-line="11" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="251">
-            <caret line="65" column="47" selection-start-line="65" selection-start-column="47" selection-end-line="65" selection-end-column="47" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/MeiTuan/test.py" />
     <entry file="file://$PROJECT_DIR$/MeiTuan/parse_hotel_info.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="459">
@@ -724,11 +701,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/KuaiDi/AiCha.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="873">
-          <caret line="58" column="26" selection-start-line="58" selection-start-column="26" selection-end-line="58" selection-end-column="26" />
+        <state relative-caret-position="306">
+          <caret line="17" column="38" lean-forward="true" selection-start-line="17" selection-start-column="38" selection-end-line="17" selection-end-column="38" />
           <folding>
             <element signature="e#96#108#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="360">
+            <caret line="20" column="30" lean-forward="true" selection-start-line="20" selection-start-column="30" selection-end-line="20" selection-end-column="30" />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>

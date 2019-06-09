@@ -40,6 +40,7 @@ Anti - crawling website crack Demo, we hope to update together
 - [x] [美团-休闲会所店铺信息解析器](https://github.com/wkunzhi/SpiderCrackDemo/tree/master/MeiTuan)
 - [x] [美团-全国区域scrapy爬虫](https://github.com/wkunzhi/SpiderCrackDemo/tree/master/MeiTuanArea)
 - [x] [快递110-快递单号查询](https://github.com/wkunzhi/SpiderCrackDemo/tree/master/KuaiDi)
+- [x] [爱快递-快递单号查询](https://blog.zhangkunzhi.com/2019/05/30/%E9%80%86%E5%90%91JS%E6%A1%88%E4%BE%8B%E6%9F%A5%E5%BF%AB%E9%80%92/index.html)
 
 
 -------
