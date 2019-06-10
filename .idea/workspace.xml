@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="993ad7df-9322-474e-a108-80fdc8d77ae5" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/MeiTuan/parse_hotel_comments.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/KuaiDi/AiCha.py" beforeDir="false" afterPath="$PROJECT_DIR$/KuaiDi/AiCha.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MeiTuan/parse_comments.py" beforeDir="false" afterPath="$PROJECT_DIR$/MeiTuan/parse_food_comments.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -16,6 +17,7 @@
     <SUITE FILE_PATH="coverage/SpideCrackDemo$geetest.coverage" NAME="geetest Coverage Results" MODIFIED="1556354272765" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Geetest" />
     <SUITE FILE_PATH="coverage/SpideCrackDemo$video_download.coverage" NAME="video_download Coverage Results" MODIFIED="1557379335289" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/bilibili" />
     <SUITE FILE_PATH="coverage/SpideCrackDemo$login__1_.coverage" NAME="login (1) Coverage Results" MODIFIED="1555334406059" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/TianYanCha" />
+    <SUITE FILE_PATH="coverage/SpideCrackDemo$parse_hotel_comments.coverage" NAME="parse_hotel_comments Coverage Results" MODIFIED="1560136258859" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/MeiTuan" />
     <SUITE FILE_PATH="coverage/SpideCrackDemo$test.coverage" NAME="test Coverage Results" MODIFIED="1559729443107" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/MeiTuan" />
     <SUITE FILE_PATH="coverage/SpideCrackDemo$parse_hotel_info.coverage" NAME="parse_hotel_info Coverage Results" MODIFIED="1559783484837" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/MeiTuan" />
     <SUITE FILE_PATH="coverage/SpideCrackDemo$select_job.coverage" NAME="select_job Coverage Results" MODIFIED="1555334429591" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/51Job" />
@@ -36,7 +38,7 @@
         <entry file="file://$PROJECT_DIR$/KuaiDi/AiCha.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="306">
-              <caret line="17" column="38" lean-forward="true" selection-start-line="17" selection-start-column="38" selection-end-line="17" selection-end-column="38" />
+              <caret line="17" column="38" selection-start-line="17" selection-start-column="38" selection-end-line="17" selection-end-column="38" />
               <folding>
                 <element signature="e#96#108#0" expanded="true" />
               </folding>
@@ -48,10 +50,22 @@
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="360">
-                <caret line="20" column="30" lean-forward="true" selection-start-line="20" selection-start-column="30" selection-end-line="20" selection-end-column="30" />
+              <first_editor relative-caret-position="398">
+                <caret line="40" column="17" selection-start-line="40" selection-start-column="17" selection-end-line="40" selection-end-column="17" />
               </first_editor>
               <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/MeiTuan/parse_hotel_comments.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1206">
+              <caret line="67" column="27" lean-forward="true" selection-start-line="67" selection-start-column="27" selection-end-line="67" selection-end-column="27" />
+              <folding>
+                <element signature="e#112#127#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -126,6 +140,7 @@
         <option value="$PROJECT_DIR$/MeiTuan/test.py" />
         <option value="$PROJECT_DIR$/MeiTuan/parse_hotel_info.py" />
         <option value="$PROJECT_DIR$/KuaiDi/AiCha.py" />
+        <option value="$PROJECT_DIR$/MeiTuan/parse_hotel_comments.py" />
         <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
@@ -190,7 +205,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.parse_hotel_info">
+  <component name="RunManager" selected="Python.parse_hotel_comments">
     <configuration name="AiCha" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="SpideCrackDemo" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -235,7 +250,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="get_login_cookies" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="parse_hotel_comments" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="SpideCrackDemo" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -248,7 +263,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/MeiTuan/get_login_cookies.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/MeiTuan/parse_hotel_comments.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -303,11 +318,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.parse_hotel_comments" />
         <item itemvalue="Python.parse_hotel_info" />
         <item itemvalue="Python.test" />
         <item itemvalue="Python.AiCha" />
         <item itemvalue="Python.check_express" />
-        <item itemvalue="Python.get_login_cookies" />
       </list>
     </recent_temporary>
   </component>
@@ -373,7 +388,8 @@
       <workItem from="1559443550706" duration="1213000" />
       <workItem from="1559725662559" duration="10138000" />
       <workItem from="1559918172805" duration="587000" />
-      <workItem from="1560091946258" duration="163000" />
+      <workItem from="1560091946258" duration="338000" />
+      <workItem from="1560133587482" duration="2391000" />
     </task>
     <task id="LOCAL-00001" summary="add new taobao login2">
       <created>1554951565001</created>
@@ -414,7 +430,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="105819000" />
+    <option name="totallyTimeSpent" value="108385000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="54" y="23" width="1626" height="1027" extended-state="6" />
@@ -425,7 +441,7 @@
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" visible="true" weight="0.3294979" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.3169456" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3033473" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39958158" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -541,16 +557,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/UtilPackage.py" />
-    <entry file="file://$PROJECT_DIR$/MeiTuan/parse_comments.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="182">
-          <caret line="52" column="30" lean-forward="true" selection-start-line="52" selection-start-column="30" selection-end-line="52" selection-end-column="30" />
-          <folding>
-            <element signature="e#96#111#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/test.html" />
     <entry file="file://$PROJECT_DIR$/MeiTuan/parse_play_areas.py">
       <provider selected="true" editor-type-id="text-editor">
@@ -702,9 +708,29 @@
     <entry file="file://$PROJECT_DIR$/KuaiDi/AiCha.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
-          <caret line="17" column="38" lean-forward="true" selection-start-line="17" selection-start-column="38" selection-end-line="17" selection-end-column="38" />
+          <caret line="17" column="38" selection-start-line="17" selection-start-column="38" selection-end-line="17" selection-end-column="38" />
           <folding>
             <element signature="e#96#108#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MeiTuan/parse_food_comments.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="12" column="32" lean-forward="true" selection-start-line="12" selection-start-column="32" selection-end-line="12" selection-end-column="32" />
+          <folding>
+            <element signature="e#96#111#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MeiTuan/parse_hotel_comments.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1206">
+          <caret line="67" column="27" lean-forward="true" selection-start-line="67" selection-start-column="27" selection-end-line="67" selection-end-column="27" />
+          <folding>
+            <element signature="e#112#127#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -712,8 +738,8 @@
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="360">
-            <caret line="20" column="30" lean-forward="true" selection-start-line="20" selection-start-column="30" selection-end-line="20" selection-end-column="30" />
+          <first_editor relative-caret-position="398">
+            <caret line="40" column="17" selection-start-line="40" selection-start-column="17" selection-end-line="40" selection-end-column="17" />
           </first_editor>
           <second_editor />
         </state>
