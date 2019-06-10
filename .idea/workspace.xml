@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="993ad7df-9322-474e-a108-80fdc8d77ae5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/MeiTuan/parse_hotel_comments.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MeiTuan/parse_comments.py" beforeDir="false" afterPath="$PROJECT_DIR$/MeiTuan/parse_food_comments.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MeiTuan/parse_restaurant_info.py" beforeDir="false" afterPath="$PROJECT_DIR$/MeiTuan/parse_food_info.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -50,8 +48,8 @@
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="398">
-                <caret line="40" column="17" selection-start-line="40" selection-start-column="17" selection-end-line="40" selection-end-column="17" />
+              <first_editor relative-caret-position="244">
+                <caret line="49" column="16" lean-forward="true" selection-start-line="49" selection-start-column="16" selection-end-line="49" selection-end-column="16" />
               </first_editor>
               <second_editor />
             </state>
@@ -61,7 +59,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/MeiTuan/parse_hotel_comments.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1206">
+            <state relative-caret-position="475">
               <caret line="67" column="27" lean-forward="true" selection-start-line="67" selection-start-column="27" selection-end-line="67" selection-end-column="27" />
               <folding>
                 <element signature="e#112#127#0" expanded="true" />
@@ -165,6 +163,11 @@
             <path>
               <item name="SpideCrackDemo" type="b2602c69:ProjectViewProjectNode" />
               <item name="SpideCrackDemo" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SpideCrackDemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SpideCrackDemo" type="462c0819:PsiDirectoryNode" />
+              <item name="MeiTuan" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -389,7 +392,7 @@
       <workItem from="1559725662559" duration="10138000" />
       <workItem from="1559918172805" duration="587000" />
       <workItem from="1560091946258" duration="338000" />
-      <workItem from="1560133587482" duration="2391000" />
+      <workItem from="1560133587482" duration="2569000" />
     </task>
     <task id="LOCAL-00001" summary="add new taobao login2">
       <created>1554951565001</created>
@@ -430,7 +433,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="108385000" />
+    <option name="totallyTimeSpent" value="108563000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="54" y="23" width="1626" height="1027" extended-state="6" />
@@ -602,7 +605,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/MeiTuan/parse_restaurant_info.py">
+    <entry file="file://$PROJECT_DIR$/MeiTuan/parse_food_info.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="360">
           <caret line="22" selection-start-line="22" selection-end-line="22" />
@@ -727,7 +730,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/MeiTuan/parse_hotel_comments.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1206">
+        <state relative-caret-position="475">
           <caret line="67" column="27" lean-forward="true" selection-start-line="67" selection-start-column="27" selection-end-line="67" selection-end-column="27" />
           <folding>
             <element signature="e#112#127#0" expanded="true" />
@@ -738,8 +741,8 @@
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="398">
-            <caret line="40" column="17" selection-start-line="40" selection-start-column="17" selection-end-line="40" selection-end-column="17" />
+          <first_editor relative-caret-position="244">
+            <caret line="49" column="16" lean-forward="true" selection-start-line="49" selection-start-column="16" selection-end-line="49" selection-end-column="16" />
           </first_editor>
           <second_editor />
         </state>
