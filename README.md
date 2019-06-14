@@ -30,7 +30,6 @@ Anti - crawling website crack Demo, we hope to update together
 - [x] [淘宝-pyppeteer过webdriver检测](https://github.com/wkunzhi/SpiderCrackDemo/tree/master/TaoBao)
 - [x] [淘宝-mitmproxy过webdriver检测](https://github.com/wkunzhi/SpiderCrackDemo/tree/master/TaoBao)
 - [x] [百度-翻译](https://github.com/wkunzhi/SpiderCrackDemo/tree/master/BaiDu)
-- [x] [天眼查-登陆](https://github.com/wkunzhi/SpiderCrackDemo/tree/master/TianYanCha)
 - [x] [51job-查岗位](https://github.com/wkunzhi/SpiderCrackDemo/tree/master/51Job)
 - [x] [美团-爬用户评论](https://github.com/wkunzhi/SpiderCrackDemo/tree/master/MeiTuan/parse_food_comments.py)
 - [x] [美团-解析餐馆数据](https://github.com/wkunzhi/SpiderCrackDemo/tree/master/MeiTuan/parse_food_info.py)
@@ -74,8 +73,6 @@ Anti - crawling website crack Demo, we hope to update together
 │   ├── auto_login_pyppeteer.py         // 淘宝自动登陆-淘宝账号
 │   ├── login_for_pyppeteer.py          // 利用pyppeteer过webdriver检测
 │   └── login_for_mitmproxy.py          // 利用mitmproxy过webdriver检测
-├── TianYanCha                          // -------天眼查-------
-│   └── login.py                        // 自动登陆，并获取企业信息
 ├── BiliBili                            // -------BiliBili-------
 │   └── login.py                        // 视频下载器
 ├── MeiTuanArea                         // -------基于美团全国区域采集器-------
