@@ -12,7 +12,6 @@ Anti - crawling website crack Demo, we hope to update together
 | Author  | Zok |
 | --- | --- |
 | Email | 362416272@qq.com |
-| Twitter | ZokMrKun |
 | BLOG | www.zhangkunzhi.com |
 | Introduce | 数据解密、反爬处理、学习教程 |
 
@@ -33,10 +32,23 @@ Anti - crawling website crack Demo, we hope to update together
 - [x] [【快递查询】-快递单号查询](https://github.com/wkunzhi/SpiderCrackDemo/tree/master/KuaiDi)
 
 ## 二、教程
-- [x] [【APP抓包】](https://github.com/wkunzhi/SpiderCrackDemo/tree/master/如何抓包手机APP)
+- [【APP抓包】](https://github.com/wkunzhi/SpiderCrackDemo/tree/master/如何抓包手机APP)
 
 
-## 三、完整项目
+## 三、原创工具
+> 此工具包在我另外一个项目中，欢迎 star
+
+- [【解密工具】可拓展式解密器](https://github.com/wkunzhi/SpiderUtilPackage/tree/master/Decode)
+- [【自动注册】验证短信接收器](https://github.com/wkunzhi/SpiderUtilPackage/tree/master/Register)
+- [【付费代理IP池】监控维护器](https://github.com/wkunzhi/SpiderUtilPackage/tree/master/Proxy)
+- [【cookies池】-美团cookies池](https://github.com/wkunzhi/SpiderUtilPackage/tree/master/Cookies)
+- [【跨数据库迁移器】-开发中](https://github.com/wkunzhi/SpiderUtilPackage/tree/master/DataMigration)
+
+
+
+## 四、练手项目
+
+
 
 -------
 
