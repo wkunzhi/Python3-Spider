@@ -1,4 +1,4 @@
-# SpiderCrackDemo
+# Python Crawler
 
 
 ![](https://zok-blog.oss-cn-hangzhou.aliyuncs.com/ico/python-3.7-green.svg) 
@@ -11,44 +11,37 @@ Anti - crawling website crack Demo, we hope to update together
 
 | Author  | Zok |
 | --- | --- |
-| Email | 362416272@qq.com  |
+| Email | 362416272@qq.com |
+| Twitter | ZokMrKun |
 | BLOG | www.zhangkunzhi.com |
-| Introduce | 数据解密、反爬处理、模拟登陆、POST登陆 |
+| Introduce | 数据解密、反爬处理、学习教程 |
 
 
 -------
 
-最近在做MT和DP的整站爬取，所以经常更新一些拆分开来的小demo
+记录并分享进步的过程
 
-## Demo
-- [x] [大众点评-字体解密](https://github.com/wkunzhi/SpiderCrackDemo/tree/master/DianPing)
-- [x] [大众点评-坐标解密](https://github.com/wkunzhi/SpiderCrackDemo/tree/master/DianPing)
-- [x] [bilibili-视频下载器](https://github.com/wkunzhi/SpiderCrackDemo/tree/master/bilibili)
-- [x] [GitHub-post自动登陆](https://github.com/wkunzhi/SpiderCrackDemo/tree/master/GitHub)
-- [x] [淘宝-自动登陆-新浪入口](https://github.com/wkunzhi/SpiderCrackDemo/tree/master/TaoBao)
-- [x] [淘宝-自动登陆-淘宝账号](https://github.com/wkunzhi/SpiderCrackDemo/tree/master/TaoBao)
-- [x] [淘宝-pyppeteer过webdriver检测](https://github.com/wkunzhi/SpiderCrackDemo/tree/master/TaoBao)
-- [x] [淘宝-mitmproxy过webdriver检测](https://github.com/wkunzhi/SpiderCrackDemo/tree/master/TaoBao)
-- [x] [百度-翻译](https://github.com/wkunzhi/SpiderCrackDemo/tree/master/BaiDu)
-- [x] [51job-查岗位](https://github.com/wkunzhi/SpiderCrackDemo/tree/master/51Job)
-- [x] [美团-爬用户评论](https://github.com/wkunzhi/SpiderCrackDemo/tree/master/MeiTuan/parse_food_comments.py)
-- [x] [美团-解析餐馆数据](https://github.com/wkunzhi/SpiderCrackDemo/tree/master/MeiTuan/parse_food_info.py)
-- [x] [美团-解析酒店基础数据](https://github.com/wkunzhi/SpiderCrackDemo/tree/master/MeiTuan/parse_hotel_info.py)
-- [x] [美团-餐饮页token生成](https://github.com/wkunzhi/SpiderCrackDemo/tree/master/MeiTuan/create_food_token.py)
-- [x] [美团-三级区域解析器](https://github.com/wkunzhi/SpiderCrackDemo/tree/master/MeiTuan/parse_play_areas.py)
-- [x] [美团-休闲会所店铺信息解析器](https://github.com/wkunzhi/SpiderCrackDemo/tree/master/MeiTuan/parse_play_info.py)
-- [x] [美团-酒店评论解析器](https://github.com/wkunzhi/SpiderCrackDemo/blob/master/MeiTuan/parse_hotel_comments.py)
-- [x] [美团-全国区域scrapy爬虫](https://github.com/wkunzhi/SpiderCrackDemo/tree/master/MeiTuanArea)
-- [x] [快递110-快递单号查询](https://github.com/wkunzhi/SpiderCrackDemo/tree/master/KuaiDi)
-- [x] [爱快递-快递单号查询](https://blog.zhangkunzhi.com/2019/05/30/%E9%80%86%E5%90%91JS%E6%A1%88%E4%BE%8B%E6%9F%A5%E5%BF%AB%E9%80%92/index.html)
+## 一、反爬处理案例
+- [x] [【大众点评】字体 | 坐标解密](https://github.com/wkunzhi/SpiderCrackDemo/tree/master/DianPing)
+- [x] [【bilibili】视频下载器](https://github.com/wkunzhi/SpiderCrackDemo/tree/master/bilibili)
+- [x] [【GitHub】自动登陆](https://github.com/wkunzhi/SpiderCrackDemo/tree/master/GitHub)
+- [x] [【淘宝】自动登陆 | 过检测](https://github.com/wkunzhi/SpiderCrackDemo/tree/master/TaoBao)
+- [x] [【百度】翻译](https://github.com/wkunzhi/SpiderCrackDemo/tree/master/BaiDu)
+- [x] [【51job】查岗位](https://github.com/wkunzhi/SpiderCrackDemo/tree/master/51Job)
+- [x] [【美团】解析数据 | token生成器](https://github.com/wkunzhi/SpiderCrackDemo/tree/master/MeiTuan/parse_food_comments.py)
+- [x] [【美团】全国区域爬虫](https://github.com/wkunzhi/SpiderCrackDemo/tree/master/MeiTuanArea)
+- [x] [【快递查询】-快递单号查询](https://github.com/wkunzhi/SpiderCrackDemo/tree/master/KuaiDi)
 
+## 二、教程
+- [x] [【APP抓包】](https://github.com/wkunzhi/SpiderCrackDemo/tree/master/如何抓包手机APP)
+
+
+## 三、完整项目
 
 -------
 
 
-# directory tree
-
-
+# 目录
 
 ```
 ├── DianPing                            // -----大众点评-----
