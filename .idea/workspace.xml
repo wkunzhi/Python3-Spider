@@ -2,88 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="993ad7df-9322-474e-a108-80fdc8d77ae5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/原创工具/Cookies/MeiTuan/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/原创工具/Cookies/MeiTuan/config.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/原创工具/Cookies/MeiTuan/db.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/原创工具/Cookies/MeiTuan/generator.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/原创工具/Cookies/MeiTuan/账号.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/原创工具/Cookies/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/原创工具/Cookies/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/原创工具/DataMigration/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/原创工具/DataMigration/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/原创工具/DataMigration/config.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/原创工具/DataMigration/db/MongoDB.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/原创工具/DataMigration/db/Mysql.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/原创工具/DataMigration/db/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/原创工具/DataMigration/migration/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/原创工具/DataMigration/migration/mongo_to_mysql.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/原创工具/DataMigration/migration/mysql_to_mongo.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/原创工具/Decode/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/原创工具/Decode/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/原创工具/Decode/translation.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/原创工具/Proxy/KDLProxyPool.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/原创工具/Proxy/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/原创工具/Proxy/XDLProxyPool.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/原创工具/Proxy/XDLProxyUseDemo.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/原创工具/Proxy/ZhiMaProxyPool.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/原创工具/Proxy/ZhiMaProxyUseDemo.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/原创工具/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/原创工具/Register/MessageCode.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/原创工具/Register/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/原创工具/Register/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/反爬处理案例/DianPing/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/反爬处理案例/GitHub/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/反爬处理案例/MeiTuan/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/反爬处理案例/MeiTuanArea/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/反爬处理案例/TaoBao/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/反爬处理案例/TianYanCha/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/反爬处理案例/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/爬虫项目/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/51Job/select_job.py" beforeDir="false" afterPath="$PROJECT_DIR$/反爬处理案例/51Job/select_job.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BaiDu/translate.js" beforeDir="false" afterPath="$PROJECT_DIR$/反爬处理案例/BaiDu/translate.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BaiDu/translation.py" beforeDir="false" afterPath="$PROJECT_DIR$/反爬处理案例/BaiDu/translation.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DianPing/parse_address_poi.py" beforeDir="false" afterPath="$PROJECT_DIR$/反爬处理案例/DianPing/parse_address_poi.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DianPing/parse_font_css.py" beforeDir="false" afterPath="$PROJECT_DIR$/反爬处理案例/DianPing/parse_font_css.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GitHub/login.py" beforeDir="false" afterPath="$PROJECT_DIR$/反爬处理案例/GitHub/login.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/KuaiDi/AiCha.py" beforeDir="false" afterPath="$PROJECT_DIR$/反爬处理案例/KuaiDi/AiCha.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/KuaiDi/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/反爬处理案例/KuaiDi/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/KuaiDi/kuaidi110.py" beforeDir="false" afterPath="$PROJECT_DIR$/反爬处理案例/KuaiDi/kuaidi110.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/KuaiDi/make.js" beforeDir="false" afterPath="$PROJECT_DIR$/反爬处理案例/KuaiDi/make.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MeiTuan/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/反爬处理案例/MeiTuan/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MeiTuan/create_food_token.py" beforeDir="false" afterPath="$PROJECT_DIR$/反爬处理案例/MeiTuan/create_food_token.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MeiTuan/get_login_cookies.py" beforeDir="false" afterPath="$PROJECT_DIR$/反爬处理案例/MeiTuan/get_login_cookies.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MeiTuan/parse_food_comments.py" beforeDir="false" afterPath="$PROJECT_DIR$/反爬处理案例/MeiTuan/parse_food_comments.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MeiTuan/parse_food_info.py" beforeDir="false" afterPath="$PROJECT_DIR$/反爬处理案例/MeiTuan/parse_food_info.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MeiTuan/parse_hotel_comments.py" beforeDir="false" afterPath="$PROJECT_DIR$/反爬处理案例/MeiTuan/parse_hotel_comments.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MeiTuan/parse_hotel_info.py" beforeDir="false" afterPath="$PROJECT_DIR$/反爬处理案例/MeiTuan/parse_hotel_info.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MeiTuan/parse_play_areas.py" beforeDir="false" afterPath="$PROJECT_DIR$/反爬处理案例/MeiTuan/parse_play_areas.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MeiTuan/parse_play_info.py" beforeDir="false" afterPath="$PROJECT_DIR$/反爬处理案例/MeiTuan/parse_play_info.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MeiTuanArea/.idea/MeiTuanArea.iml" beforeDir="false" afterPath="$PROJECT_DIR$/反爬处理案例/MeiTuanArea/.idea/MeiTuanArea.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MeiTuanArea/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/反爬处理案例/MeiTuanArea/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MeiTuanArea/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/反爬处理案例/MeiTuanArea/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MeiTuanArea/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/反爬处理案例/MeiTuanArea/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MeiTuanArea/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/反爬处理案例/MeiTuanArea/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MeiTuanArea/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/反爬处理案例/MeiTuanArea/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MeiTuanArea/MeiTuanArea/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/反爬处理案例/MeiTuanArea/MeiTuanArea/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MeiTuanArea/MeiTuanArea/items.py" beforeDir="false" afterPath="$PROJECT_DIR$/反爬处理案例/MeiTuanArea/MeiTuanArea/items.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MeiTuanArea/MeiTuanArea/middlewares.py" beforeDir="false" afterPath="$PROJECT_DIR$/反爬处理案例/MeiTuanArea/MeiTuanArea/middlewares.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MeiTuanArea/MeiTuanArea/pipelines.py" beforeDir="false" afterPath="$PROJECT_DIR$/反爬处理案例/MeiTuanArea/MeiTuanArea/pipelines.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MeiTuanArea/MeiTuanArea/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/反爬处理案例/MeiTuanArea/MeiTuanArea/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MeiTuanArea/MeiTuanArea/spiders/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/反爬处理案例/MeiTuanArea/MeiTuanArea/spiders/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MeiTuanArea/MeiTuanArea/spiders/area_coord.py" beforeDir="false" afterPath="$PROJECT_DIR$/反爬处理案例/MeiTuanArea/MeiTuanArea/spiders/area_coord.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MeiTuanArea/MeiTuanArea/spiders/areas.py" beforeDir="false" afterPath="$PROJECT_DIR$/反爬处理案例/MeiTuanArea/MeiTuanArea/spiders/areas.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MeiTuanArea/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/反爬处理案例/MeiTuanArea/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MeiTuanArea/scrapy.cfg" beforeDir="false" afterPath="$PROJECT_DIR$/反爬处理案例/MeiTuanArea/scrapy.cfg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MeiTuanArea/初始化.sql" beforeDir="false" afterPath="$PROJECT_DIR$/反爬处理案例/MeiTuanArea/初始化.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TaoBao/auto_login_pyppeteer.py" beforeDir="false" afterPath="$PROJECT_DIR$/反爬处理案例/TaoBao/auto_login_pyppeteer.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TaoBao/login.py" beforeDir="false" afterPath="$PROJECT_DIR$/反爬处理案例/TaoBao/login.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TaoBao/login_for_pyppeteer.py" beforeDir="false" afterPath="$PROJECT_DIR$/反爬处理案例/TaoBao/login_for_pyppeteer.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TaoBao/login_for_sina.py" beforeDir="false" afterPath="$PROJECT_DIR$/反爬处理案例/TaoBao/login_for_sina.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TianYanCha/login.py" beforeDir="false" afterPath="$PROJECT_DIR$/反爬处理案例/TianYanCha/login.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bilibili/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/反爬处理案例/bilibili/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bilibili/video_download.py" beforeDir="false" afterPath="$PROJECT_DIR$/反爬处理案例/bilibili/video_download.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/如何抓手机APP/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/实战教程/爬手机APP/README.md" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -216,6 +136,7 @@
         <option value="$PROJECT_DIR$/MeiTuan/README.md" />
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/原创工具/README.md" />
+        <option value="$PROJECT_DIR$/爬虫项目/README.md" />
       </list>
     </option>
   </component>
@@ -264,9 +185,9 @@
       <recent name="$PROJECT_DIR$/TianYanCha" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/实战教程" />
       <recent name="$PROJECT_DIR$/实战教程/爬手机APP" />
       <recent name="$PROJECT_DIR$" />
-      <recent name="$PROJECT_DIR$/实战教程" />
       <recent name="$PROJECT_DIR$/反爬处理案例" />
       <recent name="$PROJECT_DIR$/MeiTuan" />
     </key>
@@ -472,7 +393,7 @@
       <workItem from="1560321653731" duration="1008000" />
       <workItem from="1560482528451" duration="1940000" />
       <workItem from="1560756133472" duration="2430000" />
-      <workItem from="1560867462707" duration="825000" />
+      <workItem from="1560867462707" duration="1225000" />
     </task>
     <task id="LOCAL-00001" summary="add new taobao login2">
       <created>1554951565001</created>
@@ -513,7 +434,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="116123000" />
+    <option name="totallyTimeSpent" value="116523000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="54" y="23" width="1626" height="1027" extended-state="6" />
@@ -552,13 +473,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="update github login demo" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/反爬处理案例/DianPing/parse_address_poi.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/GitHub/loginGitHub.html" />
     <entry file="file://$PROJECT_DIR$/tm.html" />
     <entry file="file://$PROJECT_DIR$/反爬处理案例/TaoBao/login.py">
@@ -844,6 +758,16 @@
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="-134">
             <caret line="11" selection-start-line="11" selection-end-line="11" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/爬虫项目/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor>
+            <caret column="2" selection-start-column="2" selection-end-column="2" />
           </first_editor>
           <second_editor />
         </state>
