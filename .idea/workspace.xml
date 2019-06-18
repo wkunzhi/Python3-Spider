@@ -2,7 +2,88 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="993ad7df-9322-474e-a108-80fdc8d77ae5" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/原创工具/Cookies/MeiTuan/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/原创工具/Cookies/MeiTuan/config.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/原创工具/Cookies/MeiTuan/db.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/原创工具/Cookies/MeiTuan/generator.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/原创工具/Cookies/MeiTuan/账号.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/原创工具/Cookies/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/原创工具/Cookies/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/原创工具/DataMigration/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/原创工具/DataMigration/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/原创工具/DataMigration/config.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/原创工具/DataMigration/db/MongoDB.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/原创工具/DataMigration/db/Mysql.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/原创工具/DataMigration/db/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/原创工具/DataMigration/migration/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/原创工具/DataMigration/migration/mongo_to_mysql.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/原创工具/DataMigration/migration/mysql_to_mongo.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/原创工具/Decode/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/原创工具/Decode/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/原创工具/Decode/translation.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/原创工具/Proxy/KDLProxyPool.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/原创工具/Proxy/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/原创工具/Proxy/XDLProxyPool.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/原创工具/Proxy/XDLProxyUseDemo.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/原创工具/Proxy/ZhiMaProxyPool.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/原创工具/Proxy/ZhiMaProxyUseDemo.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/原创工具/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/原创工具/Register/MessageCode.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/原创工具/Register/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/原创工具/Register/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/反爬处理案例/DianPing/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/反爬处理案例/GitHub/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/反爬处理案例/MeiTuan/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/反爬处理案例/MeiTuanArea/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/反爬处理案例/TaoBao/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/反爬处理案例/TianYanCha/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/反爬处理案例/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/51Job/select_job.py" beforeDir="false" afterPath="$PROJECT_DIR$/反爬处理案例/51Job/select_job.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BaiDu/translate.js" beforeDir="false" afterPath="$PROJECT_DIR$/反爬处理案例/BaiDu/translate.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BaiDu/translation.py" beforeDir="false" afterPath="$PROJECT_DIR$/反爬处理案例/BaiDu/translation.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DianPing/parse_address_poi.py" beforeDir="false" afterPath="$PROJECT_DIR$/反爬处理案例/DianPing/parse_address_poi.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DianPing/parse_font_css.py" beforeDir="false" afterPath="$PROJECT_DIR$/反爬处理案例/DianPing/parse_font_css.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GitHub/login.py" beforeDir="false" afterPath="$PROJECT_DIR$/反爬处理案例/GitHub/login.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/KuaiDi/AiCha.py" beforeDir="false" afterPath="$PROJECT_DIR$/反爬处理案例/KuaiDi/AiCha.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/KuaiDi/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/反爬处理案例/KuaiDi/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/KuaiDi/kuaidi110.py" beforeDir="false" afterPath="$PROJECT_DIR$/反爬处理案例/KuaiDi/kuaidi110.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/KuaiDi/make.js" beforeDir="false" afterPath="$PROJECT_DIR$/反爬处理案例/KuaiDi/make.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MeiTuan/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/反爬处理案例/MeiTuan/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MeiTuan/create_food_token.py" beforeDir="false" afterPath="$PROJECT_DIR$/反爬处理案例/MeiTuan/create_food_token.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MeiTuan/get_login_cookies.py" beforeDir="false" afterPath="$PROJECT_DIR$/反爬处理案例/MeiTuan/get_login_cookies.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MeiTuan/parse_food_comments.py" beforeDir="false" afterPath="$PROJECT_DIR$/反爬处理案例/MeiTuan/parse_food_comments.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MeiTuan/parse_food_info.py" beforeDir="false" afterPath="$PROJECT_DIR$/反爬处理案例/MeiTuan/parse_food_info.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MeiTuan/parse_hotel_comments.py" beforeDir="false" afterPath="$PROJECT_DIR$/反爬处理案例/MeiTuan/parse_hotel_comments.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MeiTuan/parse_hotel_info.py" beforeDir="false" afterPath="$PROJECT_DIR$/反爬处理案例/MeiTuan/parse_hotel_info.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MeiTuan/parse_play_areas.py" beforeDir="false" afterPath="$PROJECT_DIR$/反爬处理案例/MeiTuan/parse_play_areas.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MeiTuan/parse_play_info.py" beforeDir="false" afterPath="$PROJECT_DIR$/反爬处理案例/MeiTuan/parse_play_info.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MeiTuanArea/.idea/MeiTuanArea.iml" beforeDir="false" afterPath="$PROJECT_DIR$/反爬处理案例/MeiTuanArea/.idea/MeiTuanArea.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MeiTuanArea/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/反爬处理案例/MeiTuanArea/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MeiTuanArea/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/反爬处理案例/MeiTuanArea/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MeiTuanArea/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/反爬处理案例/MeiTuanArea/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MeiTuanArea/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/反爬处理案例/MeiTuanArea/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MeiTuanArea/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/反爬处理案例/MeiTuanArea/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MeiTuanArea/MeiTuanArea/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/反爬处理案例/MeiTuanArea/MeiTuanArea/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MeiTuanArea/MeiTuanArea/items.py" beforeDir="false" afterPath="$PROJECT_DIR$/反爬处理案例/MeiTuanArea/MeiTuanArea/items.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MeiTuanArea/MeiTuanArea/middlewares.py" beforeDir="false" afterPath="$PROJECT_DIR$/反爬处理案例/MeiTuanArea/MeiTuanArea/middlewares.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MeiTuanArea/MeiTuanArea/pipelines.py" beforeDir="false" afterPath="$PROJECT_DIR$/反爬处理案例/MeiTuanArea/MeiTuanArea/pipelines.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MeiTuanArea/MeiTuanArea/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/反爬处理案例/MeiTuanArea/MeiTuanArea/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MeiTuanArea/MeiTuanArea/spiders/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/反爬处理案例/MeiTuanArea/MeiTuanArea/spiders/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MeiTuanArea/MeiTuanArea/spiders/area_coord.py" beforeDir="false" afterPath="$PROJECT_DIR$/反爬处理案例/MeiTuanArea/MeiTuanArea/spiders/area_coord.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MeiTuanArea/MeiTuanArea/spiders/areas.py" beforeDir="false" afterPath="$PROJECT_DIR$/反爬处理案例/MeiTuanArea/MeiTuanArea/spiders/areas.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MeiTuanArea/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/反爬处理案例/MeiTuanArea/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MeiTuanArea/scrapy.cfg" beforeDir="false" afterPath="$PROJECT_DIR$/反爬处理案例/MeiTuanArea/scrapy.cfg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MeiTuanArea/初始化.sql" beforeDir="false" afterPath="$PROJECT_DIR$/反爬处理案例/MeiTuanArea/初始化.sql" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TaoBao/auto_login_pyppeteer.py" beforeDir="false" afterPath="$PROJECT_DIR$/反爬处理案例/TaoBao/auto_login_pyppeteer.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TaoBao/login.py" beforeDir="false" afterPath="$PROJECT_DIR$/反爬处理案例/TaoBao/login.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TaoBao/login_for_pyppeteer.py" beforeDir="false" afterPath="$PROJECT_DIR$/反爬处理案例/TaoBao/login_for_pyppeteer.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TaoBao/login_for_sina.py" beforeDir="false" afterPath="$PROJECT_DIR$/反爬处理案例/TaoBao/login_for_sina.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TianYanCha/login.py" beforeDir="false" afterPath="$PROJECT_DIR$/反爬处理案例/TianYanCha/login.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bilibili/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/反爬处理案例/bilibili/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bilibili/video_download.py" beforeDir="false" afterPath="$PROJECT_DIR$/反爬处理案例/bilibili/video_download.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/如何抓手机APP/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/实战教程/爬手机APP/README.md" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -35,8 +116,25 @@
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="270">
-                <caret line="15" column="30" lean-forward="true" selection-start-line="15" selection-start-column="30" selection-end-line="15" selection-end-column="30" />
+              <first_editor relative-caret-position="558">
+                <caret line="31" column="84" selection-start-line="31" selection-start-column="84" selection-end-line="31" selection-end-column="84" />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/原创工具/Cookies/MeiTuan/db.py">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/原创工具/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="-134">
+                <caret line="11" selection-start-line="11" selection-end-line="11" />
               </first_editor>
               <second_editor />
             </state>
@@ -117,12 +215,13 @@
         <option value="$PROJECT_DIR$/如何抓手机APP/README.md" />
         <option value="$PROJECT_DIR$/MeiTuan/README.md" />
         <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/原创工具/README.md" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="1848" />
-    <option name="y" value="154" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="427" />
+    <option name="y" value="174" />
     <option name="width" value="1626" />
     <option name="height" value="1027" />
   </component>
@@ -134,6 +233,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -145,7 +245,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -157,15 +256,19 @@
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/MeiTuan" />
-      <recent name="$PROJECT_DIR$" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/原创工具" />
       <recent name="$PROJECT_DIR$/MeiTuan" />
       <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/BaiDu" />
       <recent name="$PROJECT_DIR$/TianYanCha" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/实战教程/爬手机APP" />
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/实战教程" />
+      <recent name="$PROJECT_DIR$/反爬处理案例" />
+      <recent name="$PROJECT_DIR$/MeiTuan" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -368,7 +471,8 @@
       <workItem from="1560147735616" duration="1048000" />
       <workItem from="1560321653731" duration="1008000" />
       <workItem from="1560482528451" duration="1940000" />
-      <workItem from="1560756133472" duration="1877000" />
+      <workItem from="1560756133472" duration="2430000" />
+      <workItem from="1560867462707" duration="825000" />
     </task>
     <task id="LOCAL-00001" summary="add new taobao login2">
       <created>1554951565001</created>
@@ -409,10 +513,10 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="114745000" />
+    <option name="totallyTimeSpent" value="116123000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1848" y="154" width="1626" height="1027" extended-state="0" />
+    <frame x="54" y="23" width="1626" height="1027" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.14698647" />
@@ -448,9 +552,7 @@
     <option name="LAST_COMMIT_MESSAGE" value="update github login demo" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/parse_address_poi.py" />
-    <entry file="file://$PROJECT_DIR$/parse_font_css.py" />
-    <entry file="file://$PROJECT_DIR$/DianPing/parse_address_poi.py">
+    <entry file="file://$PROJECT_DIR$/反爬处理案例/DianPing/parse_address_poi.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="162">
           <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
@@ -459,7 +561,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/GitHub/loginGitHub.html" />
     <entry file="file://$PROJECT_DIR$/tm.html" />
-    <entry file="file://$PROJECT_DIR$/TaoBao/login.py">
+    <entry file="file://$PROJECT_DIR$/反爬处理案例/TaoBao/login.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="72">
           <caret line="4" column="16" selection-start-line="4" selection-start-column="7" selection-end-line="4" selection-end-column="16" />
@@ -467,7 +569,7 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/TaoBao/README.md" />
-    <entry file="file://$PROJECT_DIR$/GitHub/login.py">
+    <entry file="file://$PROJECT_DIR$/反爬处理案例/GitHub/login.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="873">
           <caret line="63" column="52" selection-start-line="63" selection-start-column="14" selection-end-line="63" selection-end-column="52" />
@@ -478,11 +580,11 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/TianYanCha/text.html" />
-    <entry file="file://$PROJECT_DIR$/DianPing/parse_font_css.py">
+    <entry file="file://$PROJECT_DIR$/反爬处理案例/DianPing/parse_font_css.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/51Job/SelectJob.py" />
-    <entry file="file://$PROJECT_DIR$/51Job/select_job.py">
+    <entry file="file://$PROJECT_DIR$/反爬处理案例/51Job/select_job.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="206">
           <caret line="43" column="43" lean-forward="true" selection-start-line="41" selection-start-column="12" selection-end-line="43" selection-end-column="43" />
@@ -494,7 +596,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/MeiTuan/美团.html" />
     <entry file="file://$PROJECT_DIR$/MeiTuan/parse_re_data.py" />
-    <entry file="file://$PROJECT_DIR$/TaoBao/login_for_sina.py">
+    <entry file="file://$PROJECT_DIR$/反爬处理案例/TaoBao/login_for_sina.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="356">
           <caret line="40" column="30" selection-start-line="40" selection-start-column="23" selection-end-line="40" selection-end-column="30" />
@@ -504,7 +606,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/MeiTuan/create_food_token.py">
+    <entry file="file://$PROJECT_DIR$/反爬处理案例/MeiTuan/create_food_token.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="324">
           <caret line="18" column="24" lean-forward="true" selection-start-line="18" selection-start-column="24" selection-end-line="18" selection-end-column="24" />
@@ -518,7 +620,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/TaoBao/login_for_pyppeteer.py">
+    <entry file="file://$PROJECT_DIR$/反爬处理案例/TaoBao/login_for_pyppeteer.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="360">
           <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
@@ -537,7 +639,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/UtilPackage.py" />
     <entry file="file://$PROJECT_DIR$/test.html" />
-    <entry file="file://$PROJECT_DIR$/MeiTuan/parse_play_areas.py">
+    <entry file="file://$PROJECT_DIR$/反爬处理案例/MeiTuan/parse_play_areas.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="717">
           <caret line="59" selection-start-line="59" selection-end-line="63" selection-end-column="8" />
@@ -551,7 +653,7 @@
     <entry file="file://$PROJECT_DIR$/Geetest/geetest.py" />
     <entry file="file://$PROJECT_DIR$/test.py" />
     <entry file="file://$PROJECT_DIR$/MeiTuan/hotel_info.py" />
-    <entry file="file://$PROJECT_DIR$/bilibili/video_download.py">
+    <entry file="file://$PROJECT_DIR$/反爬处理案例/bilibili/video_download.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
           <caret line="17" column="28" selection-start-line="17" selection-start-column="28" selection-end-line="17" selection-end-column="28" />
@@ -561,7 +663,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/TaoBao/auto_login_pyppeteer.py">
+    <entry file="file://$PROJECT_DIR$/反爬处理案例/TaoBao/auto_login_pyppeteer.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="234">
           <caret line="16" selection-start-line="16" selection-end-line="16" />
@@ -571,7 +673,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/MeiTuan/parse_food_info.py">
+    <entry file="file://$PROJECT_DIR$/反爬处理案例/MeiTuan/parse_food_info.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="360">
           <caret line="22" selection-start-line="22" selection-end-line="22" />
@@ -582,14 +684,14 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/MeiTuan/MeiTuanArea/.idea/vcs.xml" />
-    <entry file="file://$PROJECT_DIR$/MeiTuanArea/.idea/vcs.xml">
+    <entry file="file://$PROJECT_DIR$/反爬处理案例/MeiTuanArea/.idea/vcs.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
           <caret line="5" column="10" lean-forward="true" selection-start-line="5" selection-start-column="10" selection-end-line="5" selection-end-column="10" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/MeiTuan/get_login_cookies.py">
+    <entry file="file://$PROJECT_DIR$/反爬处理案例/MeiTuan/get_login_cookies.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="99">
           <caret line="10" column="25" selection-start-line="10" selection-start-column="25" selection-end-line="10" selection-end-column="25" />
@@ -599,7 +701,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/MeiTuanArea/README.md">
+    <entry file="file://$PROJECT_DIR$/反爬处理案例/MeiTuanArea/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="270">
@@ -610,14 +712,14 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/TianYanCha/pyppeteer_login.py" />
-    <entry file="file://$PROJECT_DIR$/MeiTuanArea/MeiTuanArea/settings.py">
+    <entry file="file://$PROJECT_DIR$/反爬处理案例/MeiTuanArea/MeiTuanArea/settings.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="630">
           <caret line="35" column="21" selection-start-line="35" selection-start-column="21" selection-end-line="35" selection-end-column="21" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/BaiDu/translation.py">
+    <entry file="file://$PROJECT_DIR$/反爬处理案例/BaiDu/translation.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="196">
           <caret line="14" column="43" selection-start-line="14" selection-start-column="4" selection-end-line="14" selection-end-column="43" />
@@ -627,7 +729,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/KuaiDi/kuaidi110.py">
+    <entry file="file://$PROJECT_DIR$/反爬处理案例/KuaiDi/kuaidi110.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="546">
           <caret line="51" column="37" selection-start-line="51" selection-start-column="23" selection-end-line="51" selection-end-column="37" />
@@ -646,7 +748,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/MeiTuan/parse_play_info.py">
+    <entry file="file://$PROJECT_DIR$/反爬处理案例/MeiTuan/parse_play_info.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="835">
           <caret line="60" column="27" lean-forward="true" selection-start-line="38" selection-start-column="4" selection-end-line="60" selection-end-column="27" />
@@ -656,7 +758,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/KuaiDi/make.js">
+    <entry file="file://$PROJECT_DIR$/反爬处理案例/KuaiDi/make.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="378">
           <caret line="21" column="20" selection-start-line="21" selection-start-column="20" selection-end-line="21" selection-end-column="20" />
@@ -664,7 +766,7 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/MeiTuan/test.py" />
-    <entry file="file://$PROJECT_DIR$/MeiTuan/parse_hotel_info.py">
+    <entry file="file://$PROJECT_DIR$/反爬处理案例/MeiTuan/parse_hotel_info.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="459">
           <caret line="57" column="46" selection-start-line="57" selection-start-column="46" selection-end-line="57" selection-end-column="46" />
@@ -674,7 +776,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/MeiTuan/parse_food_comments.py">
+    <entry file="file://$PROJECT_DIR$/反爬处理案例/MeiTuan/parse_food_comments.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="216">
           <caret line="12" column="32" lean-forward="true" selection-start-line="12" selection-start-column="32" selection-end-line="12" selection-end-column="32" />
@@ -684,7 +786,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/MeiTuan/parse_hotel_comments.py">
+    <entry file="file://$PROJECT_DIR$/反爬处理案例/MeiTuan/parse_hotel_comments.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="731">
           <caret line="41" column="2" lean-forward="true" selection-start-line="41" selection-start-column="2" selection-end-line="41" selection-end-column="2" />
@@ -694,7 +796,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/TianYanCha/login.py">
+    <entry file="file://$PROJECT_DIR$/反爬处理案例/TianYanCha/login.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="971">
           <caret line="55" column="28" selection-start-line="55" selection-start-column="28" selection-end-line="55" selection-end-column="28" />
@@ -704,7 +806,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/KuaiDi/AiCha.py">
+    <entry file="file://$PROJECT_DIR$/反爬处理案例/KuaiDi/AiCha.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="252">
           <caret line="14" column="36" selection-start-line="14" selection-start-column="36" selection-end-line="14" selection-end-column="36" />
@@ -714,17 +816,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/如何抓手机APP/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="288">
-            <caret line="16" column="16" lean-forward="true" selection-start-line="16" selection-start-column="16" selection-end-line="16" selection-end-column="16" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/MeiTuan/README.md">
+    <entry file="file://$PROJECT_DIR$/反爬处理案例/MeiTuan/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="234">
@@ -734,11 +826,34 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/实战教程/爬手机APP/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="288">
+            <caret line="16" column="16" lean-forward="true" selection-start-line="16" selection-start-column="16" selection-end-line="16" selection-end-column="16" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/原创工具/Cookies/MeiTuan/db.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/原创工具/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="-134">
+            <caret line="11" selection-start-line="11" selection-end-line="11" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="270">
-            <caret line="15" column="30" lean-forward="true" selection-start-line="15" selection-start-column="30" selection-end-line="15" selection-end-column="30" />
+          <first_editor relative-caret-position="558">
+            <caret line="31" column="84" selection-start-line="31" selection-start-column="84" selection-end-line="31" selection-end-column="84" />
           </first_editor>
           <second_editor />
         </state>

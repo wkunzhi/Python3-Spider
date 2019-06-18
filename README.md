@@ -6,7 +6,7 @@
 ![](https://zok-blog.oss-cn-hangzhou.aliyuncs.com/ico/selenium-3.141.0-yellew.svg) 
 ![](https://zok-blog.oss-cn-hangzhou.aliyuncs.com/ico/Pyppeteer-0.0.25-orange.svg) 
 
-Anti - crawling website crack Demo, we hope to update together
+
 
 
 | Author  | Zok |
@@ -21,18 +21,18 @@ Anti - crawling website crack Demo, we hope to update together
 记录并分享进步的过程
 
 ## 一、反爬处理案例
-- [x] [【大众点评】字体 | 坐标解密](https://github.com/wkunzhi/SpiderCrackDemo/tree/master/DianPing)
-- [x] [【bilibili】视频下载器](https://github.com/wkunzhi/SpiderCrackDemo/tree/master/bilibili)
-- [x] [【GitHub】自动登陆](https://github.com/wkunzhi/SpiderCrackDemo/tree/master/GitHub)
-- [x] [【淘宝】自动登陆 | 过检测](https://github.com/wkunzhi/SpiderCrackDemo/tree/master/TaoBao)
-- [x] [【百度】翻译](https://github.com/wkunzhi/SpiderCrackDemo/tree/master/BaiDu)
-- [x] [【51job】查岗位](https://github.com/wkunzhi/SpiderCrackDemo/tree/master/51Job)
-- [x] [【美团】解析数据 | token生成器](https://github.com/wkunzhi/SpiderCrackDemo/tree/master/MeiTuan/parse_food_comments.py)
-- [x] [【美团】全国区域爬虫](https://github.com/wkunzhi/SpiderCrackDemo/tree/master/MeiTuanArea)
-- [x] [【快递查询】-快递单号查询](https://github.com/wkunzhi/SpiderCrackDemo/tree/master/KuaiDi)
+- [x] [【大众点评】字体 | 坐标解密](https://github.com/wkunzhi/SpiderCrackDemo/tree/master/反爬处理案例/DianPing)
+- [x] [【bilibili】视频下载器](https://github.com/wkunzhi/SpiderCrackDemo/tree/master/反爬处理案例/bilibili)
+- [x] [【GitHub】自动登陆](https://github.com/wkunzhi/SpiderCrackDemo/tree/master/反爬处理案例/GitHub)
+- [x] [【淘宝】自动登陆 | 过检测](https://github.com/wkunzhi/SpiderCrackDemo/tree/master/反爬处理案例/TaoBao)
+- [x] [【百度】翻译](https://github.com/wkunzhi/SpiderCrackDemo/tree/master/反爬处理案例/BaiDu)
+- [x] [【51job】查岗位](https://github.com/wkunzhi/SpiderCrackDemo/tree/master/反爬处理案例/51Job)
+- [x] [【美团】解析数据 | token生成器](https://github.com/wkunzhi/SpiderCrackDemo/tree/master/反爬处理案例/MeiTuan)
+- [x] [【美团】全国区域爬虫](https://github.com/wkunzhi/SpiderCrackDemo/tree/master/反爬处理案例/MeiTuanArea)
+- [x] [【快递查询】-快递单号查询](https://github.com/wkunzhi/SpiderCrackDemo/tree/master/反爬处理案例/KuaiDi)
 
 ## 二、教程
-- [【APP抓包】](https://github.com/wkunzhi/SpiderCrackDemo/tree/master/如何抓包手机APP)
+- [【APP抓包】](https://github.com/wkunzhi/SpiderCrackDemo/tree/master/如何抓手机APP)
 
 
 ## 三、原创工具
@@ -47,7 +47,7 @@ Anti - crawling website crack Demo, we hope to update together
 
 
 ## 四、练手项目
-
+- [【补充中】](https://github.com/wkunzhi)
 
 
 -------
@@ -86,51 +86,3 @@ Anti - crawling website crack Demo, we hope to update together
     └── select_job.py                   // 编码转换，岗位查询
 
 ```
-
-
-<hr>
-
-
-
-# The sample picture
-- [x] **快递单号快速查询**
-
-![image](https://www.zhangkunzhi.com/images/快递单号查询.png)
-
-
-- [x] **美团三级区域解析器**
-
-![image](https://www.zhangkunzhi.com/images/区域解析.png)
-![image](https://www.zhangkunzhi.com/images/json格式化.png)
-
-------
-
-- [x] **美团休闲娱乐商铺信息**
-
-![image](https://www.zhangkunzhi.com/images/休闲娱乐.png)
-
-------
-
-- [x] **TB过检测登陆**
-
-![image](https://www.zhangkunzhi.com/images/WX20190423-220327.png)
-
-------
-
-- [x] **美团餐饮数据解析**
-
-![image](https://zok-blog.oss-cn-hangzhou.aliyuncs.com/gif/%E7%BE%8E%E5%9B%A2%E9%A4%90%E9%A6%86%E6%95%B0%E6%8D%AE%E6%BC%94%E7%A4%BA.gif)
-
-------
-
-- [x] **51job查岗位**
-
-![image](https://zok-blog.oss-cn-hangzhou.aliyuncs.com/images/WX20190415-210839%402x.png)
-
-------
-
-- [x] **美团评论解析**
-
-![image](https://zok-blog.oss-cn-hangzhou.aliyuncs.com/images/%E7%BE%8E%E5%9B%A2%E8%AF%84%E8%AE%BA.png)
-
-------
