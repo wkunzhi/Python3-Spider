@@ -1,7 +1,9 @@
+[**博客链接**](https://blog.zhangkunzhi.com/2019/06/19/APP%E7%88%AC%E8%99%AB%E4%B9%8B%E6%A1%86%E6%9E%B6Airtest/index.html)
+
 
 ![](https://www.zhangkunzhi.com/images/效果图.gif)
 # Airtest 简介
-[**我的博客**](https://www.zhangkunzhi.com)
+
 
 > 目前app自动化爬虫最常用的 自动化工具就是[**Appium**](http://appium.io/)， 但是今天给大家介绍另外一款有网易开发的自动化框架  [**Airtest**](http://airtest.netease.com/)
 
