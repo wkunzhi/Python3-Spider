@@ -8,6 +8,7 @@
 - [x] [代理IP-快代理池监控器](https://github.com/wkunzhi/SpiderUtilPackage/tree/master/Proxy)
 - [x] [cookies获取-pyppeteer获取美团登陆cookies](https://github.com/wkunzhi/SpiderUtilPackage/tree/master/Cookies)
 - [x] [跨数据库迁移器-开发中](https://github.com/wkunzhi/SpiderUtilPackage/tree/master/DataMigration)
+- [x] [网络图片并发直传OSS](https://github.com/wkunzhi/SpiderUtilPackage/tree/master/OSS)
 
 
 <hr>

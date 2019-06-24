@@ -43,6 +43,7 @@
 - [【付费代理IP池】监控维护器](https://github.com/wkunzhi/SpiderUtilPackage/tree/master/Proxy)
 - [【cookies池】-美团cookies池](https://github.com/wkunzhi/SpiderUtilPackage/tree/master/Cookies)
 - [【跨数据库迁移器】-开发中](https://github.com/wkunzhi/SpiderUtilPackage/tree/master/DataMigration)
+- [【网络图片并发直传OSS】](https://github.com/wkunzhi/SpiderUtilPackage/tree/master/OSS)
 
 
 
