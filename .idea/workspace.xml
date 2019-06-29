@@ -2,8 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="993ad7df-9322-474e-a108-80fdc8d77ae5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/原创工具/Decode/RSA_Decode.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/原创工具/Jsencrypt/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/原创工具/Jsencrypt/make_encrypt.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/原创工具/Decode/RSA_Decode.py" beforeDir="false" afterPath="$PROJECT_DIR$/原创工具/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/原创工具/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/原创工具/README.md" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -20,6 +24,7 @@
     <SUITE FILE_PATH="coverage/SpideCrackDemo$parse_hotel_info.coverage" NAME="parse_hotel_info Coverage Results" MODIFIED="1559783484837" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/MeiTuan" />
     <SUITE FILE_PATH="coverage/SpideCrackDemo$select_job.coverage" NAME="select_job Coverage Results" MODIFIED="1555334429591" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/51Job" />
     <SUITE FILE_PATH="coverage/SpideCrackDemo$get_login_cookies.coverage" NAME="get_login_cookies Coverage Results" MODIFIED="1558406237289" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/MeiTuan" />
+    <SUITE FILE_PATH="coverage/SpideCrackDemo$RSA_Decode.coverage" NAME="RSA_Decode Coverage Results" MODIFIED="1561770495620" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/原创工具/Decode" />
     <SUITE FILE_PATH="coverage/SpideCrackDemo$login.coverage" NAME="login Coverage Results" MODIFIED="1554964154732" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/GitHub" />
     <SUITE FILE_PATH="coverage/SpideCrackDemo$parse_play_areas.coverage" NAME="parse_play_areas Coverage Results" MODIFIED="1557048357726" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/MeiTuan" />
     <SUITE FILE_PATH="coverage/SpideCrackDemo$parse_comments.coverage" NAME="parse_comments Coverage Results" MODIFIED="1556957816127" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/MeiTuan" />
@@ -32,12 +37,12 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="540">
-                <caret line="30" column="46" selection-start-line="30" selection-start-column="46" selection-end-line="30" selection-end-column="46" />
+              <first_editor relative-caret-position="846">
+                <caret line="47" lean-forward="true" selection-start-line="47" selection-end-line="47" />
               </first_editor>
               <second_editor />
             </state>
@@ -70,19 +75,10 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/原创工具/Decode/RSA_Decode.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="72">
-              <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/反爬处理案例/KuaiDi/kuaidi110.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="900">
+            <state relative-caret-position="918">
               <caret line="51" column="37" selection-start-line="51" selection-start-column="23" selection-end-line="51" selection-end-column="37" />
               <folding>
                 <element signature="e#96#111#0" expanded="true" />
@@ -95,12 +91,17 @@
         <entry file="file://$PROJECT_DIR$/原创工具/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="180">
-                <caret line="10" column="31" selection-start-line="10" selection-start-column="31" selection-end-line="10" selection-end-column="31" />
+              <first_editor relative-caret-position="198">
+                <caret line="11" column="90" selection-start-line="11" selection-start-column="90" selection-end-line="11" selection-end-column="90" />
               </first_editor>
               <second_editor />
             </state>
           </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/原创工具/Jsencrypt/__init__.py">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
     </leaf>
@@ -179,9 +180,9 @@
         <option value="$PROJECT_DIR$/爬虫项目/README.md" />
         <option value="$PROJECT_DIR$/实战教程/爬手机APP/新型框架Airtest.md" />
         <option value="$PROJECT_DIR$/实战教程/爬手机APP/框架Airtest.md" />
+        <option value="$PROJECT_DIR$/原创工具/Decode/RSA_Decode.py" />
         <option value="$PROJECT_DIR$/原创工具/README.md" />
         <option value="$PROJECT_DIR$/README.md" />
-        <option value="$PROJECT_DIR$/原创工具/Decode/RSA_Decode.py" />
       </list>
     </option>
   </component>
@@ -199,7 +200,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -207,21 +207,11 @@
               <item name="SpideCrackDemo" type="b2602c69:ProjectViewProjectNode" />
               <item name="SpideCrackDemo" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="SpideCrackDemo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SpideCrackDemo" type="462c0819:PsiDirectoryNode" />
-              <item name="原创工具" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SpideCrackDemo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SpideCrackDemo" type="462c0819:PsiDirectoryNode" />
-              <item name="原创工具" type="462c0819:PsiDirectoryNode" />
-              <item name="Decode" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -233,19 +223,19 @@
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/原创工具/GenerateJsencrypt" />
+      <recent name="$PROJECT_DIR$/教程/爬手机APP" />
+      <recent name="$PROJECT_DIR$/实战教程" />
+      <recent name="$PROJECT_DIR$/实战教程/爬手机APP" />
+      <recent name="$PROJECT_DIR$" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/原创工具" />
       <recent name="$PROJECT_DIR$/MeiTuan" />
       <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/BaiDu" />
       <recent name="$PROJECT_DIR$/TianYanCha" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/教程/爬手机APP" />
-      <recent name="$PROJECT_DIR$/实战教程" />
-      <recent name="$PROJECT_DIR$/实战教程/爬手机APP" />
-      <recent name="$PROJECT_DIR$" />
-      <recent name="$PROJECT_DIR$/反爬处理案例" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -260,7 +250,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.parse_hotel_comments">
+  <component name="RunManager" selected="Python.RSA_Decode">
     <configuration name="AiCha" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="SpideCrackDemo" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -283,7 +273,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="check_express" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="RSA_Decode" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="SpideCrackDemo" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -291,12 +281,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/KuaiDi" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/原创工具/Decode" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/KuaiDi/kuaidi110.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/原创工具/GenerateJsencrypt/make_encrypt.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -373,11 +363,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.RSA_Decode" />
         <item itemvalue="Python.parse_hotel_comments" />
         <item itemvalue="Python.parse_hotel_info" />
         <item itemvalue="Python.test" />
         <item itemvalue="Python.AiCha" />
-        <item itemvalue="Python.check_express" />
       </list>
     </recent_temporary>
   </component>
@@ -459,7 +449,8 @@
       <workItem from="1561339014807" duration="1553000" />
       <workItem from="1561425133077" duration="728000" />
       <workItem from="1561446466537" duration="16000" />
-      <workItem from="1561735682982" duration="45000" />
+      <workItem from="1561735682982" duration="72000" />
+      <workItem from="1561770174933" duration="730000" />
     </task>
     <task id="LOCAL-00001" summary="add new taobao login2">
       <created>1554951565001</created>
@@ -500,10 +491,10 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="121602000" />
+    <option name="totallyTimeSpent" value="122359000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="54" y="23" width="1626" height="1027" extended-state="6" />
+    <frame x="54" y="23" width="1626" height="1027" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24538745" />
@@ -511,7 +502,7 @@
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" visible="true" weight="0.3294979" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.3033473" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3033473" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39958158" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -539,7 +530,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="update github login demo" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/TianYanCha/text.html" />
     <entry file="file://$PROJECT_DIR$/反爬处理案例/DianPing/parse_font_css.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -811,16 +801,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="540">
-            <caret line="30" column="46" selection-start-line="30" selection-start-column="46" selection-end-line="30" selection-end-column="46" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/原创工具/OSS/__init__.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -828,26 +808,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
           <caret line="5" selection-start-line="5" selection-end-line="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/反爬处理案例/KuaiDi/kuaidi110.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="900">
-          <caret line="51" column="37" selection-start-line="51" selection-start-column="23" selection-end-line="51" selection-end-column="37" />
-          <folding>
-            <element signature="e#96#111#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/原创工具/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="180">
-            <caret line="10" column="31" selection-start-line="10" selection-start-column="31" selection-end-line="10" selection-end-column="31" />
-          </first_editor>
-          <second_editor />
         </state>
       </provider>
     </entry>
@@ -861,10 +821,43 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/原创工具/Decode/RSA_Decode.py">
+    <entry file="file://$PROJECT_DIR$/反爬处理案例/KuaiDi/kuaidi110.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+        <state relative-caret-position="918">
+          <caret line="51" column="37" selection-start-line="51" selection-start-column="23" selection-end-line="51" selection-end-column="37" />
+          <folding>
+            <element signature="e#96#111#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/原创工具/Jsencrypt/make_encrypt.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="7" column="15" lean-forward="true" selection-start-line="7" selection-start-column="15" selection-end-line="7" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/原创工具/Jsencrypt/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/原创工具/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="198">
+            <caret line="11" column="90" selection-start-line="11" selection-start-column="90" selection-end-line="11" selection-end-column="90" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="846">
+            <caret line="47" lean-forward="true" selection-start-line="47" selection-end-line="47" />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
