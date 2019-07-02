@@ -33,7 +33,7 @@
 
 ## 二、教程
 - [【APP抓包】](https://github.com/wkunzhi/SpiderCrackDemo/tree/master/如何抓手机APP)
-
+- [【爬虫相关博客公众号推荐】](https://github.com/wkunzhi/SpiderCrackDemo/blob/master/%E6%95%99%E7%A8%8B/%E5%8D%9A%E5%AE%A2%E5%85%AC%E4%BC%97%E5%8F%B7%E6%8E%A8%E8%8D%90.md)
 
 ## 三、原创工具
 > 此工具包在我另外一个项目中，欢迎 star
