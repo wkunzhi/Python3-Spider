@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="993ad7df-9322-474e-a108-80fdc8d77ae5" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/教程/Pyppeteer/pyppeteer基础.md" beforeDir="false" afterPath="$PROJECT_DIR$/教程/Pyppeteer/pyppeteer基础.md" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -36,8 +38,8 @@
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="132">
-                <caret line="35" column="158" selection-start-line="35" selection-start-column="158" selection-end-line="35" selection-end-column="158" />
+              <first_editor relative-caret-position="771">
+                <caret line="97" column="13" selection-start-line="97" selection-start-column="13" selection-end-line="97" selection-end-column="13" />
               </first_editor>
               <second_editor />
             </state>
@@ -48,8 +50,20 @@
         <entry file="file://$PROJECT_DIR$/教程/博客公众号推荐.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="216">
-                <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+              <first_editor relative-caret-position="306">
+                <caret line="17" column="30" lean-forward="true" selection-start-line="17" selection-start-column="30" selection-end-line="17" selection-end-column="30" />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/教程/Pyppeteer/pyppeteer基础.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="967">
+                <caret line="135" column="156" selection-start-line="135" selection-start-column="156" selection-end-line="135" selection-end-column="156" />
               </first_editor>
               <second_editor />
             </state>
@@ -60,7 +74,7 @@
         <entry file="file://$PROJECT_DIR$/反爬处理案例/KuaiDi/kuaidi110.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="324">
-              <caret line="19" column="41" lean-forward="true" selection-start-line="19" selection-start-column="41" selection-end-line="19" selection-end-column="41" />
+              <caret line="19" column="41" selection-start-line="19" selection-start-column="41" selection-end-line="19" selection-end-column="41" />
               <folding>
                 <element signature="e#96#111#0" expanded="true" />
               </folding>
@@ -148,6 +162,7 @@
         <option value="$PROJECT_DIR$/原创工具/README.md" />
         <option value="$PROJECT_DIR$/教程/博客推荐.md" />
         <option value="$PROJECT_DIR$/教程/博客公众号推荐.md" />
+        <option value="$PROJECT_DIR$/教程/Pyppeteer/pyppeteer基础.md" />
         <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
@@ -166,6 +181,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -173,16 +189,10 @@
               <item name="SpideCrackDemo" type="b2602c69:ProjectViewProjectNode" />
               <item name="SpideCrackDemo" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="SpideCrackDemo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SpideCrackDemo" type="462c0819:PsiDirectoryNode" />
-              <item name="教程" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -194,19 +204,19 @@
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/教程/Pyppeteer" />
+      <recent name="$PROJECT_DIR$/原创工具" />
+      <recent name="$PROJECT_DIR$/MeiTuan" />
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/BaiDu" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/原创工具/GenerateJsencrypt" />
       <recent name="$PROJECT_DIR$/教程/爬手机APP" />
       <recent name="$PROJECT_DIR$/实战教程" />
       <recent name="$PROJECT_DIR$/实战教程/爬手机APP" />
       <recent name="$PROJECT_DIR$" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/原创工具" />
-      <recent name="$PROJECT_DIR$/MeiTuan" />
-      <recent name="$PROJECT_DIR$" />
-      <recent name="$PROJECT_DIR$/BaiDu" />
-      <recent name="$PROJECT_DIR$/TianYanCha" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -423,7 +433,8 @@
       <workItem from="1561735682982" duration="72000" />
       <workItem from="1561770174933" duration="781000" />
       <workItem from="1561945280886" duration="2137000" />
-      <workItem from="1562029635561" duration="1221000" />
+      <workItem from="1562029635561" duration="1267000" />
+      <workItem from="1562116142367" duration="523000" />
     </task>
     <task id="LOCAL-00001" summary="add new taobao login2">
       <created>1554951565001</created>
@@ -464,7 +475,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="125768000" />
+    <option name="totallyTimeSpent" value="126337000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1680" y="23" width="1920" height="1057" extended-state="6" />
@@ -503,7 +514,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="update github login demo" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/51Job/SelectJob.py" />
     <entry file="file://$PROJECT_DIR$/反爬处理案例/51Job/select_job.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="206">
@@ -814,7 +824,7 @@
     <entry file="file://$PROJECT_DIR$/反爬处理案例/KuaiDi/kuaidi110.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="324">
-          <caret line="19" column="41" lean-forward="true" selection-start-line="19" selection-start-column="41" selection-end-line="19" selection-end-column="41" />
+          <caret line="19" column="41" selection-start-line="19" selection-start-column="41" selection-end-line="19" selection-end-column="41" />
           <folding>
             <element signature="e#96#111#0" expanded="true" />
           </folding>
@@ -824,8 +834,18 @@
     <entry file="file://$PROJECT_DIR$/教程/博客公众号推荐.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="216">
-            <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+          <first_editor relative-caret-position="306">
+            <caret line="17" column="30" lean-forward="true" selection-start-line="17" selection-start-column="30" selection-end-line="17" selection-end-column="30" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/教程/Pyppeteer/pyppeteer基础.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="967">
+            <caret line="135" column="156" selection-start-line="135" selection-start-column="156" selection-end-line="135" selection-end-column="156" />
           </first_editor>
           <second_editor />
         </state>
@@ -834,8 +854,8 @@
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="132">
-            <caret line="35" column="158" selection-start-line="35" selection-start-column="158" selection-end-line="35" selection-end-column="158" />
+          <first_editor relative-caret-position="771">
+            <caret line="97" column="13" selection-start-line="97" selection-start-column="13" selection-end-line="97" selection-end-column="13" />
           </first_editor>
           <second_editor />
         </state>

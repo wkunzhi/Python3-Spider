@@ -33,6 +33,7 @@
 
 ## 二、教程
 - [【APP抓包】](https://github.com/wkunzhi/SpiderCrackDemo/tree/master/如何抓手机APP)
+- [【Pyppeteer】](https://github.com/wkunzhi/SpiderCrackDemo/tree/master/%E6%95%99%E7%A8%8B/Pyppeteer)
 - [【爬虫相关博客公众号推荐】](https://github.com/wkunzhi/SpiderCrackDemo/blob/master/%E6%95%99%E7%A8%8B/%E5%8D%9A%E5%AE%A2%E5%85%AC%E4%BC%97%E5%8F%B7%E6%8E%A8%E8%8D%90.md)
 
 ## 三、原创工具
@@ -85,14 +86,33 @@
 │   └── login.py                        // 视频下载器
 ├── MeiTuanArea                         // -------基于美团全国区域采集器-------
 ├── KuaiDi                              // -------快递单号快速查询-------
-│── 51Job                               // -------51job-------
-│   └── select_job.py                   // 编码转换，岗位查询
-│
+└── 51Job                               // -------51job-------
+    └── select_job.py                   // 编码转换，岗位查询
+
 
 教程    
 │
-├── 教程
-│   └── 爬手机APP
-│        ├── 自动化框架Airtest.md
-│        └── 抓包工具.md  
+├── 爬手机APP
+│    ├── 自动化框架Airtest.md
+│    └── 抓包工具.md 
+├── pyppeteer
+└── 爬虫相关博客公众号推荐   
+
+
+原创工具
+├── Proxy                               //      代理工具包 
+│   ├── ZhiMaProxyPool.py               // 芝麻代理ip清洗工具
+│   ├── ZhiMaProxyUseDemo.py            // 芝麻代理池客户端使用Demo
+│   ├── XDLProxyPool.py                 // 讯代理ip清洗工具
+│   └── XDLProxyUseDemo.py              // 讯代理池客户端使用Demo
+├── Register                            //      注册类工具
+│   └── MessageCode.py                  // 异步验证短信接收器
+├── Cookies                             //      Cookies获取
+│   └── MeiTuan                         // 异步并发批量获取美团登陆Cookies
+├── DataMigration                       //      跨数据库迁移
+│   ├── db                              // 基础数据库封装包
+│   └── migration                       // 迁移器
+├── Decode                              //      可拓展式解密器
+├── Jsencrypt                           //      自动生成encrypt加密
+└── README.md
 ```

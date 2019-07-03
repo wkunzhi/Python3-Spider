@@ -1,20 +1,3 @@
----
-title: Pyppeteer简介与案例
-date: 2019-04-23 22:29:25
-tags:
-- Pyppeteer
-categories:
-- 爬虫工具|框架
-- Pyppeteer
-photos: 
-    - "https://www.zhangkunzhi.com/images/pyppeteer_meitu_1.png"
----
-
-{% centerquote %}
-Pyppeteer是Puppeteer的非官方Python支持，Puppeteer是一个无头自动化库，用于对渲染网页的抓取
-{% endcenterquote %}
-
-<!-- more -->
 
 
 # Puppeteer 与 Pyppeteer
@@ -150,4 +133,4 @@ browser = await launch(headless=False,  userDataDir='./userdata', args=['--disab
 browser = await launch(headless=False, userDataDir='./userdata', args=['--disable-infobars'])  # 设置缓存目录./userdata  
 ```
 
-[**淘宝登陆案例Demo**](https://github.com/wkunzhi/SpiderCrackDemo/blob/master/TaoBao/login_for_pyppeteer.py)
+[**淘宝登陆案例Demo**](https://github.com/wkunzhi/SpiderCrackDemo/blob/master/%E5%8F%8D%E7%88%AC%E5%A4%84%E7%90%86%E6%A1%88%E4%BE%8B/TaoBao/login_for_pyppeteer.py)
