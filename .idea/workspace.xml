@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="993ad7df-9322-474e-a108-80fdc8d77ae5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/教程/Pyppeteer/TouTiao.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/教程/Pyppeteer/Demo.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -26,6 +25,7 @@
     <SUITE FILE_PATH="coverage/SpideCrackDemo$login.coverage" NAME="login Coverage Results" MODIFIED="1554964154732" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/GitHub" />
     <SUITE FILE_PATH="coverage/SpideCrackDemo$parse_play_areas.coverage" NAME="parse_play_areas Coverage Results" MODIFIED="1557048357726" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/MeiTuan" />
     <SUITE FILE_PATH="coverage/SpideCrackDemo$parse_comments.coverage" NAME="parse_comments Coverage Results" MODIFIED="1556957816127" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/MeiTuan" />
+    <SUITE FILE_PATH="coverage/SpideCrackDemo$Demo.coverage" NAME="Demo Coverage Results" MODIFIED="1562501704284" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/教程/Pyppeteer" />
     <SUITE FILE_PATH="coverage/SpideCrackDemo$AiCha.coverage" NAME="AiCha Coverage Results" MODIFIED="1559228776571" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/KuaiDi" />
     <SUITE FILE_PATH="coverage/SpideCrackDemo$create_food_token.coverage" NAME="create_food_token Coverage Results" MODIFIED="1555852126881" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/MeiTuan" />
     <SUITE FILE_PATH="coverage/SpideCrackDemo$parse_restaurant_info.coverage" NAME="parse_restaurant_info Coverage Results" MODIFIED="1555897399602" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/MeiTuan" />
@@ -35,14 +35,26 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="550">
-                <caret line="38" column="9" lean-forward="true" selection-start-line="38" selection-start-column="9" selection-end-line="38" selection-end-column="9" />
+              <first_editor relative-caret-position="64">
+                <caret line="11" column="17" lean-forward="true" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
               </first_editor>
               <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/教程/Pyppeteer/Demo.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="126">
+              <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+              <folding>
+                <element signature="e#96#110#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -51,7 +63,7 @@
         <entry file="file://$PROJECT_DIR$/教程/Pyppeteer/BaiDuTest.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="108">
-              <caret line="6" column="28" lean-forward="true" selection-start-line="6" selection-start-column="28" selection-end-line="6" selection-end-column="28" />
+              <caret line="6" column="28" selection-start-line="6" selection-start-column="28" selection-end-line="6" selection-end-column="28" />
               <folding>
                 <element signature="e#96#107#0" expanded="true" />
               </folding>
@@ -63,7 +75,7 @@
         <entry file="file://$PROJECT_DIR$/教程/Pyppeteer/TouTiao.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="396">
-              <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
+              <caret line="23" selection-start-line="23" selection-end-line="23" />
             </state>
           </provider>
         </entry>
@@ -125,7 +137,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/pares.py" />
         <option value="$PROJECT_DIR$/pares_demo.py" />
         <option value="$PROJECT_DIR$/parse_css.py" />
         <option value="$PROJECT_DIR$/TaoBao/login.py" />
@@ -176,6 +187,7 @@
         <option value="$PROJECT_DIR$/教程/Pyppeteer/BaiDuTest.py" />
         <option value="$PROJECT_DIR$/教程/Pyppeteer/TouTiao.py" />
         <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/教程/Pyppeteer/Demo.py" />
       </list>
     </option>
   </component>
@@ -254,7 +266,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.BaiDuTest">
+  <component name="RunManager" selected="Python.Demo">
     <configuration name="BaiDuTest" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="SpideCrackDemo" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -269,6 +281,28 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/教程/Pyppeteer/BaiDuTest.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Demo" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="SpideCrackDemo" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/教程/Pyppeteer" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/教程/Pyppeteer/RunJs.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -343,35 +377,13 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="test" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="SpideCrackDemo" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/MeiTuan" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/MeiTuan/test.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.Demo" />
         <item itemvalue="Python.BaiDuTest" />
         <item itemvalue="Python.RSA_Decode" />
         <item itemvalue="Python.parse_hotel_comments" />
         <item itemvalue="Python.parse_hotel_info" />
-        <item itemvalue="Python.test" />
       </list>
     </recent_temporary>
   </component>
@@ -459,7 +471,8 @@
       <workItem from="1562029635561" duration="1267000" />
       <workItem from="1562116142367" duration="833000" />
       <workItem from="1562203006378" duration="323000" />
-      <workItem from="1562289212338" duration="2234000" />
+      <workItem from="1562289212338" duration="2298000" />
+      <workItem from="1562462953706" duration="239000" />
     </task>
     <task id="LOCAL-00001" summary="add new taobao login2">
       <created>1554951565001</created>
@@ -500,7 +513,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="129204000" />
+    <option name="totallyTimeSpent" value="129507000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="54" y="23" width="1626" height="1027" extended-state="6" />
@@ -511,7 +524,7 @@
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" visible="true" weight="0.3294979" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.30324543" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.30230126" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39958158" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -539,7 +552,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="update github login demo" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/MeiTuan/parse_re_data.py" />
     <entry file="file://$PROJECT_DIR$/反爬处理案例/TaoBao/login_for_sina.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="356">
@@ -835,20 +847,30 @@
     <entry file="file://$PROJECT_DIR$/原创工具/OSS/__init__.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/反爬处理案例/KuaiDi/kuaidi110.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="19" column="41" selection-start-line="19" selection-start-column="41" selection-end-line="19" selection-end-column="41" />
-          <folding>
-            <element signature="e#96#111#0" expanded="true" />
-          </folding>
+    <entry file="file://$PROJECT_DIR$/教程/Pyppeteer/pyppeteer基础.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="856">
+            <caret line="135" column="156" selection-start-line="135" selection-start-column="156" selection-end-line="135" selection-end-column="156" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="64">
+            <caret line="11" column="17" lean-forward="true" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/教程/Pyppeteer/BaiDuTest.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="108">
-          <caret line="6" column="28" lean-forward="true" selection-start-line="6" selection-start-column="28" selection-end-line="6" selection-end-column="28" />
+          <caret line="6" column="28" selection-start-line="6" selection-start-column="28" selection-end-line="6" selection-end-column="28" />
           <folding>
             <element signature="e#96#107#0" expanded="true" />
           </folding>
@@ -858,17 +880,7 @@
     <entry file="file://$PROJECT_DIR$/教程/Pyppeteer/TouTiao.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="396">
-          <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/教程/Pyppeteer/pyppeteer基础.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="856">
-            <caret line="135" column="156" selection-start-line="135" selection-start-column="156" selection-end-line="135" selection-end-column="156" />
-          </first_editor>
-          <second_editor />
+          <caret line="23" selection-start-line="23" selection-end-line="23" />
         </state>
       </provider>
     </entry>
@@ -882,13 +894,23 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="550">
-            <caret line="38" column="9" lean-forward="true" selection-start-line="38" selection-start-column="9" selection-end-line="38" selection-end-column="9" />
-          </first_editor>
-          <second_editor />
+    <entry file="file://$PROJECT_DIR$/反爬处理案例/KuaiDi/kuaidi110.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="19" column="41" selection-start-line="19" selection-start-column="41" selection-end-line="19" selection-end-column="41" />
+          <folding>
+            <element signature="e#96#111#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/教程/Pyppeteer/Demo.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+          <folding>
+            <element signature="e#96#110#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
