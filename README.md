@@ -48,8 +48,9 @@
 - [【JS攻防-自动生成encrypt结果】](https://github.com/wkunzhi/SpiderUtilPackage/tree/master/Jsencrypt)
 
 
-## 四、练手项目
-- [【补充中】](https://github.com/wkunzhi)
+## 四、爬虫项目
+- [x] [【美团】全国区域爬虫](https://github.com/wkunzhi/SpiderCrackDemo/tree/master/爬虫项目/MeiTuanArea)
+
 
 
 -------
@@ -115,4 +116,10 @@
 ├── Decode                              //      可拓展式解密器
 ├── Jsencrypt                           //      自动生成encrypt加密
 └── README.md
+
+
+爬虫项目   
+│
+├── MeiTuanArea                         //美团全国区域采集器(scrapy)
+
 ```
