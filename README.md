@@ -22,6 +22,7 @@
 
 ## 一、反爬处理案例
 - [x] [【大众点评】字体 | 坐标解密](https://github.com/wkunzhi/SpiderCrackDemo/tree/master/反爬处理案例/DianPing)
+- [x] [【RSA | AES | DES | DES3】加密 解密](https://github.com/wkunzhi/SpiderCrackDemo/tree/master/反爬处理案例/RSA_AES_DES_DES3)
 - [x] [【bilibili】视频下载器](https://github.com/wkunzhi/SpiderCrackDemo/tree/master/反爬处理案例/bilibili)
 - [x] [【GitHub】自动登陆](https://github.com/wkunzhi/SpiderCrackDemo/tree/master/反爬处理案例/GitHub)
 - [x] [【淘宝】自动登陆 | 过检测](https://github.com/wkunzhi/SpiderCrackDemo/tree/master/反爬处理案例/TaoBao)
@@ -30,6 +31,7 @@
 - [x] [【美团】解析数据 | token生成器](https://github.com/wkunzhi/SpiderCrackDemo/tree/master/反爬处理案例/MeiTuan)
 - [x] [【美团】全国区域爬虫](https://github.com/wkunzhi/SpiderCrackDemo/tree/master/反爬处理案例/MeiTuanArea)
 - [x] [【快递查询】-快递单号查询](https://github.com/wkunzhi/SpiderCrackDemo/tree/master/反爬处理案例/KuaiDi)
+
 
 ## 二、教程
 - [【APP抓包】](https://github.com/wkunzhi/SpiderCrackDemo/tree/master/如何抓手机APP)
@@ -87,8 +89,9 @@
 │   └── login.py                        // 视频下载器
 ├── MeiTuanArea                         // -------基于美团全国区域采集器-------
 ├── KuaiDi                              // -------快递单号快速查询-------
-└── 51Job                               // -------51job-------
-    └── select_job.py                   // 编码转换，岗位查询
+│── 51Job                               // -------51job-------
+│   └── select_job.py                   // 编码转换，岗位查询
+└── RSA_AES_DES_DES3                    // 主流编码加密解密
 
 
 教程    
