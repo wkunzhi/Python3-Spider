@@ -41,8 +41,8 @@
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="225">
-                <caret line="24" column="10" selection-start-line="24" selection-start-column="10" selection-end-line="24" selection-end-column="10" />
+              <first_editor relative-caret-position="2124">
+                <caret line="118" column="40" lean-forward="true" selection-start-line="118" selection-start-column="40" selection-end-line="118" selection-end-column="40" />
               </first_editor>
               <second_editor />
             </state>
@@ -515,7 +515,7 @@
       <workItem from="1562462953706" duration="544000" />
       <workItem from="1562633389336" duration="158000" />
       <workItem from="1562719265626" duration="2573000" />
-      <workItem from="1562811601879" duration="321000" />
+      <workItem from="1562811601879" duration="387000" />
     </task>
     <task id="LOCAL-00001" summary="add new taobao login2">
       <created>1554951565001</created>
@@ -556,11 +556,10 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="132864000" />
+    <option name="totallyTimeSpent" value="132930000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="54" y="23" width="1626" height="1027" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.100246005" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -934,8 +933,8 @@
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="225">
-            <caret line="24" column="10" selection-start-line="24" selection-start-column="10" selection-end-line="24" selection-end-column="10" />
+          <first_editor relative-caret-position="2124">
+            <caret line="118" column="40" lean-forward="true" selection-start-line="118" selection-start-column="40" selection-end-line="118" selection-end-column="40" />
           </first_editor>
           <second_editor />
         </state>
