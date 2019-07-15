@@ -2,6 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="993ad7df-9322-474e-a108-80fdc8d77ae5" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/爬虫项目/HouseScrapy/requirements" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/爬虫项目/HouseScrapy/scrapy.cfg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/爬虫项目/HouseScrapy/settings.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/爬虫项目/HouseScrapy/spiders/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/爬虫项目/HouseScrapy/spiders/house.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/爬虫项目/HouseScrapy/toolkits/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/爬虫项目/HouseScrapy/toolkits/fake_useragent.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/爬虫项目/HouseScrapy/toolkits/items.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/爬虫项目/HouseScrapy/toolkits/make_ua.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/爬虫项目/HouseScrapy/toolkits/middlewares.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/爬虫项目/HouseScrapy/toolkits/pipelines.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/爬虫项目/HouseScrapy/toolkits/proxies.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -34,7 +46,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
@@ -46,105 +58,18 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/反爬处理案例/RSA_AES_DES_DES3/encryption.py">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/爬虫项目/HouseScrapy/settings.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="324">
-              <caret line="139" selection-start-line="139" selection-end-line="139" />
-              <folding>
-                <element signature="e#96#109#0" expanded="true" />
-                <element signature="e#268#1222#0" />
-                <element signature="e#1243#3467#0" />
-                <element signature="e#3488#4608#0" />
-                <element signature="e#4630#5852#0" />
-                <element signature="e#5878#6011#0" />
-                <element signature="e#6043#6249#0" />
-                <element signature="e#6275#6422#0" />
-                <element signature="e#6456#7149#0" />
-              </folding>
+            <state relative-caret-position="666">
+              <caret line="37" column="7" lean-forward="true" selection-start-line="37" selection-start-column="7" selection-end-line="37" selection-end-column="7" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/教程/Pyppeteer/RunJs.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="414">
-              <caret line="23" selection-start-line="23" selection-end-line="23" />
-              <folding>
-                <element signature="e#96#110#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/教程/JS分析/RSA之encrypt.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="522">
-                <caret line="29" selection-start-line="29" selection-end-line="29" />
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/爬虫项目/README.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor>
-                <caret column="6" selection-start-column="6" selection-end-column="6" />
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/教程/Pyppeteer/BaiDuTest.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="108">
-              <caret line="6" column="28" selection-start-line="6" selection-start-column="28" selection-end-line="6" selection-end-column="28" />
-              <folding>
-                <element signature="e#96#107#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/教程/Pyppeteer/TouTiao.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="396">
-              <caret line="23" selection-start-line="23" selection-end-line="23" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/教程/博客公众号推荐.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="306">
-                <caret line="17" column="30" selection-start-line="17" selection-start-column="30" selection-end-line="17" selection-end-column="30" />
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/反爬处理案例/KuaiDi/kuaidi110.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="342">
-              <caret line="19" column="41" selection-start-line="19" selection-start-column="41" selection-end-line="19" selection-end-column="41" />
-              <folding>
-                <element signature="e#96#111#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
+        <entry file="file://$PROJECT_DIR$/爬虫项目/HouseSpider/db/__init__.py">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
     </leaf>
@@ -180,7 +105,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/TaoBao/login.py" />
         <option value="$PROJECT_DIR$/TaoBao/login2.py" />
         <option value="$PROJECT_DIR$/GitHub/login.py" />
         <option value="$PROJECT_DIR$/TaoBao/README.md" />
@@ -231,6 +155,7 @@
         <option value="$PROJECT_DIR$/爬虫项目/README.md" />
         <option value="$PROJECT_DIR$/反爬处理案例/RSA_AES_DES_DES3/encryption.py" />
         <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/爬虫项目/HouseScrapy/settings.py" />
       </list>
     </option>
   </component>
@@ -255,11 +180,6 @@
               <item name="SpideCrackDemo" type="b2602c69:ProjectViewProjectNode" />
               <item name="SpideCrackDemo" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="SpideCrackDemo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SpideCrackDemo" type="462c0819:PsiDirectoryNode" />
-              <item name="爬虫项目" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -276,19 +196,19 @@
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/爬虫项目" />
-      <recent name="$PROJECT_DIR$/教程/Pyppeteer" />
-      <recent name="$PROJECT_DIR$/原创工具" />
-      <recent name="$PROJECT_DIR$/MeiTuan" />
-      <recent name="$PROJECT_DIR$" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/原创工具/GenerateJsencrypt" />
       <recent name="$PROJECT_DIR$/教程/爬手机APP" />
       <recent name="$PROJECT_DIR$/实战教程" />
       <recent name="$PROJECT_DIR$/实战教程/爬手机APP" />
       <recent name="$PROJECT_DIR$" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/爬虫项目" />
+      <recent name="$PROJECT_DIR$/爬虫项目/HouseSpider" />
+      <recent name="$PROJECT_DIR$/教程/Pyppeteer" />
+      <recent name="$PROJECT_DIR$/原创工具" />
+      <recent name="$PROJECT_DIR$/MeiTuan" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -514,7 +434,8 @@
       <workItem from="1562719265626" duration="2573000" />
       <workItem from="1562811601879" duration="387000" />
       <workItem from="1562994413764" duration="63000" />
-      <workItem from="1563110786902" duration="79000" />
+      <workItem from="1563110786902" duration="424000" />
+      <workItem from="1563199767245" duration="70000" />
     </task>
     <task id="LOCAL-00001" summary="add new taobao login2">
       <created>1554951565001</created>
@@ -555,7 +476,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="133072000" />
+    <option name="totallyTimeSpent" value="133487000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="54" y="23" width="1626" height="1027" extended-state="6" />
@@ -594,25 +515,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="update github login demo" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/反爬处理案例/TaoBao/login_for_pyppeteer.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
-          <folding>
-            <element signature="e#147#161#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/selectors.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
-          <caret line="565" column="28" lean-forward="true" selection-start-line="565" selection-start-column="28" selection-end-line="565" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/UtilPackage.py" />
-    <entry file="file://$PROJECT_DIR$/test.html" />
     <entry file="file://$PROJECT_DIR$/反爬处理案例/MeiTuan/parse_play_areas.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="717">
@@ -845,16 +747,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/爬虫项目/MeiTuanArea/.idea/vcs.xml" />
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="306">
-            <caret line="17" selection-start-line="17" selection-end-line="17" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/反爬处理案例/RSA_AES_DES_DES3/encryption.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="324">
@@ -937,6 +829,37 @@
           <folding>
             <element signature="e#96#111#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/爬虫项目/HouseSpider/db/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/爬虫项目/HouseScrapy/.idea/misc.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/爬虫项目/HouseScrapy/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="306">
+            <caret line="17" selection-start-line="17" selection-end-line="17" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/爬虫项目/HouseScrapy/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="666">
+          <caret line="37" column="7" lean-forward="true" selection-start-line="37" selection-start-column="7" selection-end-line="37" selection-end-column="7" />
         </state>
       </provider>
     </entry>
