@@ -2,19 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="993ad7df-9322-474e-a108-80fdc8d77ae5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/爬虫项目/HouseScrapy/requirements" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/爬虫项目/HouseScrapy/scrapy.cfg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/爬虫项目/HouseScrapy/settings.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/爬虫项目/HouseScrapy/spiders/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/爬虫项目/HouseScrapy/spiders/house.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/爬虫项目/HouseScrapy/toolkits/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/爬虫项目/HouseScrapy/toolkits/fake_useragent.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/爬虫项目/HouseScrapy/toolkits/items.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/爬虫项目/HouseScrapy/toolkits/make_ua.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/爬虫项目/HouseScrapy/toolkits/middlewares.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/爬虫项目/HouseScrapy/toolkits/pipelines.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/爬虫项目/HouseScrapy/toolkits/proxies.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/教程/博客公众号推荐.md" beforeDir="false" afterPath="$PROJECT_DIR$/教程/博客公众号推荐.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/教程/爬手机APP/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/教程/爬手机APP/抓包工具汇总.md" beforeDir="false" afterPath="$PROJECT_DIR$/教程/爬手机APP/抓包分析工具汇总.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/教程/爬手机APP/框架-Airtest.md" beforeDir="false" afterPath="$PROJECT_DIR$/教程/爬手机APP/自动化框架-Airtest.md" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -58,11 +50,23 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/爬虫项目/HouseScrapy/settings.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="666">
-              <caret line="37" column="7" lean-forward="true" selection-start-line="37" selection-start-column="7" selection-end-line="37" selection-end-column="7" />
+            <state relative-caret-position="198">
+              <caret line="11" column="6" lean-forward="true" selection-start-line="11" selection-start-column="6" selection-end-line="11" selection-end-column="6" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/教程/爬手机APP/抓包分析工具汇总.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="288">
+                <caret line="16" column="16" selection-start-line="16" selection-start-column="16" selection-end-line="16" selection-end-column="16" />
+              </first_editor>
+              <second_editor />
             </state>
           </provider>
         </entry>
@@ -70,6 +74,18 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/爬虫项目/HouseSpider/db/__init__.py">
           <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/教程/博客公众号推荐.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="594">
+                <caret line="33" lean-forward="true" selection-start-line="33" selection-end-line="33" />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
         </entry>
       </file>
     </leaf>
@@ -146,7 +162,6 @@
         <option value="$PROJECT_DIR$/原创工具/Decode/RSA_Decode.py" />
         <option value="$PROJECT_DIR$/原创工具/README.md" />
         <option value="$PROJECT_DIR$/教程/博客推荐.md" />
-        <option value="$PROJECT_DIR$/教程/博客公众号推荐.md" />
         <option value="$PROJECT_DIR$/教程/Pyppeteer/pyppeteer基础.md" />
         <option value="$PROJECT_DIR$/教程/Pyppeteer/BaiDuTest.py" />
         <option value="$PROJECT_DIR$/教程/Pyppeteer/TouTiao.py" />
@@ -156,6 +171,7 @@
         <option value="$PROJECT_DIR$/反爬处理案例/RSA_AES_DES_DES3/encryption.py" />
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/爬虫项目/HouseScrapy/settings.py" />
+        <option value="$PROJECT_DIR$/教程/博客公众号推荐.md" />
       </list>
     </option>
   </component>
@@ -179,6 +195,11 @@
             <path>
               <item name="SpideCrackDemo" type="b2602c69:ProjectViewProjectNode" />
               <item name="SpideCrackDemo" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SpideCrackDemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SpideCrackDemo" type="462c0819:PsiDirectoryNode" />
+              <item name="教程" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -435,7 +456,8 @@
       <workItem from="1562811601879" duration="387000" />
       <workItem from="1562994413764" duration="63000" />
       <workItem from="1563110786902" duration="424000" />
-      <workItem from="1563199767245" duration="70000" />
+      <workItem from="1563199767245" duration="387000" />
+      <workItem from="1563376117870" duration="505000" />
     </task>
     <task id="LOCAL-00001" summary="add new taobao login2">
       <created>1554951565001</created>
@@ -476,13 +498,13 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="133487000" />
+    <option name="totallyTimeSpent" value="134309000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="54" y="23" width="1626" height="1027" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.100246005" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.15375154" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -661,29 +683,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/教程/爬手机APP/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor />
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/教程/爬手机APP/框架-Airtest.md">
+    <entry file="file://$PROJECT_DIR$/教程/爬手机APP/自动化框架-Airtest.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
           <first_editor>
             <caret column="117" selection-start-column="117" selection-end-column="117" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/教程/爬手机APP/抓包工具汇总.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="288">
-            <caret line="16" column="16" selection-start-line="16" selection-start-column="16" selection-end-line="16" selection-end-column="16" />
           </first_editor>
           <second_editor />
         </state>
@@ -812,16 +816,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/教程/博客公众号推荐.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="306">
-            <caret line="17" column="30" selection-start-line="17" selection-start-column="30" selection-end-line="17" selection-end-column="30" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/反爬处理案例/KuaiDi/kuaidi110.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="342">
@@ -832,20 +826,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/爬虫项目/HouseSpider/db/__init__.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/爬虫项目/HouseScrapy/.idea/misc.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/爬虫项目/HouseScrapy/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor />
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/爬虫项目/HouseScrapy/.idea/misc.xml" />
+    <entry file="file://$PROJECT_DIR$/爬虫项目/HouseScrapy/README.md" />
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
@@ -856,10 +838,41 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/爬虫项目/HouseSpider/db/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/爬虫项目/HouseScrapy/settings.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="666">
-          <caret line="37" column="7" lean-forward="true" selection-start-line="37" selection-start-column="7" selection-end-line="37" selection-end-column="7" />
+        <state relative-caret-position="198">
+          <caret line="11" column="6" lean-forward="true" selection-start-line="11" selection-start-column="6" selection-end-line="11" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/教程/爬手机APP/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/教程/爬手机APP/抓包分析工具汇总.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="288">
+            <caret line="16" column="16" selection-start-line="16" selection-start-column="16" selection-end-line="16" selection-end-column="16" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/教程/博客公众号推荐.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="594">
+            <caret line="33" lean-forward="true" selection-start-line="33" selection-end-line="33" />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
