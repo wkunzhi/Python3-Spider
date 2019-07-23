@@ -21,6 +21,7 @@
 记录并分享进步的过程
 
 ## 一、反爬处理案例
+- [x] [【拼多多】登陆参数解密](https://github.com/wkunzhi/SpiderCrackDemo/tree/master/反爬处理案例/PinDuoDuo)
 - [x] [【大众点评】字体 | 坐标解密](https://github.com/wkunzhi/SpiderCrackDemo/tree/master/反爬处理案例/DianPing)
 - [x] [【RSA | AES | DES | DES3】加密 解密](https://github.com/wkunzhi/SpiderCrackDemo/tree/master/反爬处理案例/RSA_AES_DES_DES3)
 - [x] [【bilibili】视频下载器](https://github.com/wkunzhi/SpiderCrackDemo/tree/master/反爬处理案例/bilibili)
@@ -64,6 +65,7 @@
 ```
 反爬处理案例
 │
+├── PinDuoDuo                           // -----拼多多解密-----
 ├── DianPing                            // -----大众点评-----
 │   ├── parse_address_poi.py            // 坐标加密
 │   └── parse_font_css.py               // CSS字体解密
