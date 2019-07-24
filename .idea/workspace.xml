@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="993ad7df-9322-474e-a108-80fdc8d77ae5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/反爬处理案例/PinDuoDuo/PinDuoDuo.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/反爬处理案例/PinDuoDuo/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/反爬处理案例/PinDuoDuo/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/反爬处理案例/PinDuoDuo/encryp.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/反爬处理案例/9377/9377login.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/反爬处理案例/9377/__init__.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
@@ -35,17 +33,18 @@
     <SUITE FILE_PATH="coverage/SpideCrackDemo$create_food_token.coverage" NAME="create_food_token Coverage Results" MODIFIED="1555852126881" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/MeiTuan" />
     <SUITE FILE_PATH="coverage/SpideCrackDemo$parse_restaurant_info.coverage" NAME="parse_restaurant_info Coverage Results" MODIFIED="1555897399602" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/MeiTuan" />
     <SUITE FILE_PATH="coverage/SpideCrackDemo$translation.coverage" NAME="translation Coverage Results" MODIFIED="1563459839938" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/原创工具/Decode" />
+    <SUITE FILE_PATH="coverage/SpideCrackDemo$9377login.coverage" NAME="9377login Coverage Results" MODIFIED="1563931169539" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/反爬处理案例/9377" />
     <SUITE FILE_PATH="coverage/SpideCrackDemo$parse_play_info.coverage" NAME="parse_play_info Coverage Results" MODIFIED="1557280995084" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/MeiTuan" />
     <SUITE FILE_PATH="coverage/SpideCrackDemo$check_express.coverage" NAME="check_express Coverage Results" MODIFIED="1558968483473" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/KuaiDi" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/反爬处理案例/PinDuoDuo/README.md">
+        <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="36">
-                <caret line="2" column="128" lean-forward="true" selection-start-line="2" selection-start-column="128" selection-end-line="2" selection-end-column="128" />
+              <first_editor relative-caret-position="324">
+                <caret line="18" column="7" lean-forward="true" selection-start-line="18" selection-start-column="7" selection-end-line="18" selection-end-column="7" />
               </first_editor>
               <second_editor />
             </state>
@@ -53,12 +52,29 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/反爬处理案例/PinDuoDuo/PinDuoDuo.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret lean-forward="true" />
+        <entry file="file://$PROJECT_DIR$/反爬处理案例/PinDuoDuo/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="36">
+                <caret line="2" column="14" selection-start-line="2" selection-start-column="14" selection-end-line="2" selection-end-column="14" />
+              </first_editor>
+              <second_editor />
             </state>
           </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/反爬处理案例/9377/9377login.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="216">
+              <caret line="12" column="24" lean-forward="true" selection-start-line="12" selection-start-column="24" selection-end-line="12" selection-end-column="24" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/反爬处理案例/PinDuoDuo/PinDuoDuo.py">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
     </leaf>
@@ -142,9 +158,9 @@
         <option value="$PROJECT_DIR$/爬虫项目/HouseScrapy/settings.py" />
         <option value="$PROJECT_DIR$/教程/博客公众号推荐.md" />
         <option value="$PROJECT_DIR$/教程/爬手机APP/逆向APP实战XX房产.md" />
-        <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/反爬处理案例/PinDuoDuo/PinDuoDuo.py" />
         <option value="$PROJECT_DIR$/反爬处理案例/PinDuoDuo/README.md" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -169,17 +185,6 @@
               <item name="SpideCrackDemo" type="b2602c69:ProjectViewProjectNode" />
               <item name="SpideCrackDemo" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="SpideCrackDemo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SpideCrackDemo" type="462c0819:PsiDirectoryNode" />
-              <item name="反爬处理案例" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SpideCrackDemo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SpideCrackDemo" type="462c0819:PsiDirectoryNode" />
-              <item name="反爬处理案例" type="462c0819:PsiDirectoryNode" />
-              <item name="PinDuoDuo" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -196,19 +201,19 @@
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/反爬处理案例/PinDuoDuo" />
-      <recent name="$PROJECT_DIR$/爬虫项目" />
-      <recent name="$PROJECT_DIR$/爬虫项目/HouseSpider" />
-      <recent name="$PROJECT_DIR$/教程/Pyppeteer" />
-      <recent name="$PROJECT_DIR$/原创工具" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/原创工具/GenerateJsencrypt" />
       <recent name="$PROJECT_DIR$/教程/爬手机APP" />
       <recent name="$PROJECT_DIR$/实战教程" />
       <recent name="$PROJECT_DIR$/实战教程/爬手机APP" />
       <recent name="$PROJECT_DIR$" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/反爬处理案例/9377" />
+      <recent name="$PROJECT_DIR$/反爬处理案例/PinDuoDuo" />
+      <recent name="$PROJECT_DIR$/爬虫项目" />
+      <recent name="$PROJECT_DIR$/爬虫项目/HouseSpider" />
+      <recent name="$PROJECT_DIR$/教程/Pyppeteer" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -223,7 +228,29 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.PinDuoDuo">
+  <component name="RunManager" selected="Python.9377login">
+    <configuration name="9377login" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="SpideCrackDemo" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/反爬处理案例/9377" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/反爬处理案例/9377/9377login.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="BaiDuTest" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="SpideCrackDemo" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -290,28 +317,6 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="RSA_Decode" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="SpideCrackDemo" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/原创工具/Decode" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/原创工具/GenerateJsencrypt/make_encrypt.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <configuration name="translation" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="SpideCrackDemo" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -336,11 +341,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.9377login" />
         <item itemvalue="Python.PinDuoDuo" />
         <item itemvalue="Python.translation" />
         <item itemvalue="Python.Demo" />
         <item itemvalue="Python.BaiDuTest" />
-        <item itemvalue="Python.RSA_Decode" />
       </list>
     </recent_temporary>
   </component>
@@ -440,7 +445,8 @@
       <workItem from="1563459823395" duration="945000" />
       <workItem from="1563613463372" duration="347000" />
       <workItem from="1563673114926" duration="450000" />
-      <workItem from="1563862355645" duration="1544000" />
+      <workItem from="1563862355645" duration="1808000" />
+      <workItem from="1563931153379" duration="105000" />
     </task>
     <task id="LOCAL-00001" summary="add new taobao login2">
       <created>1554951565001</created>
@@ -481,7 +487,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="139807000" />
+    <option name="totallyTimeSpent" value="140176000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1680" y="23" width="2560" height="1417" extended-state="6" />
@@ -492,7 +498,7 @@
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" visible="true" weight="0.3294979" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.30163446" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.30089152" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39958158" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -520,7 +526,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="update github login demo" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/MeiTuan/MeiTuanArea/.idea/vcs.xml" />
     <entry file="file://$PROJECT_DIR$/反爬处理案例/MeiTuanArea/.idea/vcs.xml" />
     <entry file="file://$PROJECT_DIR$/反爬处理案例/MeiTuan/get_login_cookies.py">
       <provider selected="true" editor-type-id="text-editor">
@@ -831,28 +836,31 @@
     <entry file="file://$PROJECT_DIR$/爬虫项目/HouseSpider/main.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
+    <entry file="file://$PROJECT_DIR$/反爬处理案例/PinDuoDuo/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="414">
-            <caret line="23" column="5" lean-forward="true" selection-start-line="23" selection-start-column="5" selection-end-line="23" selection-end-column="92" />
+          <first_editor relative-caret-position="36">
+            <caret line="2" column="14" selection-start-line="2" selection-start-column="14" selection-end-line="2" selection-end-column="14" />
           </first_editor>
           <second_editor />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/反爬处理案例/PinDuoDuo/PinDuoDuo.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/反爬处理案例/9377/9377login.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret lean-forward="true" />
+        <state relative-caret-position="216">
+          <caret line="12" column="24" lean-forward="true" selection-start-line="12" selection-start-column="24" selection-end-line="12" selection-end-column="24" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/反爬处理案例/PinDuoDuo/README.md">
+    <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="36">
-            <caret line="2" column="128" lean-forward="true" selection-start-line="2" selection-start-column="128" selection-end-line="2" selection-end-column="128" />
+          <first_editor relative-caret-position="324">
+            <caret line="18" column="7" lean-forward="true" selection-start-line="18" selection-start-column="7" selection-end-line="18" selection-end-column="7" />
           </first_editor>
           <second_editor />
         </state>

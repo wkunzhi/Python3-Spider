@@ -23,6 +23,7 @@
 ## 一、反爬处理案例
 - [x] [【拼多多】登陆参数解密](https://github.com/wkunzhi/SpiderCrackDemo/tree/master/反爬处理案例/PinDuoDuo)
 - [x] [【大众点评】字体 | 坐标解密](https://github.com/wkunzhi/SpiderCrackDemo/tree/master/反爬处理案例/DianPing)
+- [x] [【9377游戏平台】自动登陆](https://github.com/wkunzhi/SpiderCrackDemo/tree/master/反爬处理案例/9377)
 - [x] [【RSA | AES | DES | DES3】加密 解密](https://github.com/wkunzhi/SpiderCrackDemo/tree/master/反爬处理案例/RSA_AES_DES_DES3)
 - [x] [【bilibili】视频下载器](https://github.com/wkunzhi/SpiderCrackDemo/tree/master/反爬处理案例/bilibili)
 - [x] [【GitHub】自动登陆](https://github.com/wkunzhi/SpiderCrackDemo/tree/master/反爬处理案例/GitHub)
@@ -72,6 +73,7 @@
 ├── GitHub                              // ------GitHub-----
 │   └── login.py                        // GitHub自动登陆
 ├── JingDong                            // -------京东-------
+├── 9377                                // ---9377游戏平台自动登陆---
 ├── BaiDu                               // -------百度-------
 │   └── translation.py                  // 百度翻译
 ├── MeiTuan                             // -------美团-------
