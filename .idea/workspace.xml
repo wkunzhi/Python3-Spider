@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="993ad7df-9322-474e-a108-80fdc8d77ae5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/反爬处理案例/9377/9377login.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/反爬处理案例/9377/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/反爬处理案例/DianPing/7月最新版/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/反爬处理案例/DianPing/7月最新版/file/font.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/反爬处理案例/DianPing/7月最新版/font.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/反爬处理案例/DianPing/7月最新版/main.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
@@ -43,8 +45,8 @@
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="324">
-                <caret line="18" column="7" lean-forward="true" selection-start-line="18" selection-start-column="7" selection-end-line="18" selection-end-column="7" />
+              <first_editor relative-caret-position="180">
+                <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
               </first_editor>
               <second_editor />
             </state>
@@ -67,7 +69,7 @@
         <entry file="file://$PROJECT_DIR$/反爬处理案例/9377/9377login.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="216">
-              <caret line="12" column="24" lean-forward="true" selection-start-line="12" selection-start-column="24" selection-end-line="12" selection-end-column="24" />
+              <caret line="12" column="24" selection-start-line="12" selection-start-column="24" selection-end-line="12" selection-end-column="24" />
             </state>
           </provider>
         </entry>
@@ -178,6 +180,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -189,7 +192,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -201,19 +203,19 @@
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/反爬处理案例/DianPing/7月最新版" />
+      <recent name="$PROJECT_DIR$/反爬处理案例/9377" />
+      <recent name="$PROJECT_DIR$/反爬处理案例/PinDuoDuo" />
+      <recent name="$PROJECT_DIR$/爬虫项目" />
+      <recent name="$PROJECT_DIR$/爬虫项目/HouseSpider" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/原创工具/GenerateJsencrypt" />
       <recent name="$PROJECT_DIR$/教程/爬手机APP" />
       <recent name="$PROJECT_DIR$/实战教程" />
       <recent name="$PROJECT_DIR$/实战教程/爬手机APP" />
       <recent name="$PROJECT_DIR$" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/反爬处理案例/9377" />
-      <recent name="$PROJECT_DIR$/反爬处理案例/PinDuoDuo" />
-      <recent name="$PROJECT_DIR$/爬虫项目" />
-      <recent name="$PROJECT_DIR$/爬虫项目/HouseSpider" />
-      <recent name="$PROJECT_DIR$/教程/Pyppeteer" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -446,7 +448,8 @@
       <workItem from="1563613463372" duration="347000" />
       <workItem from="1563673114926" duration="450000" />
       <workItem from="1563862355645" duration="1808000" />
-      <workItem from="1563931153379" duration="105000" />
+      <workItem from="1563931153379" duration="172000" />
+      <workItem from="1564045451009" duration="122000" />
     </task>
     <task id="LOCAL-00001" summary="add new taobao login2">
       <created>1554951565001</created>
@@ -487,18 +490,17 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="140176000" />
+    <option name="totallyTimeSpent" value="140365000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1680" y="23" width="2560" height="1417" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.09765625" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" visible="true" weight="0.3294979" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.30089152" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.30089152" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39958158" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -526,7 +528,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="update github login demo" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/反爬处理案例/MeiTuanArea/.idea/vcs.xml" />
     <entry file="file://$PROJECT_DIR$/反爬处理案例/MeiTuan/get_login_cookies.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="99">
@@ -846,21 +847,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/反爬处理案例/PinDuoDuo/PinDuoDuo.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/反爬处理案例/9377/9377login.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="216">
-          <caret line="12" column="24" lean-forward="true" selection-start-line="12" selection-start-column="24" selection-end-line="12" selection-end-column="24" />
+          <caret line="12" column="24" selection-start-line="12" selection-start-column="24" selection-end-line="12" selection-end-column="24" />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/反爬处理案例/PinDuoDuo/PinDuoDuo.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/反爬处理案例/DianPing/7月最新版/file/font.py">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="324">
-            <caret line="18" column="7" lean-forward="true" selection-start-line="18" selection-start-column="7" selection-end-line="18" selection-end-column="7" />
+          <first_editor relative-caret-position="180">
+            <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
           </first_editor>
           <second_editor />
         </state>
