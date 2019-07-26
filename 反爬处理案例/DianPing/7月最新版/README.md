@@ -1,8 +1,5 @@
 # 仅限学术交流，如有冒犯请联系作者删除
 
-# 代码已迁移至
-[**新库代码**](https://github.com/wkunzhi/SpiderCrackDemo/tree/master/%E5%8F%8D%E7%88%AC%E5%A4%84%E7%90%86%E6%A1%88%E4%BE%8B/DianPing/7月最新版)
-
 # 安装
 **`pip3 install fontTools`**
 
