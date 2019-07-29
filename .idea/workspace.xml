@@ -2,11 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="993ad7df-9322-474e-a108-80fdc8d77ae5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/反爬处理案例/ZhongGuanChun/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/反爬处理案例/ZhongGuanChun/login.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/教程/JS分析/AES加密分析.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/反爬处理案例/DianPing/7月最新版/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/反爬处理案例/DianPing/7月最新版/README.md" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -43,8 +40,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/反爬处理案例/ZhongGuanChun/login.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="288">
-              <caret line="16" selection-start-line="16" selection-end-line="16" />
+            <state relative-caret-position="323">
+              <caret line="34" column="46" selection-start-line="34" selection-start-column="16" selection-end-line="34" selection-end-column="46" />
               <folding>
                 <element signature="e#97#112#0" expanded="true" />
               </folding>
@@ -53,11 +50,23 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/教程/JS分析/AES加密分析.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="306">
+                <caret line="17" column="22" selection-start-line="17" selection-start-column="22" selection-end-line="17" selection-end-column="22" />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/反爬处理案例/ZhongGuanChun/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor>
-                <caret column="2" selection-start-column="2" selection-end-column="2" />
+              <first_editor relative-caret-position="36">
+                <caret line="2" column="34" selection-start-line="2" selection-start-column="34" selection-end-line="2" selection-end-column="34" />
               </first_editor>
               <second_editor />
             </state>
@@ -111,7 +120,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/51Job/select_job.py" />
         <option value="$PROJECT_DIR$/MeiTuan/parse_re_data.py" />
         <option value="$PROJECT_DIR$/MeiTuan/create_food_token.py" />
         <option value="$PROJECT_DIR$/MeiTuan/parse_comments.py" />
@@ -162,6 +170,7 @@
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/反爬处理案例/ZhongGuanChun/login.py" />
         <option value="$PROJECT_DIR$/反爬处理案例/ZhongGuanChun/README.md" />
+        <option value="$PROJECT_DIR$/教程/JS分析/AES加密分析.md" />
       </list>
     </option>
   </component>
@@ -189,13 +198,13 @@
             <path>
               <item name="SpideCrackDemo" type="b2602c69:ProjectViewProjectNode" />
               <item name="SpideCrackDemo" type="462c0819:PsiDirectoryNode" />
-              <item name="反爬处理案例" type="462c0819:PsiDirectoryNode" />
+              <item name="教程" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="SpideCrackDemo" type="b2602c69:ProjectViewProjectNode" />
               <item name="SpideCrackDemo" type="462c0819:PsiDirectoryNode" />
-              <item name="反爬处理案例" type="462c0819:PsiDirectoryNode" />
-              <item name="ZhongGuanChun" type="462c0819:PsiDirectoryNode" />
+              <item name="教程" type="462c0819:PsiDirectoryNode" />
+              <item name="JS分析" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -461,7 +470,8 @@
       <workItem from="1563931153379" duration="172000" />
       <workItem from="1564045451009" duration="396000" />
       <workItem from="1564109570830" duration="16000" />
-      <workItem from="1564304920654" duration="11221000" />
+      <workItem from="1564304920654" duration="11274000" />
+      <workItem from="1564408360521" duration="979000" />
     </task>
     <task id="LOCAL-00001" summary="add new taobao login2">
       <created>1554951565001</created>
@@ -502,7 +512,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="151876000" />
+    <option name="totallyTimeSpent" value="152908000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1680" y="23" width="1920" height="1057" extended-state="6" />
@@ -541,7 +551,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="update github login demo" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/反爬处理案例/MeiTuanArea/MeiTuanArea/settings.py" />
     <entry file="file://$PROJECT_DIR$/反爬处理案例/BaiDu/translation.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="196">
@@ -841,16 +850,6 @@
     <entry file="file://$PROJECT_DIR$/反爬处理案例/DianPing/7月最新版/file/font.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/反爬处理案例/9377/9377login.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="12" column="24" selection-start-line="12" selection-start-column="24" selection-end-line="12" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/反爬处理案例/PinDuoDuo/PinDuoDuo.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/反爬处理案例/PinDuoDuo/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
@@ -881,21 +880,41 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/反爬处理案例/9377/9377login.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="12" column="24" selection-start-line="12" selection-start-column="24" selection-end-line="12" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/反爬处理案例/PinDuoDuo/PinDuoDuo.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/反爬处理案例/ZhongGuanChun/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="36">
+            <caret line="2" column="34" selection-start-line="2" selection-start-column="34" selection-end-line="2" selection-end-column="34" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/反爬处理案例/ZhongGuanChun/login.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="16" selection-start-line="16" selection-end-line="16" />
+        <state relative-caret-position="323">
+          <caret line="34" column="46" selection-start-line="34" selection-start-column="16" selection-end-line="34" selection-end-column="46" />
           <folding>
             <element signature="e#97#112#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/反爬处理案例/ZhongGuanChun/README.md">
+    <entry file="file://$PROJECT_DIR$/教程/JS分析/AES加密分析.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor>
-            <caret column="2" selection-start-column="2" selection-end-column="2" />
+          <first_editor relative-caret-position="306">
+            <caret line="17" column="22" selection-start-line="17" selection-start-column="22" selection-end-line="17" selection-end-column="22" />
           </first_editor>
           <second_editor />
         </state>
