@@ -7,7 +7,7 @@ import requests
 import re
 import os
 
-from file.font import FONT_LIST
+from 反爬处理案例.DianPing.最新版7月.file.font import FONT_LIST
 from fontTools.ttLib import TTFont
 
 HASH_TABLE = 'dianping:font'
