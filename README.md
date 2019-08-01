@@ -12,7 +12,7 @@
 | Author  | Zok |
 | --- | --- |
 | Email | 362416272@qq.com |
-| BLOG | www.zhangkunzhi.com |
+| BLOG | https://www.zhangkunzhi.com |
 | Introduce | 数据解密、反爬处理、学习教程 |
 
 
