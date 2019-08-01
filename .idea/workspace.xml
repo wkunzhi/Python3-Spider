@@ -3,8 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="993ad7df-9322-474e-a108-80fdc8d77ae5" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/反爬处理案例/DianPing/最新版7月/font.py" beforeDir="false" afterPath="$PROJECT_DIR$/反爬处理案例/DianPing/最新版7月/font.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/反爬处理案例/DianPing/最新版7月/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/反爬处理案例/DianPing/最新版7月/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -53,10 +52,34 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="124">
+                <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/反爬处理案例/DianPing/最新版7月/main.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="396">
               <caret line="22" column="37" selection-start-line="22" selection-start-column="37" selection-end-line="22" selection-end-column="37" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/教程/JS分析/AES加密分析.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="198">
+                <caret line="11" column="10" selection-start-line="11" selection-start-column="10" selection-end-line="11" selection-end-column="10" />
+              </first_editor>
+              <second_editor />
             </state>
           </provider>
         </entry>
@@ -143,9 +166,9 @@
         <option value="$PROJECT_DIR$/反爬处理案例/DianPing/7月最新版/font.py" />
         <option value="$PROJECT_DIR$/反爬处理案例/DianPing/7月最新版/main.py" />
         <option value="$PROJECT_DIR$/教程/JS分析/拼XX登陆JS加密分析.md" />
-        <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/反爬处理案例/DianPing/最新版7月/font.py" />
         <option value="$PROJECT_DIR$/反爬处理案例/DianPing/最新版7月/main.py" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -169,11 +192,6 @@
             <path>
               <item name="SpideCrackDemo" type="b2602c69:ProjectViewProjectNode" />
               <item name="SpideCrackDemo" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SpideCrackDemo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SpideCrackDemo" type="462c0819:PsiDirectoryNode" />
-              <item name="反爬处理案例" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -446,7 +464,8 @@
       <workItem from="1564466916951" duration="710000" />
       <workItem from="1564470407516" duration="140000" />
       <workItem from="1564539050580" duration="1354000" />
-      <workItem from="1564646163820" duration="99000" />
+      <workItem from="1564646163820" duration="276000" />
+      <workItem from="1564648580260" duration="49000" />
     </task>
     <task id="LOCAL-00001" summary="add new taobao login2">
       <created>1554951565001</created>
@@ -487,7 +506,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="155864000" />
+    <option name="totallyTimeSpent" value="156090000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1680" y="23" width="2560" height="1417" extended-state="0" />
@@ -806,16 +825,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/教程/JS分析/AES加密分析.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="144">
-            <caret line="8" column="7" selection-start-line="8" selection-start-column="7" selection-end-line="8" selection-end-column="7" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/反爬处理案例/ZhongGuanChun/login.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="129">
@@ -859,16 +868,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="598">
-            <caret line="35" column="90" lean-forward="true" selection-start-line="35" selection-start-column="90" selection-end-line="35" selection-end-column="90" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/反爬处理案例/DianPing/parse_address_poi.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -896,6 +895,26 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="396">
           <caret line="22" column="37" selection-start-line="22" selection-start-column="37" selection-end-line="22" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/教程/JS分析/AES加密分析.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="198">
+            <caret line="11" column="10" selection-start-line="11" selection-start-column="10" selection-end-line="11" selection-end-column="10" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="124">
+            <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
