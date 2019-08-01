@@ -2,10 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="993ad7df-9322-474e-a108-80fdc8d77ae5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/教程/JS分析/拼XX登陆JS加密分析.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/反爬处理案例/DianPing/最新版7月/font.py" beforeDir="false" afterPath="$PROJECT_DIR$/反爬处理案例/DianPing/最新版7月/font.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/反爬处理案例/DianPing/最新版7月/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/反爬处理案例/DianPing/最新版7月/main.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -44,8 +43,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/反爬处理案例/DianPing/最新版7月/font.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="775">
-              <caret line="44" column="80" selection-start-line="44" selection-start-column="80" selection-end-line="44" selection-end-column="80" />
+            <state relative-caret-position="324">
+              <caret line="18" selection-start-line="18" selection-end-line="19" />
               <folding>
                 <element signature="e#95#107#0" expanded="true" />
               </folding>
@@ -56,8 +55,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/反爬处理案例/DianPing/最新版7月/main.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+            <state relative-caret-position="396">
+              <caret line="22" column="37" selection-start-line="22" selection-start-column="37" selection-end-line="22" selection-end-column="37" />
             </state>
           </provider>
         </entry>
@@ -143,10 +142,10 @@
         <option value="$PROJECT_DIR$/教程/JS分析/AES加密分析.md" />
         <option value="$PROJECT_DIR$/反爬处理案例/DianPing/7月最新版/font.py" />
         <option value="$PROJECT_DIR$/反爬处理案例/DianPing/7月最新版/main.py" />
-        <option value="$PROJECT_DIR$/反爬处理案例/DianPing/最新版7月/main.py" />
         <option value="$PROJECT_DIR$/教程/JS分析/拼XX登陆JS加密分析.md" />
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/反爬处理案例/DianPing/最新版7月/font.py" />
+        <option value="$PROJECT_DIR$/反爬处理案例/DianPing/最新版7月/main.py" />
       </list>
     </option>
   </component>
@@ -175,19 +174,6 @@
               <item name="SpideCrackDemo" type="b2602c69:ProjectViewProjectNode" />
               <item name="SpideCrackDemo" type="462c0819:PsiDirectoryNode" />
               <item name="反爬处理案例" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SpideCrackDemo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SpideCrackDemo" type="462c0819:PsiDirectoryNode" />
-              <item name="反爬处理案例" type="462c0819:PsiDirectoryNode" />
-              <item name="DianPing" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SpideCrackDemo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SpideCrackDemo" type="462c0819:PsiDirectoryNode" />
-              <item name="反爬处理案例" type="462c0819:PsiDirectoryNode" />
-              <item name="DianPing" type="462c0819:PsiDirectoryNode" />
-              <item name="最新版7月" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -459,7 +445,8 @@
       <workItem from="1564454621468" duration="250000" />
       <workItem from="1564466916951" duration="710000" />
       <workItem from="1564470407516" duration="140000" />
-      <workItem from="1564539050580" duration="1085000" />
+      <workItem from="1564539050580" duration="1354000" />
+      <workItem from="1564646163820" duration="99000" />
     </task>
     <task id="LOCAL-00001" summary="add new taobao login2">
       <created>1554951565001</created>
@@ -500,13 +487,13 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="155496000" />
+    <option name="totallyTimeSpent" value="155864000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1680" y="23" width="2560" height="1417" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.09726562" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.09726562" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -526,7 +513,7 @@
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="SciView" order="3" />
       <window_info anchor="right" id="Database" order="4" />
-      <window_info active="true" anchor="right" id="Run" order="5" visible="true" weight="0.33359376" />
+      <window_info anchor="right" id="Run" order="5" weight="0.33359376" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -897,8 +884,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/反爬处理案例/DianPing/最新版7月/font.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="775">
-          <caret line="44" column="80" selection-start-line="44" selection-start-column="80" selection-end-line="44" selection-end-column="80" />
+        <state relative-caret-position="324">
+          <caret line="18" selection-start-line="18" selection-end-line="19" />
           <folding>
             <element signature="e#95#107#0" expanded="true" />
           </folding>
@@ -907,8 +894,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/反爬处理案例/DianPing/最新版7月/main.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+        <state relative-caret-position="396">
+          <caret line="22" column="37" selection-start-line="22" selection-start-column="37" selection-end-line="22" selection-end-column="37" />
         </state>
       </provider>
     </entry>

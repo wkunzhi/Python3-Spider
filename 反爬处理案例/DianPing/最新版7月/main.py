@@ -15,3 +15,10 @@ pf = ParseFontClass('http://s3plus.meituan.net/v1/mss_0a06a471f9514fc79c981b5466
 print(pf.parse_ttf('&#xe2cc;'))
 print(pf.parse_ttf('&#xed59;'))
 print(pf.parse_ttf('&#xe169;'))
+
+
+"""
+【已知问题】
+
+页面可能有多个字库（会自动捕获） 需要自己再对应字库中取字即可，请自行拓展
+"""
