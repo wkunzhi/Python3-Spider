@@ -1,0 +1,7 @@
+.DS_Store
+*/.DS_Store
+
+/.idea
+/.__pycache__
+
+/.REDAME.md
