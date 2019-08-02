@@ -1,4 +1,4 @@
-# Python Crawler
+# Python3 Spider
 
 
 ![](https://zok-blog.oss-cn-hangzhou.aliyuncs.com/ico/python-3.7-green.svg) 
@@ -13,28 +13,29 @@
 | --- | --- |
 | Email | 362416272@qq.com |
 | BLOG | https://www.zhangkunzhi.com |
-| Introduce | 数据解密、反爬处理、学习教程 |
+| Status | 现役爬虫工程师 |
+
 
 
 -------
 
-记录并分享进步的过程
+
 
 ## 一、案例
-- [x] [【拼多多】登陆参数解密](https://github.com/wkunzhi/Python3-Spider/tree/master/反爬处理案例/PinDuoDuo)
-- [x] [【大众点评】字体 | 坐标解密](https://github.com/wkunzhi/Python3-Spider/tree/master/反爬处理案例/DianPing)  2019年7月最新版
-- [x] [【逗游】自动登陆 ](https://github.com/wkunzhi/Python3-Spider/tree/master/反爬处理案例/DouYou)
-- [x] [【中关村】自动登陆 ](https://github.com/wkunzhi/Python3-Spider/tree/master/反爬处理案例/ZhongGuanChun)
-- [x] [【9377游戏平台】自动登陆](https://github.com/wkunzhi/Python3-Spider/tree/master/反爬处理案例/9377)
-- [x] [【RSA | AES | DES | DES3】加密 解密](https://github.com/wkunzhi/Python3-Spider/tree/master/反爬处理案例/RSA_AES_DES_DES3)
-- [x] [【bilibili】视频下载器](https://github.com/wkunzhi/Python3-Spider/tree/master/反爬处理案例/bilibili)
-- [x] [【GitHub】自动登陆](https://github.com/wkunzhi/Python3-Spider/tree/master/反爬处理案例/GitHub)
-- [x] [【淘宝】自动登陆 | 过检测](https://github.com/wkunzhi/Python3-Spider/tree/master/反爬处理案例/TaoBao)
-- [x] [【百度】翻译](https://github.com/wkunzhi/Python3-Spider/tree/master/反爬处理案例/BaiDu)
-- [x] [【51job】查岗位](https://github.com/wkunzhi/Python3-Spider/tree/master/反爬处理案例/51Job)
-- [x] [【美团】解析数据 | token生成器](https://github.com/wkunzhi/Python3-Spider/tree/master/反爬处理案例/MeiTuan)
-- [x] [【美团】全国区域爬虫](https://github.com/wkunzhi/Python3-Spider/tree/master/反爬处理案例/MeiTuanArea)
-- [x] [【快递查询】-快递单号查询](https://github.com/wkunzhi/Python3-Spider/tree/master/反爬处理案例/KuaiDi)
+- [x] [【拼多多】登陆参数解密](https://github.com/wkunzhi/Python3-Spider/tree/master/各站案例/PinDuoDuo)
+- [x] [【大众点评】字体 | 坐标解密](https://github.com/wkunzhi/Python3-Spider/tree/master/各站案例/DianPing)  2019年7月最新版
+- [x] [【逗游】自动登陆 ](https://github.com/wkunzhi/Python3-Spider/tree/master/各站案例/DouYou)
+- [x] [【中关村】自动登陆 ](https://github.com/wkunzhi/Python3-Spider/tree/master/各站案例/ZhongGuanChun)
+- [x] [【9377游戏平台】自动登陆](https://github.com/wkunzhi/Python3-Spider/tree/master/各站案例/9377)
+- [x] [【bilibili】视频下载器](https://github.com/wkunzhi/Python3-Spider/tree/master/各站案例/bilibili)
+- [x] [【GitHub】自动登陆](https://github.com/wkunzhi/Python3-Spider/tree/master/各站案例/GitHub)
+- [x] [【淘宝】自动登陆 | 过检测](https://github.com/wkunzhi/Python3-Spider/tree/master/各站案例/TaoBao)
+- [x] [【百度】翻译](https://github.com/wkunzhi/Python3-Spider/tree/master/各站案例/BaiDu)
+- [x] [【51job】查岗位](https://github.com/wkunzhi/Python3-Spider/tree/master/各站案例/51Job)
+- [x] [【美团】解析数据 | token生成器](https://github.com/wkunzhi/Python3-Spider/tree/master/各站案例/MeiTuan)
+- [x] [【美团】全国区域爬虫](https://github.com/wkunzhi/Python3-Spider/tree/master/各站案例/MeiTuanArea)
+- [x] [【快递查询】-快递单号查询](https://github.com/wkunzhi/Python3-Spider/tree/master/各站案例/KuaiDi)
+- [x] [【RSA | AES | DES | DES3】加密 解密](https://github.com/wkunzhi/Python3-Spider/tree/master/各站案例/RSA_AES_DES_DES3)
 
 
 ## 二、教程
@@ -57,8 +58,8 @@
 
 
 ## 四、爬虫项目
-- [x] [【美团】全国区域爬虫](https://github.com/wkunzhi/Python3-Spider/tree/master/爬虫项目/MeiTuanArea)
-- [ ] [【房产】地产爬虫 【开发中】](https://github.com/wkunzhi/Python3-Spider/tree/master/爬虫项目/HouseSpider)
+- [x] [【美团】全国区域爬虫](https://github.com/wkunzhi/Python3-Spider/tree/master/项目/MeiTuanArea)
+- [ ] [【房产】地产爬虫 【开发中】](https://github.com/wkunzhi/Python3-Spider/tree/master/项目/HouseSpider)
 
 
 
@@ -68,7 +69,7 @@
 # 目录
 
 ```
-反爬处理案例
+各站案例
 │
 ├── PinDuoDuo                           // -----拼多多解密-----
 ├── DianPing                            // -----大众点评-----
@@ -105,14 +106,6 @@
 └── RSA_AES_DES_DES3                    // 主流编码加密解密
 
 
-教程    
-│
-├── 爬手机APP
-│    ├── 自动化框架Airtest.md
-│    └── 抓包工具.md 
-├── pyppeteer
-└── 爬虫相关博客公众号推荐   
-
 
 原创工具
 ├── Proxy                               //      代理工具包 
@@ -130,10 +123,5 @@
 ├── Decode                              //      可拓展式解密器
 ├── Jsencrypt                           //      自动生成encrypt加密
 └── README.md
-
-
-爬虫项目   
-│
-├── MeiTuanArea                         //美团全国区域采集器(scrapy)
 
 ```
