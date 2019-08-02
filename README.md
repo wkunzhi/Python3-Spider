@@ -20,9 +20,10 @@
 
 记录并分享进步的过程
 
-## 一、反爬处理案例
+## 一、案例
 - [x] [【拼多多】登陆参数解密](https://github.com/wkunzhi/Python3-Spider/tree/master/反爬处理案例/PinDuoDuo)
 - [x] [【大众点评】字体 | 坐标解密](https://github.com/wkunzhi/Python3-Spider/tree/master/反爬处理案例/DianPing)  2019年7月最新版
+- [x] [【逗游】自动登陆 ](https://github.com/wkunzhi/Python3-Spider/tree/master/反爬处理案例/DouYou)
 - [x] [【中关村】自动登陆 ](https://github.com/wkunzhi/Python3-Spider/tree/master/反爬处理案例/ZhongGuanChun)
 - [x] [【9377游戏平台】自动登陆](https://github.com/wkunzhi/Python3-Spider/tree/master/反爬处理案例/9377)
 - [x] [【RSA | AES | DES | DES3】加密 解密](https://github.com/wkunzhi/Python3-Spider/tree/master/反爬处理案例/RSA_AES_DES_DES3)
