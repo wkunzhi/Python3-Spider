@@ -4,3 +4,4 @@
 /.idea
 */__pycache__
 
+*.js linguist-language=Python
