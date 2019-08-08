@@ -4,6 +4,6 @@
 
 # 说明博客
 
-[**博客地址**](https://blog.zhangkunzhi.com/2019/06/02/%E5%8E%9F%E5%88%9B%E5%B7%A5%E5%85%B7%E4%B9%8B%E5%8F%AF%E6%8B%93%E5%B1%95%E8%A7%A3%E7%A0%81%E5%99%A8/index.html)
+[**博客地址**](https://www.zhangkunzhi.com/?p=241)
 
 
