@@ -32,5 +32,3 @@ if __name__ == '__main__':
 
     key = input("输入密码")
     pdd.make(key)
-
-
