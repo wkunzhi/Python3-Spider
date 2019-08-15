@@ -13,7 +13,7 @@ async def main():
     await page.setViewport({'width': 1200, 'height': 800})
     await page.goto('https://www.baidu.com')
     # 在搜索框中输入python
-    await page.type('input#kw.s_ipt', '重庆')
+    await page.type('input#kw.s_ipt', '重庆满集网络科技有限公司')
     # 点击搜索按钮
     await page.click('input#su')
 
