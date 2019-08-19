@@ -1,4 +1,3 @@
-
 # APK基本结构
 > 解压后的安卓目录
 
@@ -33,13 +32,33 @@
 - [x] **`Xposed 89版`** 支持安卓 **`5.0-7.1`**
 			
 			
-# 常规工具安装与环境配置
-http://www.androiddevtools.cn/
+# Mac 正向开发环境配置
+## IDE、JDK、SDK下载
+> 选择 Mac 环境包
+
+[IDE中心](http://www.android-studio.org/)
+[JDK下载](http://jdk.android-studio.org/)
+[SDK下载](http://tools.android-studio.org/index.php/sdk)
+  
+  
+## IDE、JDK、SDK配置
+把这三个文件解压放到工作目录中，因为后面要链接这里，你要记住这个目录地址；然后我们先安装jdk
+![](https://zok-blog.oss-cn-hangzhou.aliyuncs.com/images/20190818/1.png?x-oss-process=image/resize,h_600)
+
+**如果是按照教程按照的话，那么 JDK 路径在 `/Library/Java/JavaVirtualMachines/jdk1.8.0_77.jdk/Contents/Home`**
+![](https://zok-blog.oss-cn-hangzhou.aliyuncs.com/images/20190818/2.png)
 
 
+
+## 创建 Hello word
+
+选择模拟器机型运行
+![](https://zok-blog.oss-cn-hangzhou.aliyuncs.com/images/20190818/3.png?x-oss-process=image/resize,h_400)
+
+如果没有机型那么点击 create 一个
+![](https://zok-blog.oss-cn-hangzhou.aliyuncs.com/images/20190818/4.png?x-oss-process=image/resize,h_400)
+
+按照好之后运行，hellow word 再现江湖
+![](https://zok-blog.oss-cn-hangzhou.aliyuncs.com/images/20190818/5.png?x-oss-process=image/resize,h_400)
 				
 				
-		
- 	
-	
-	
