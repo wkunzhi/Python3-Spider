@@ -21,7 +21,7 @@
  
 - Apk 在打包的过程中会先将 java 等源码通过 `javac` 编译成 `.class` 文件
 - Dalvik 虚拟机只会执行 `.dex` 文件，所以dx会将 `.class` 文件转换成Dalvik虚拟机执行的 `.dex` 文件。
-- Dalvik虚拟机在启动的时候会先将 `.dex` 文件转换成快速运行的机器码，我们的 app启动慢，是因为应用冷启动的时候有一个**合包的过程** Dalvik 虚拟机的 JIT 特性。
+- Dalvik 虚拟机在启动的时候会先将 `.dex` 文件转换成快速运行的机器码，我们的 app启动慢，是因为应用冷启动的时候有一个**合包的过程** Dalvik 虚拟机的 JIT 特性。
 
 ## ART
 > ART 虚拟机是在 **Android5.0** 才开始使用的Android虚拟机
