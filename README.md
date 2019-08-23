@@ -13,7 +13,7 @@
 | --- | --- |
 | Email | 362416272@qq.com |
 | BLOG | https://www.zhangkunzhi.com |
-| Status | 现役爬虫工程师 |
+| Status | 在值程序员 |
 
 
 
@@ -37,6 +37,7 @@
 - [x] [【美团】全国区域爬虫](https://github.com/wkunzhi/Python3-Spider/tree/master/各站案例/MeiTuanArea)
 - [x] [【快递查询】-快递单号查询](https://github.com/wkunzhi/Python3-Spider/tree/master/各站案例/KuaiDi)
 - [x] [【RSA | AES | DES | DES3】加密 解密](https://github.com/wkunzhi/Python3-Spider/tree/master/各站案例/RSA_AES_DES_DES3)
+- [x] [【微信公众号登陆密码】](https://github.com/wkunzhi/Python3-Spider/tree/master/各站案例/WeiXin)
 
 
 ## 二、教程
