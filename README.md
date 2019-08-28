@@ -13,7 +13,7 @@
 | --- | --- |
 | Email | 362416272@qq.com |
 | BLOG | https://www.zhangkunzhi.com |
-| Status | 在值程序员 |
+| Status | 在职 |
 
 
 
