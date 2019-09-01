@@ -26,8 +26,9 @@
 - [x] [【大众点评】字体 | 坐标解密](https://github.com/wkunzhi/Python3-Spider/tree/master/各站案例/DianPing)  2019年7月最新版
 - [x] [【淘宝】过检测自动登陆 ](https://github.com/wkunzhi/Python3-Spider/tree/master/各站案例/TaoBao)
 - [x] [【百度】登陆密码加密器 ](https://github.com/wkunzhi/Python3-Spider/tree/master/各站案例/BaiDuLogin)
+- [x] [【5173交易平台】爬虫登陆 ](https://github.com/wkunzhi/Python3-Spider/tree/master/各站案例/5173)
 - [x] [【中关村】自动登陆 ](https://github.com/wkunzhi/Python3-Spider/tree/master/各站案例/ZhongGuanChun)
-- [x] [【9377游戏平台】自动登陆](https://github.com/wkunzhi/Python3-Spider/tree/master/各站案例/9377)
+- [x] [【9377平台】爬虫登陆](https://github.com/wkunzhi/Python3-Spider/tree/master/各站案例/9377)
 - [x] [【逗游】自动登陆 ](https://github.com/wkunzhi/Python3-Spider/tree/master/各站案例/DouYou)
 - [x] [【bilibili】视频下载器](https://github.com/wkunzhi/Python3-Spider/tree/master/各站案例/bilibili)
 - [x] [【GitHub】自动登陆](https://github.com/wkunzhi/Python3-Spider/tree/master/各站案例/GitHub)
