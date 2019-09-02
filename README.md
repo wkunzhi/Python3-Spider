@@ -12,8 +12,8 @@
 | Author  | Zok |
 | --- | --- |
 | Email | 362416272@qq.com |
-| BLOG | https://www.zhangkunzhi.com |
-| Status | 在职 |
+| 日志博客 | https://blog.zhangkunzhi.com |
+| 实战博客 | https://www.zhangkunzhi.com |
 
 
 
