@@ -21,7 +21,7 @@
 
 
 
-## 一、案例
+## 一、JS 解密案例
 - [x] [【拼多多】登陆参数解密](https://github.com/wkunzhi/Python3-Spider/tree/master/各站案例/PinDuoDuo)
 - [x] [【大众点评】字体 | 坐标解密](https://github.com/wkunzhi/Python3-Spider/tree/master/各站案例/DianPing)  2019年7月最新版
 - [x] [【淘宝】过检测自动登陆 ](https://github.com/wkunzhi/Python3-Spider/tree/master/各站案例/TaoBao)
@@ -42,6 +42,7 @@
 - [x] [【RSA | AES | DES | DES3】加密 解密](https://github.com/wkunzhi/Python3-Spider/tree/master/各站案例/RSA_AES_DES_DES3)
 - [x] [【微信公众号登陆密码】](https://github.com/wkunzhi/Python3-Spider/tree/master/各站案例/WeiXin)
 - [x] [【易通贷爬虫登陆】](https://github.com/wkunzhi/Python3-Spider/tree/master/各站案例/YiTongDai)
+- [x] [【金逸电影】账号注册](https://github.com/wkunzhi/Python3-Spider/tree/master/各站案例/JinYi)
 
 
 ## 二、教程
