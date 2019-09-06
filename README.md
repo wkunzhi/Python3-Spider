@@ -43,6 +43,7 @@
 - [x] [【微信公众号登陆密码】](https://github.com/wkunzhi/Python3-Spider/tree/master/各站案例/WeiXin)
 - [x] [【易通贷爬虫登陆】](https://github.com/wkunzhi/Python3-Spider/tree/master/各站案例/YiTongDai)
 - [x] [【金逸电影】账号注册](https://github.com/wkunzhi/Python3-Spider/tree/master/各站案例/JinYi)
+- [x] [【移动】参数解密](https://github.com/wkunzhi/Python3-Spider/tree/master/各站案例/YiDong)
 
 
 ## 二、教程
