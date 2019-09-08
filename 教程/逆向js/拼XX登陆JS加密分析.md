@@ -79,7 +79,7 @@ test('密码')
 # 利用 Python 的 js2py 模块运行 js
 
 ```python
-with open("encryp.js", "r", encoding="utf-8") as f:
+with open(dns.jsr", encoding="utf-8") as f:
     self.context.execute(f.read())
 
 ret = self.context.test('待加密的字符串')

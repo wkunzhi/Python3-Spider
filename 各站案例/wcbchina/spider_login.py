@@ -21,7 +21,7 @@ class SpiderLogin:
     def use_js(self):
         """js 调用
         """
-        with open("encryp.js", "r", encoding="utf-8") as f:
+        with open("dns.js", "r", encoding="utf-8") as f:
             js = execjs.compile(f.read())
 
         try :

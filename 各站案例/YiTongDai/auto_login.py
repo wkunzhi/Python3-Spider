@@ -19,7 +19,7 @@ class YDT(object):
 
     @staticmethod
     def make_pwd(pwd):
-        with open("encryp.js", "r", encoding="utf-8") as f:
+        with open("dns.js", "r", encoding="utf-8") as f:
             ctx = execjs.compile(f.read())
         return ctx.call("make_js", pwd)
 

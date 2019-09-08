@@ -20,7 +20,7 @@ class MakeParam:
 
     def init_js(self):
         print('引擎', execjs.get().name)
-        with open("encryp.js", "r", encoding="utf-8") as f:
+        with open("dns.js", "r", encoding="utf-8") as f:
             self.js = execjs.compile(f.read())
 
     def mk_params(self):
