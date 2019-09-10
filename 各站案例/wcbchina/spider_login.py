@@ -24,7 +24,7 @@ class SpiderLogin:
         with open("dns.js", "r", encoding="utf-8") as f:
             js = execjs.compile(f.read())
 
-        try :
+        try:
             sign, t = js.call("make_sigin")
             pwd = js.call("make_pwd",  self.pwd)
             return sign, t, pwd
