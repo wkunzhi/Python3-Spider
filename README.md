@@ -19,7 +19,6 @@
 -------
 
 
-
 ## 一、JS 解密案例
 - [x] [【拼多多】登陆参数解密](https://github.com/wkunzhi/Python3-Spider/tree/master/各站案例/PinDuoDuo)
 - [x] [【大众点评】字体 | 坐标解密](https://github.com/wkunzhi/Python3-Spider/tree/master/各站案例/DianPing)  2019年7月最新版
@@ -73,10 +72,14 @@
 
 
 ## 四、爬虫项目
+- [x] [【Glidesky】](https://github.com/wkunzhi/Python3-Spider/tree/master/项目/Glidesky)
 - [x] [【美团】全国区域爬虫](https://github.com/wkunzhi/Python3-Spider/tree/master/项目/MeiTuanArea)
 - [ ] [【房产】地产爬虫 【开发中】](https://github.com/wkunzhi/Python3-Spider/tree/master/项目/HouseSpider)
 
-
+## 特：验证处理方案
+- [ ] [【滑块 - 非模拟滑动】待更新 ]()
+- [ ] [【点选】待更新]()
+- [ ] [【文字识别】待更新]()
 
 -------
 
