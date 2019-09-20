@@ -72,7 +72,6 @@
 
 
 ## 四、爬虫项目
-- [x] [【Glidesky】](https://github.com/wkunzhi/Python3-Spider/tree/master/项目/Glidesky)
 - [x] [【美团】全国区域爬虫](https://github.com/wkunzhi/Python3-Spider/tree/master/项目/MeiTuanArea)
 - [ ] [【房产】地产爬虫 【开发中】](https://github.com/wkunzhi/Python3-Spider/tree/master/项目/HouseSpider)
 
