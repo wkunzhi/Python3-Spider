@@ -50,6 +50,7 @@
 - [x] [【青海移动】参数解密](https://github.com/wkunzhi/Python3-Spider/tree/master/各站案例/QinHai)
 - [x] [【开鑫贷】参数解密](https://github.com/wkunzhi/Python3-Spider/tree/master/各站案例/KaiXinDai)
 - [x] [【Glidesky】登陆获取cookie](https://github.com/wkunzhi/Python3-Spider/tree/master/各站案例/Glidedsky)
+- [x] [【谷雨解字】字体解密](https://github.com/wkunzhi/Python3-Spider/tree/master/各站案例/GuYu)
 
 
 ## 二、教程
