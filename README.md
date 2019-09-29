@@ -52,6 +52,7 @@
 - [x] [【Glidesky】登陆获取cookie](https://github.com/wkunzhi/Python3-Spider/tree/master/各站案例/Glidedsky)
 - [x] [【谷雨解字】字体解密](https://github.com/wkunzhi/Python3-Spider/tree/master/各站案例/GuYu)
 - [x] [【房天下】自动登陆](https://github.com/wkunzhi/Python3-Spider/tree/master/各站案例/Fang)
+- [x] [【小牛在线】加密参数生成](https://github.com/wkunzhi/Python3-Spider/tree/master/各站案例/XiaoNiu)
 
 
 ## 二、教程
