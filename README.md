@@ -1,10 +1,13 @@
+
+
 # Python3 Spider
 
 
+![](https://img.shields.io/badge/status-updating-brightgreen.svg) 
 ![](https://zok-blog.oss-cn-hangzhou.aliyuncs.com/ico/python-3.7-green.svg) 
-![](https://zok-blog.oss-cn-hangzhou.aliyuncs.com/ico/Scrapy-1.6.0-blue.svg) 
-![](https://zok-blog.oss-cn-hangzhou.aliyuncs.com/ico/selenium-3.141.0-yellew.svg) 
-![](https://zok-blog.oss-cn-hangzhou.aliyuncs.com/ico/Pyppeteer-0.0.25-orange.svg) 
+![](https://img.shields.io/github/contributors/wkunzhi/Python3-Spider) 
+![](https://img.shields.io/github/stars/wkunzhi/Python3-Spider.svg?label=Stars&style=social) 
+![](https://img.shields.io/github/forks/wkunzhi/Python3-Spider.svg?label=Forks&style=social) 
 
 
 
@@ -19,50 +22,30 @@
 -------
 
 
-## 一、JS 解密案例
-- [x] [【拼多多】登陆参数解密](https://github.com/wkunzhi/Python3-Spider/tree/master/各站案例/PinDuoDuo)
-- [x] [【大众点评】字体 | 坐标解密](https://github.com/wkunzhi/Python3-Spider/tree/master/各站案例/DianPing)  2019年7月最新版
-- [x] [【淘宝】过检测自动登陆 ](https://github.com/wkunzhi/Python3-Spider/tree/master/各站案例/TaoBao)  2019年10月
-- [x] [【百度】登陆密码加密器 ](https://github.com/wkunzhi/Python3-Spider/tree/master/各站案例/BaiDuLogin)
-- [x] [【5173交易平台】爬虫登陆 ](https://github.com/wkunzhi/Python3-Spider/tree/master/各站案例/5173)
-- [x] [【中关村】自动登陆 ](https://github.com/wkunzhi/Python3-Spider/tree/master/各站案例/ZhongGuanChun)
-- [x] [【9377平台】爬虫登陆](https://github.com/wkunzhi/Python3-Spider/tree/master/各站案例/9377)
-- [x] [【逗游】自动登陆 ](https://github.com/wkunzhi/Python3-Spider/tree/master/各站案例/DouYou)
-- [x] [【bilibili】视频下载器](https://github.com/wkunzhi/Python3-Spider/tree/master/各站案例/bilibili)
-- [x] [【GitHub】自动登陆](https://github.com/wkunzhi/Python3-Spider/tree/master/各站案例/GitHub)
-- [x] [【百度】翻译](https://github.com/wkunzhi/Python3-Spider/tree/master/各站案例/BaiDu)
-- [x] [【51job】查岗位](https://github.com/wkunzhi/Python3-Spider/tree/master/各站案例/51Job)
-- [x] [【美团】解析数据 | token生成器](https://github.com/wkunzhi/Python3-Spider/tree/master/各站案例/MeiTuan)
-- [x] [【万创帮】爬虫登陆](https://github.com/wkunzhi/Python3-Spider/tree/master/各站案例/wcbchina)
-- [x] [【美团】全国区域爬虫](https://github.com/wkunzhi/Python3-Spider/tree/master/各站案例/MeiTuanArea)
-- [x] [【快递查询】-快递单号查询](https://github.com/wkunzhi/Python3-Spider/tree/master/各站案例/KuaiDi)
-- [x] [【空中网】爬虫登陆](https://github.com/wkunzhi/Python3-Spider/tree/master/各站案例/KongZhong)
-- [x] [【RSA | AES | DES | DES3】加密 解密](https://github.com/wkunzhi/Python3-Spider/tree/master/各站案例/RSA_AES_DES_DES3)
-- [x] [【微信公众号登陆密码】](https://github.com/wkunzhi/Python3-Spider/tree/master/各站案例/WeiXin)
-- [x] [【易通贷爬虫登陆】](https://github.com/wkunzhi/Python3-Spider/tree/master/各站案例/YiTongDai)
-- [x] [【金逸电影】账号注册](https://github.com/wkunzhi/Python3-Spider/tree/master/各站案例/JinYi)
-- [x] [【移动】参数解密](https://github.com/wkunzhi/Python3-Spider/tree/master/各站案例/YiDong)
-- [x] [【好莱客】参数解密](https://github.com/wkunzhi/Python3-Spider/tree/master/各站案例/Holike)
-- [x] [【DNS】爬虫登陆](https://github.com/wkunzhi/Python3-Spider/tree/master/各站案例/DNS)
-- [x] [【TCL 金融】爬虫登陆](https://github.com/wkunzhi/Python3-Spider/tree/master/各站案例/TCLsuo)
-- [x] [【国鑫所】爬虫登陆](https://github.com/wkunzhi/Python3-Spider/tree/master/各站案例/GuoXin)
-- [x] [【时光网】参数解密](https://github.com/wkunzhi/Python3-Spider/tree/master/各站案例/MTime)
-- [x] [【青海移动】参数解密](https://github.com/wkunzhi/Python3-Spider/tree/master/各站案例/QinHai)
-- [x] [【开鑫贷】参数解密](https://github.com/wkunzhi/Python3-Spider/tree/master/各站案例/KaiXinDai)
-- [x] [【Glidesky】登陆获取cookie](https://github.com/wkunzhi/Python3-Spider/tree/master/各站案例/Glidedsky)
-- [x] [【谷雨解字】字体解密](https://github.com/wkunzhi/Python3-Spider/tree/master/各站案例/GuYu)
-- [x] [【房天下】自动登陆](https://github.com/wkunzhi/Python3-Spider/tree/master/各站案例/Fang)
-- [x] [【小牛在线】加密参数生成](https://github.com/wkunzhi/Python3-Spider/tree/master/各站案例/XiaoNiu)
+## Python 爬虫实战
+
+> **自动登录**
+
+ [淘宝](https://github.com/wkunzhi/Python3-Spider/tree/master/各站案例/TaoBao) | [5173平台](https://github.com/wkunzhi/Python3-Spider/tree/master/各站案例/5173) | [房天下](https://github.com/wkunzhi/Python3-Spider/tree/master/各站案例/Fang) | [Glidesky](https://github.com/wkunzhi/Python3-Spider/tree/master/各站案例/Glidedsky) | [中关村](https://github.com/wkunzhi/Python3-Spider/tree/master/各站案例/ZhongGuanChun) | [9377平台](https://github.com/wkunzhi/Python3-Spider/tree/master/各站案例/9377) | [逗游](https://github.com/wkunzhi/Python3-Spider/tree/master/各站案例/DouYou) | [GitHub](https://github.com/wkunzhi/Python3-Spider/tree/master/各站案例/GitHub) | [万创帮](https://github.com/wkunzhi/Python3-Spider/tree/master/各站案例/wcbchina) | [空中网](https://github.com/wkunzhi/Python3-Spider/tree/master/各站案例/KongZhong) | [易通贷](https://github.com/wkunzhi/Python3-Spider/tree/master/各站案例/YiTongDai) | [DNS](https://github.com/wkunzhi/Python3-Spider/tree/master/各站案例/DNS) | [TCL金融](https://github.com/wkunzhi/Python3-Spider/tree/master/各站案例/TCLsuo) | [国鑫所](https://github.com/wkunzhi/Python3-Spider/tree/master/各站案例/GuoXin)
+
+> **参数生成**  
+
+[拼多多](https://github.com/wkunzhi/Python3-Spider/tree/master/各站案例/PinDuoDuo) | [小牛在线](https://github.com/wkunzhi/Python3-Spider/tree/master/各站案例/XiaoNiu) | [开鑫贷](https://github.com/wkunzhi/Python3-Spider/tree/master/各站案例/KaiXinDai) | [时光网](https://github.com/wkunzhi/Python3-Spider/tree/master/各站案例/MTime) | [【百度】登陆密码加密器 ](https://github.com/wkunzhi/Python3-Spider/tree/master/各站案例/BaiDuLogin) | [公众号密码加密](https://github.com/wkunzhi/Python3-Spider/tree/master/各站案例/WeiXin) | [移动](https://github.com/wkunzhi/Python3-Spider/tree/master/各站案例/YiDong) | [好莱客](https://github.com/wkunzhi/Python3-Spider/tree/master/各站案例/Holike) | [青海移动](https://github.com/wkunzhi/Python3-Spider/tree/master/各站案例/QinHai)
 
 
-## 二、教程
-- [【APP爬虫】](https://github.com/wkunzhi/Python3-Spider/blob/master/教程/app爬虫/)
-- [【Pyppeteer说明、案例】](https://github.com/wkunzhi/Python3-Spider/tree/master/%E6%95%99%E7%A8%8B/Pyppeteer)
-- [【爬虫相关博客公众号推荐】](https://github.com/wkunzhi/Python3-Spider/blob/master/%E6%95%99%E7%A8%8B/%E5%8D%9A%E5%AE%A2%E5%85%AC%E4%BC%97%E5%8F%B7%E6%8E%A8%E8%8D%90.md)
-- [【JS 各种加密解密 Python实现】](https://github.com/wkunzhi/Python3-Spider/blob/master/教程/JS分析)
-- [【拼多多登陆加密解析】](https://github.com/wkunzhi/Python3-Spider/blob/master/教程/JS分析)
+> **字体加密**  
 
-## 三、原创工具
+[大众点评](https://github.com/wkunzhi/Python3-Spider/tree/master/各站案例/DianPing) | [谷雨](https://github.com/wkunzhi/Python3-Spider/tree/master/各站案例/GuYu) | 
+
+> **其他实战**  
+
+[美团 解析与token生成](https://github.com/wkunzhi/Python3-Spider/tree/master/各站案例/MeiTuan) | [bilibili 视频下载](https://github.com/wkunzhi/Python3-Spider/tree/master/各站案例/bilibili) | [51job 查岗位](https://github.com/wkunzhi/Python3-Spider/tree/master/各站案例/51Job) | [百度 翻译](https://github.com/wkunzhi/Python3-Spider/tree/master/各站案例/BaiDu) | [美团 全国区域](https://github.com/wkunzhi/Python3-Spider/tree/master/各站案例/MeiTuanArea) | [快递查询](https://github.com/wkunzhi/Python3-Spider/tree/master/各站案例/KuaiDi) | [金逸电影 注册](https://github.com/wkunzhi/Python3-Spider/tree/master/各站案例/JinYi) | [Python加密库Demo](https://github.com/wkunzhi/Python3-Spider/tree/master/各站案例/RSA_AES_DES_DES3)
+
+
+
+
+
+## 原创工具
 > 此工具包在我另外一个项目中，欢迎 star
 
 - [【解密工具】可拓展式解密器](https://github.com/wkunzhi/SpiderUtilPackage/tree/master/Decode)
@@ -75,15 +58,17 @@
 - [【scrapy 自定义拓展包】](https://github.com/wkunzhi/Python3-Spider/tree/master/原创工具/zok)
 
 
-## 四、爬虫项目
-- [x] [【美团】全国区域爬虫](https://github.com/wkunzhi/Python3-Spider/tree/master/项目/MeiTuanArea)
-- [ ] [【房产】地产爬虫 【开发中】](https://github.com/wkunzhi/Python3-Spider/tree/master/项目/HouseSpider)
-
-## 特：验证处理方案
+## 特殊验证码
 - [ ] [【滑块 - 非模拟滑动】待更新 ]()
 - [ ] [【点选】待更新]()
 - [ ] [【文字识别】待更新]()
 
--------
 
+----
+
+### 演示
+
+- 可拓展式编码转换器
+
+![可拓展式编码转换器](https://zok-blog.oss-cn-hangzhou.aliyuncs.com/images/%E7%89%B9%E6%AE%8A.gif)
 

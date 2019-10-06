@@ -3,6 +3,7 @@
 # Date: 2019-09-12  Python: 3.7
 import execjs.runtime_names
 
+
 class QinHaiYiDong:
     """
     青海移动

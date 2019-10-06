@@ -10,6 +10,7 @@ import json
 class Gli:
     """
     自动登陆 Glidedsky
+    http://www.glidedsky.com/login
     """
 
     def __init__(self, user, pwd):
