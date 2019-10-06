@@ -1,13 +1,22 @@
+# <p align="center">Python3 爬虫实战 如果喜欢请star</p>
 
 
-# Python3 Spider
+<p align="center">
+    <a href="#"><img src="https://img.shields.io/badge/status-updating-brightgreen.svg"></a>
+    <a href="https://www.python.org/downloads/"><img src="https://zok-blog.oss-cn-hangzhou.aliyuncs.com/ico/python-3.7-green.svg"></a>
+    <a href="https://github.com/wkunzhi/Python3-Spider/graphs/contributors"><img src="https://img.shields.io/github/contributors/wkunzhi/Python3-Spider?color=blue"></a>
+    <a href="#"><img src="https://img.shields.io/github/stars/wkunzhi/Python3-Spider.svg?label=Stars&style=social"></a>
+    <a href="#"><img src="https://img.shields.io/github/forks/wkunzhi/Python3-Spider.svg?label=Forks&style=social" align="right" height="48" width="48" ></a>
+</p>
+<br />
 
 
-![](https://img.shields.io/badge/status-updating-brightgreen.svg) 
-![](https://zok-blog.oss-cn-hangzhou.aliyuncs.com/ico/python-3.7-green.svg) 
-![](https://img.shields.io/github/contributors/wkunzhi/Python3-Spider) 
-![](https://img.shields.io/github/stars/wkunzhi/Python3-Spider.svg?label=Stars&style=social) 
-![](https://img.shields.io/github/forks/wkunzhi/Python3-Spider.svg?label=Forks&style=social) 
+## 简介
+一些常见的网站爬虫例子，代码通用性较高，时效性较久。**项目代码对新手比较友好**，尽量用简单的python代码，并配有大量注释。
+
+
+<br />
+
 
 
 
