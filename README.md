@@ -85,7 +85,7 @@
 
 - 淘宝：自动登录
 
-![自动登录](https://zok-blog.oss-cn-hangzhou.aliyuncs.com/tblog.gif)
+![自动登录](https://zok-blog.oss-cn-hangzhou.aliyuncs.com/tglog3.gif)
 
 
 - 工具：解码器
