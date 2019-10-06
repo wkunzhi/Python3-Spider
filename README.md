@@ -14,7 +14,7 @@
     <a href="#"><img src="https://img.shields.io/badge/Branch-master-green.svg?longCache=true" alt="Branch"></a>
     <a href="#"><img src="https://img.shields.io/github/stars/wkunzhi/Python3-Spider.svg?label=Stars&style=social"></a>
     <a href="#"><img src="https://img.shields.io/github/forks/wkunzhi/Python3-Spider.svg?label=Forks&style=social"></a>
-    <a href="https://www.python.org/"><img src="https://upload.wikimedia.org/wikipedia/commons/c/c3/Python-logo-notext.svg" align="right" height="48" width="48" ></a>
+
 </p>
 <br />
 
