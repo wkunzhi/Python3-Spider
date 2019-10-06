@@ -6,7 +6,7 @@
     <a href="https://www.python.org/downloads/"><img src="https://zok-blog.oss-cn-hangzhou.aliyuncs.com/ico/python-3.7-green.svg"></a>
     <a href="https://github.com/wkunzhi/Python3-Spider/graphs/contributors"><img src="https://img.shields.io/github/contributors/wkunzhi/Python3-Spider?color=blue"></a>
     <a href="#"><img src="https://img.shields.io/github/stars/wkunzhi/Python3-Spider.svg?label=Stars&style=social"></a>
-    <a href="#"><img src="https://img.shields.io/github/forks/wkunzhi/Python3-Spider.svg?label=Forks&style=social" align="right" height="48" width="48" ></a>
+    <a href="#"><img src="https://img.shields.io/github/forks/wkunzhi/Python3-Spider.svg?label=Forks&style=social"></a>
 </p>
 <br />
 
