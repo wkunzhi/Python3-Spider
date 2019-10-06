@@ -39,6 +39,12 @@
 
 ## Python 爬虫实战
 
+
+> **字体加密**  
+
+[大众点评](https://github.com/wkunzhi/Python3-Spider/tree/master/各站案例/DianPing) | [谷雨](https://github.com/wkunzhi/Python3-Spider/tree/master/各站案例/GuYu) | 
+
+
 > **自动登录**
 
  [淘宝](https://github.com/wkunzhi/Python3-Spider/tree/master/各站案例/TaoBao) | [5173平台](https://github.com/wkunzhi/Python3-Spider/tree/master/各站案例/5173) | [房天下](https://github.com/wkunzhi/Python3-Spider/tree/master/各站案例/Fang) | [Glidesky](https://github.com/wkunzhi/Python3-Spider/tree/master/各站案例/Glidedsky) | [中关村](https://github.com/wkunzhi/Python3-Spider/tree/master/各站案例/ZhongGuanChun) | [9377平台](https://github.com/wkunzhi/Python3-Spider/tree/master/各站案例/9377) | [逗游](https://github.com/wkunzhi/Python3-Spider/tree/master/各站案例/DouYou) | [GitHub](https://github.com/wkunzhi/Python3-Spider/tree/master/各站案例/GitHub) | [万创帮](https://github.com/wkunzhi/Python3-Spider/tree/master/各站案例/wcbchina) | [空中网](https://github.com/wkunzhi/Python3-Spider/tree/master/各站案例/KongZhong) | [易通贷](https://github.com/wkunzhi/Python3-Spider/tree/master/各站案例/YiTongDai) | [DNS](https://github.com/wkunzhi/Python3-Spider/tree/master/各站案例/DNS) | [TCL金融](https://github.com/wkunzhi/Python3-Spider/tree/master/各站案例/TCLsuo) | [国鑫所](https://github.com/wkunzhi/Python3-Spider/tree/master/各站案例/GuoXin)
@@ -47,10 +53,6 @@
 
 [拼多多](https://github.com/wkunzhi/Python3-Spider/tree/master/各站案例/PinDuoDuo) | [小牛在线](https://github.com/wkunzhi/Python3-Spider/tree/master/各站案例/XiaoNiu) | [开鑫贷](https://github.com/wkunzhi/Python3-Spider/tree/master/各站案例/KaiXinDai) | [时光网](https://github.com/wkunzhi/Python3-Spider/tree/master/各站案例/MTime) | [百度 ](https://github.com/wkunzhi/Python3-Spider/tree/master/各站案例/BaiDuLogin) | [公众号密码加密](https://github.com/wkunzhi/Python3-Spider/tree/master/各站案例/WeiXin) | [移动](https://github.com/wkunzhi/Python3-Spider/tree/master/各站案例/YiDong) | [好莱客](https://github.com/wkunzhi/Python3-Spider/tree/master/各站案例/Holike) | [青海移动](https://github.com/wkunzhi/Python3-Spider/tree/master/各站案例/QinHai)
 
-
-> **字体加密**  
-
-[大众点评](https://github.com/wkunzhi/Python3-Spider/tree/master/各站案例/DianPing) | [谷雨](https://github.com/wkunzhi/Python3-Spider/tree/master/各站案例/GuYu) | 
 
 > **其他实战**  
 
