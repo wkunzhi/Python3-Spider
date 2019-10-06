@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 # __author__ = "zok"  362416272@qq.com
-# Date: 2019-04-27  Python: 3.7
+# Date: 2019-10-6  Python: 3.7
 
 import time
 import random
@@ -18,19 +18,14 @@ class LoginTaoBao:
     async def _injection_js(self):
         """注入js
         """
-        await self.page.evaluate('''() =>{
-
-                   Object.defineProperties(navigator,{
-                     webdriver:{
-                       get: () => false
-                     }
-                   })
-                }''')
+        await self.page.evaluateOnNewDocument('() =>{ Object.defineProperties(navigator,'
+                                         '{ webdriver:{ get: () => false } }) }')  # 本页刷新后值不变
 
     async def _init(self):
         """初始化浏览器
         """
         browser = await pyppeteer.launch({'headless': False,
+                                          # 'userDataDir': './userdata',
                                           'args': [
                                               '--window-size={1300},{600}'
                                               '--disable-extensions',
@@ -40,8 +35,9 @@ class LoginTaoBao:
                                               '--no-sandbox',
                                               '--disable-setuid-sandbox',
                                               '--disable-gpu',
+                                              '--disable-infobars'
                                           ],
-                                          'dumpio': True,
+                                          'dumpio': True
                                           })
         self.page = await browser.newPage()
         # 设置浏览器头部
@@ -91,10 +87,13 @@ class LoginTaoBao:
         """
         # 初始化浏览器
         await self._init()
-        # 打开淘宝登陆页面
-        await self.page.goto('https://login.taobao.com')
         # 注入js
         await self._injection_js()
+        # 打开淘宝登陆页面
+        await self.page.goto('https://login.taobao.com')
+
+        # await self.page.goto('https://www.taobao.com')
+        # time.sleep(1000000)
         # 点击密码登陆按钮
         await self.page.click('div.login-switch')
         time.sleep(random.random() * 2)
@@ -104,7 +103,7 @@ class LoginTaoBao:
         await self.page.type('#TPL_password_1', pwd_, {'delay': random.randint(100, 151)})
         time.sleep(random.random() * 2)
         # 获取滑块元素
-        slider = await self.page.querySelector('#nc_1__scale_text')
+        slider = await self.page.Jeval('#nocaptcha', 'node => node.style')
         if slider:
             print('有滑块')
             # 移动滑块
@@ -116,18 +115,19 @@ class LoginTaoBao:
             # 点击登陆
             print('点击登陆')
             await self.page.click('#J_SubmitStatic')
-            await asyncio.sleep(100)
-        else:
-            print('没滑块')
-            # 按下回车
-            await self.page.keyboard.press('Enter')
+            await asyncio.sleep(1000)
+
+        print('点击登陆')
+        await self.page.keyboard.press('Enter')
+
+        cookies = await self.get_cookie()
+        time.sleep(10000)
 
 
 if __name__ == '__main__':
-    username = input('淘宝用户名')
-    pwd = input('密码')
+    username = input('请输入淘宝用户名')
+    password = input('密码')
     login = LoginTaoBao()
     loop = asyncio.get_event_loop()
-    task = asyncio.ensure_future(login.main(username, pwd))
+    task = asyncio.ensure_future(login.main(username, password))
     loop.run_until_complete(task)
-
