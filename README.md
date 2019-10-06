@@ -15,17 +15,15 @@
 ## 简介
 包含几十个 python3 爬虫实战案例。如果喜欢请 star 与 fork，这是对我继续更新下去的最大支持
 
-
-<br />
-
-
-
-
-
+## 作者
 | Author  | Zok |
 | --- | --- |
 | Email | 362416272@qq.com |
 | 博客 | https://blog.zhangkunzhi.com |
+
+
+<br />
+
 
 
 
