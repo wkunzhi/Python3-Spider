@@ -1,4 +1,4 @@
-# <p align="center">Python3 爬虫实战 如果喜欢请star</p>
+# <p align="center">Python3 爬虫实战</p>
 
 
 <p align="center">
@@ -13,7 +13,7 @@
 
 
 ## 简介
-一些常见的网站爬虫例子，代码通用性较高，时效性较久。**项目代码对新手比较友好**，尽量用简单的python代码，并配有大量注释。
+包含几十个 python3 爬虫实战案例。如果喜欢请 star 与 fork，这是对我继续更新下去的最大支持
 
 
 <br />
