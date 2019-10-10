@@ -47,7 +47,7 @@
 
 > **参数生成**  
 
-[拼多多](https://github.com/wkunzhi/Python3-Spider/tree/master/【拼多多】登陆参数生成) | [小牛在线](https://github.com/wkunzhi/Python3-Spider/tree/master/其他实战/【小牛在线】登录参数生成) | [开鑫贷](https://github.com/wkunzhi/Python3-Spider/tree/master/其他实战/【开鑫贷】登陆参数生成) | [时光网](https://github.com/wkunzhi/Python3-Spider/tree/master/其他实战/【时光网】登陆参数生成) | [百度](https://github.com/wkunzhi/Python3-Spider/tree/master/其他实战/【百度】自动登录) | [公众号密码加密](https://github.com/wkunzhi/Python3-Spider/tree/master/【微信】登录参数生成) | [移动](https://github.com/wkunzhi/Python3-Spider/tree/master/其他实战/【移动】登录参数生成) | [好莱客](https://github.com/wkunzhi/Python3-Spider/tree/master/其他实战/【好莱客】参数解析) | [青海移动](https://github.com/wkunzhi/Python3-Spider/tree/master/其他实战/【青海移动】登陆参数生成)
+[拼多多](https://github.com/wkunzhi/Python3-Spider/tree/master/【拼多多】登陆参数生成) | [小牛在线](https://github.com/wkunzhi/Python3-Spider/tree/master/其他实战/【小牛在线】登录参数生成) | [开鑫贷](https://github.com/wkunzhi/Python3-Spider/tree/master/其他实战/【开鑫贷】登陆参数生成) | [时光网](https://github.com/wkunzhi/Python3-Spider/tree/master/其他实战/【时光网】登陆参数生成) | [百度](https://github.com/wkunzhi/Python3-Spider/tree/master/其他实战/【百度】自动登录) | [公众号密码加密](https://github.com/wkunzhi/Python3-Spider/tree/master/其他实战/【微信】登录参数生成) | [移动](https://github.com/wkunzhi/Python3-Spider/tree/master/其他实战/【移动】登录参数生成) | [好莱客](https://github.com/wkunzhi/Python3-Spider/tree/master/其他实战/【好莱客】参数解析) | [青海移动](https://github.com/wkunzhi/Python3-Spider/tree/master/其他实战/【青海移动】登陆参数生成)
 
 
 > **自动登录**
@@ -76,9 +76,11 @@
 
 
 ## 特殊验证码
-- [ ] [【滑块 - 非模拟滑动】待更新 ]()
+- [ ] [【滑块 - 非模拟滑动】](https://github.com/wkunzhi/Python3-Spider/tree/master/验证码破解)
 - [ ] [【点选】待更新]()
+- [ ] [【螺丝帽】待更新]()
 - [ ] [【文字识别】待更新]()
+- [ ] [【物体识别】待更新]()
 
 
 ----
