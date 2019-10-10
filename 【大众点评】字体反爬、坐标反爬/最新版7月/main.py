@@ -7,7 +7,7 @@
 实际运用中，导包路径自己填写好就行了
 """
 
-from 各站案例.DianPing.最新版7月.font import ParseFontClass
+from .font import ParseFontClass
 
 # 这里需要传入页面中包含字体链接的 css 网址
 pf = ParseFontClass('http://s3plus.meituan.net/v1/mss_0a06a471f9514fc79c981b5466f56b91/svgtextcss/8945b511eb964a95fe071d4852a7ef03.css')
