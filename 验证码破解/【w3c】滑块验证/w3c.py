@@ -4,6 +4,7 @@
 
 import requests
 import re
+import json
 from PIL import Image  # 图像处理模块
 from io import BytesIO  # io 加载
 
@@ -123,8 +124,10 @@ class W3C:
         point = self.get_img()
 
         if point:
+            print('\033[1;34m识别成功: 缺口位置 x: %s \033[0m' % point)
+            print('\033[1;36m提交数据中...\033[0m')
             result = self.session.post(self.check, data={'point': point}, headers=self.headers)
-            print(result.text)
+            print(json.loads(result.text).get('message'))
         else:
             print('滑块识别失败。。运气不佳。。重试即可。')
 

@@ -39,10 +39,14 @@
 
 ## Python 爬虫实战
 
+> **验证码破解**
+
+[滑块1](https://github.com/wkunzhi/Python3-Spider/tree/master/验证码破解/【w3c】滑块验证)
+
 
 > **字体加密**  
 
-[大众点评](https://github.com/wkunzhi/Python3-Spider/tree/master/【大众点评】字体反爬、坐标反爬) | [谷雨](https://github.com/wkunzhi/Python3-Spider/tree/master/其他实战/【谷雨】数字解密) | 
+[大众点评](https://github.com/wkunzhi/Python3-Spider/tree/master/【大众点评】字体反爬、坐标反爬) | [谷雨](https://github.com/wkunzhi/Python3-Spider/tree/master/其他实战/【谷雨】数字解密) 
 
 
 > **参数生成**  
@@ -94,3 +98,14 @@
 
 ![可拓展式编码转换器](https://zok-blog.oss-cn-hangzhou.aliyuncs.com/images/%E7%89%B9%E6%AE%8A.gif)
 
+- 滑块还原识别
+
+![可拓展式编码转换器](https://zok-blog.oss-cn-hangzhou.aliyuncs.com/images/20190818/bg.png)
+
+还原图片
+
+![可拓展式编码转换器](https://zok-blog.oss-cn-hangzhou.aliyuncs.com/images/20190818/chache.png)
+
+提交
+
+![可拓展式编码转换器](https://zok-blog.oss-cn-hangzhou.aliyuncs.com/images/20190818/WX20191011-090630.png)
