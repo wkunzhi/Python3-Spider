@@ -41,10 +41,10 @@
 
 > **验证码破解**
 
-[滑块1](https://github.com/wkunzhi/Python3-Spider/tree/master/验证码破解/【w3c】滑块验证)
+[w3c-滑块](https://github.com/wkunzhi/Python3-Spider/tree/master/验证码破解/【w3c】滑块验证) | [腾讯-滑块](https://github.com/wkunzhi/Python3-Spider/tree/master/验证码破解/【腾讯】滑块验证)
 
 
-> **字体加密**  
+> **字体加密**
 
 [大众点评](https://github.com/wkunzhi/Python3-Spider/tree/master/【大众点评】字体反爬、坐标反爬) | [谷雨](https://github.com/wkunzhi/Python3-Spider/tree/master/其他实战/【谷雨】数字解密) 
 
@@ -56,7 +56,7 @@
 
 > **自动登录**
 
- [淘宝](https://github.com/wkunzhi/Python3-Spider/tree/master/【淘宝】自动登陆) | [5173平台](https://github.com/wkunzhi/Python3-Spider/tree/master/其他实战/【5173网】自动登录) | [房天下](https://github.com/wkunzhi/Python3-Spider/tree/master/其他实战/【房天下】自动登录) | [Glidesky](https://github.com/wkunzhi/Python3-Spider/tree/master/其他实战/【Glidedsky】自动登陆) | [中关村](https://github.com/wkunzhi/Python3-Spider/tree/master/其他实战/【中关村】自动登录) | [9377平台](https://github.com/wkunzhi/Python3-Spider/tree/master/其他实战/【9377网】自动登录) | [逗游](https://github.com/wkunzhi/Python3-Spider/tree/master/其他实战/【逗游】自动登录) | [GitHub](https://github.com/wkunzhi/Python3-Spider/tree/master/【GitHub】自动登录) | [万创帮](https://github.com/wkunzhi/Python3-Spider/tree/master/其他实战/【万创帮】自动登录) | [空中网](https://github.com/wkunzhi/Python3-Spider/tree/master/其他实战/【空中网】自动登录) | [易通贷](https://github.com/wkunzhi/Python3-Spider/tree/master/其他实战/【易通贷】自动登录) | [DNS](https://github.com/wkunzhi/Python3-Spider/tree/master/其他实战/【DNS】自动登录) | [TCL金融](https://github.com/wkunzhi/Python3-Spider/tree/master/其他实战/【TCL金融】自动登录) | [国鑫所](https://github.com/wkunzhi/Python3-Spider/tree/master/其他实战/【国鑫所】自动登录)
+ [淘宝](https://github.com/wkunzhi/Python3-Spider/tree/master/【淘宝】自动登陆) | [5173平台](https://github.com/wkunzhi/Python3-Spider/tree/master/其他实战/【5173网】自动登录) | [房天下](https://github.com/wkunzhi/Python3-Spider/tree/master/其他实战/【房天下】自动登录) | [Glidesky](https://github.com/wkunzhi/Python3-Spider/tree/master/其他实战/【Glidedsky】自动登陆) | [中关村](https://github.com/wkunzhi/Python3-Spider/tree/master/其他实战/【中关村】自动登录) | [9377平台](https://github.com/wkunzhi/Python3-Spider/tree/master/其他实战/【9377网】自动登录) | [逗游](https://github.com/wkunzhi/Python3-Spider/tree/master/其他实战/【逗游】自动登录) | [GitHub](https://github.com/wkunzhi/Python3-Spider/tree/master/其他实战/【GitHub】自动登录) | [万创帮](https://github.com/wkunzhi/Python3-Spider/tree/master/其他实战/【万创帮】自动登录) | [空中网](https://github.com/wkunzhi/Python3-Spider/tree/master/其他实战/【空中网】自动登录) | [易通贷](https://github.com/wkunzhi/Python3-Spider/tree/master/其他实战/【易通贷】自动登录) | [DNS](https://github.com/wkunzhi/Python3-Spider/tree/master/其他实战/【DNS】自动登录) | [TCL金融](https://github.com/wkunzhi/Python3-Spider/tree/master/其他实战/【TCL金融】自动登录) | [国鑫所](https://github.com/wkunzhi/Python3-Spider/tree/master/其他实战/【国鑫所】自动登录)
 
 > **其他实战**  
 
@@ -89,16 +89,16 @@
 
 ----
 
-- 淘宝：自动登录
+### 淘宝：自动登录
 
 ![自动登录](https://zok-blog.oss-cn-hangzhou.aliyuncs.com/tglog3.gif)
 
 
-- 工具：解码器
+### 工具：解码器
 
 ![可拓展式编码转换器](https://zok-blog.oss-cn-hangzhou.aliyuncs.com/images/%E7%89%B9%E6%AE%8A.gif)
 
-- 滑块还原识别
+### 滑块还原识别
 
 ![可拓展式编码转换器](https://zok-blog.oss-cn-hangzhou.aliyuncs.com/images/20190818/bg.png)
 
@@ -109,3 +109,8 @@
 提交
 
 ![可拓展式编码转换器](https://zok-blog.oss-cn-hangzhou.aliyuncs.com/images/20190818/WX20191011-090630.png)
+
+
+### 腾讯滑块缺口识别
+
+![缺口识别](https://zok-blog.oss-cn-hangzhou.aliyuncs.com/images/20190818/WX20191011-203441%402x.png)
