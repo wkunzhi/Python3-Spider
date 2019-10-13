@@ -15,13 +15,13 @@ class SpiderLogin:
     def __init__(self, user, pwd):
         self.user = user
         self.pwd = pwd
-        self.url = 'https://m.【万创帮】自动登录.com/login/other-login.html'
+        self.url = 'https://m.wcbchina.com/login/other-login.html'
         print('引擎', execjs.get().name)
 
     def use_js(self):
         """js 调用
         """
-        with open("dns.js", "r", encoding="utf-8") as f:
+        with open("encryp.js", "r", encoding="utf-8") as f:
             js = execjs.compile(f.read())
 
         try:
@@ -37,7 +37,7 @@ class SpiderLogin:
         sign, t, pwd = self.use_js()
         headers = {
             'User-Agent': 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1',
-            'Referer': 'https://m.【万创帮】自动登录.com/login/other-login.html'
+            'Referer': 'https://m.wcbchina.com/login/other-login.html'
         }
         pay_load = {
             'auth': {'sign': sign, 'timestamp': t},

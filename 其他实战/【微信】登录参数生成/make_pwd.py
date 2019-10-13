@@ -15,7 +15,7 @@ class WeXin(object):
 
     @staticmethod
     def make_pwd(pwd):
-        with open("dns.js", "r", encoding="utf-8") as f:
+        with open("encryp.js", "r", encoding="utf-8") as f:
             ctx = execjs.compile(f.read())
 
         ret = ctx.call("make_pwd", pwd)

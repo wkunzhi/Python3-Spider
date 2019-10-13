@@ -24,7 +24,7 @@ class YX(object):
         print('引擎', execjs.get().name)
 
     def make_pwd(self, key):
-        with open("dns.js", "r", encoding="utf-8") as f:
+        with open("encryp.js", "r", encoding="utf-8") as f:
             ctx = execjs.compile(f.read())
         return ctx.call("make_js", self.pwd, key)
 

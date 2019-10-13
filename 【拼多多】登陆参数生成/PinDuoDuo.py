@@ -22,7 +22,7 @@ class PingDuoDuoSpider(object):
         self.password = password
 
     def make(self):
-        with open("dns.js", "r", encoding="utf-8") as f:
+        with open("encryp.js", "r", encoding="utf-8") as f:
             ctx = execjs.compile(f.read())
 
         ret = ctx.call("test", self.password)

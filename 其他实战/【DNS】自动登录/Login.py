@@ -38,7 +38,6 @@ class DNS:
             'redirectTo': 'https://www.dns.com/dashboard',
         }
         response = requests.post(self.url, data=data, headers=self.headers)
-        print(response.text)
         print(response)
 
 

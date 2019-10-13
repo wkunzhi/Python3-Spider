@@ -19,7 +19,7 @@ class PingDuoDuoSpider(object):
 
     def __init__(self):
         # 初始化
-        with open("dns.js", "r", encoding="utf-8") as f:
+        with open("encryp.js", "r", encoding="utf-8") as f:
             self.context.execute(f.read())
 
     def make(self, password):

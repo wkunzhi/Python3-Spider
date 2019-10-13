@@ -20,7 +20,7 @@ class JinYiRegister:
 
     @staticmethod
     def js_make(json_data):
-        with open('dns.js', 'r', encoding='utf-8') as f:
+        with open('encryp.js', 'r', encoding='utf-8') as f:
             js = execjs.compile(f.read())
         try:
             result = js.call("getEncryption", json_data)

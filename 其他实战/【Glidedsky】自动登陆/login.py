@@ -39,5 +39,7 @@ class Gli:
 
 
 if __name__ == '__main__':
-    g = Gli('username', 'password')
+    username = input('请输入用户名')
+    password = input('请输入密码')
+    g = Gli(username, password)
     g.login()

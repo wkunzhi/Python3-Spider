@@ -23,7 +23,7 @@ class DouYou:
         """
         try:
             nonce, ts = self.get_token()
-            with open("dns.js", "r", encoding="utf-8") as f:
+            with open("encryp.js", "r", encoding="utf-8") as f:
                 self.context.execute(f.read())
             pwd_hash = self.context.get_value(self.password, nonce, ts)
             return pwd_hash  # 打印加密之后的密码

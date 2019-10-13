@@ -34,7 +34,7 @@ class MakeParam:
             print('获取key失败')
 
     def read_js(self):
-        with open('dns.js', 'r', encoding='utf-8') as f:
+        with open('encryp.js', 'r', encoding='utf-8') as f:
             self.js = execjs.compile(f.read())
 
     def make_params(self):
