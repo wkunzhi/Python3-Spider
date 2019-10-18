@@ -39,7 +39,7 @@
 
 ## Python 爬虫实战
 
-> **验证码破解**
+> **验证码破解 (只提供部分代码)【仅作学术讨论，禁止商用】**
 
 [w3c-滑块](https://github.com/wkunzhi/Python3-Spider/tree/master/验证码破解/【w3c】滑块验证) | [腾讯-滑块](https://github.com/wkunzhi/Python3-Spider/tree/master/验证码破解/【腾讯】滑块验证)
 
@@ -114,3 +114,4 @@
 ### 腾讯滑块缺口识别
 
 ![缺口识别](https://zok-blog.oss-cn-hangzhou.aliyuncs.com/images/20190818/WX20191011-203441%402x.png)
+
