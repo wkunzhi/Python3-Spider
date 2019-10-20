@@ -11,9 +11,8 @@
 """
 
 
-"""希望能帮助到学习中的同学"""
 # eks: tds.js 中
 # ans: r=stop_position o=模态框position y.rate为缩放，套用公式计算即可
-# fpinfo: cookie 中
+# fpinfo: js 生成的token  tokenidiframe.web-token.0.0.2.js
 # baba**: 参数名需要捕获  aes 打开解析
-# 其他的都是前面请求中的信息
+
