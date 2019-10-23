@@ -86,13 +86,13 @@ class ParseFontClass:
                 # 已存在无需安装
                 continue
             # 安装字体
-            with open('file/' + name + '.woff', 'wb+') as f:
+            with open(name + '.woff', 'wb+') as f:
                 f.write(requests.get('http://' + ttf_list[index]).content)  # 下载写入
-                font = TTFont('file/' + name + '.woff')
+                font = TTFont(name + '.woff')
                 uni_list = font['cmap'].tables[0].ttFont.getGlyphOrder()  # 取出字形保存到uniList中
                 json_data = json.dumps(dict(zip(uni_list, self.FONT_LIST)), ensure_ascii=False)
                 self.add_hash(name, json_data)
-                os.remove('file/' + name + '.woff')  # 用完了删掉，节省资源占用
+                os.remove(name + '.woff')  # 用完了删掉，节省资源占用
 
     @staticmethod
     def get_ttf_urls(text):
