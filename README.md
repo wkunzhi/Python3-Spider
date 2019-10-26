@@ -79,14 +79,6 @@
 - [【scrapy 自定义拓展包】](https://github.com/wkunzhi/Python3-Spider/tree/master/原创工具/zok)
 
 
-## 特殊验证码
-- [ ] [【滑块 - 非模拟滑动】](https://github.com/wkunzhi/Python3-Spider/tree/master/验证码破解)
-- [ ] [【点选识别】待更新]()
-- [ ] [【螺丝帽识别】待更新]()
-- [ ] [【文字识别】待更新]()
-- [ ] [【物体识别】待更新]()
-
-
 ----
 
 ### 淘宝：自动登录
