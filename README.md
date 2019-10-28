@@ -39,14 +39,15 @@
 
 ## Python 爬虫实战
 
-> **验证码破解 (只提供部分代码以及思路)【仅作学术讨论，禁止商用】**
-
-[w3c-滑块](https://github.com/wkunzhi/Python3-Spider/tree/master/验证码破解/【w3c】滑块验证) | [腾讯-滑块](https://github.com/wkunzhi/Python3-Spider/tree/master/验证码破解/【腾讯】滑块验证)
-
 
 > **字体加密**
 
 [大众点评](https://github.com/wkunzhi/Python3-Spider/tree/master/【大众点评】字体反爬、坐标反爬) | [谷雨](https://github.com/wkunzhi/Python3-Spider/tree/master/其他实战/【谷雨】数字解密) 
+
+> **验证码【仅作学术讨论】**
+
+[w3c-滑块](https://github.com/wkunzhi/Python3-Spider/tree/master/滑动验证码/【w3c】滑块验证) | [腾讯-滑块识别](https://github.com/wkunzhi/Python3-Spider/tree/master/滑动验证码/【腾讯】滑块验证/discriminate.py) ｜ [腾讯滑块拖动 selenium](https://github.com/wkunzhi/Python3-Spider/tree/master/滑动验证码/【腾讯】滑块验证/sel.py)
+
 
 
 > **参数生成**  
