@@ -26,6 +26,9 @@ class TX:
         self.browser.quit()
 
     def tx_code(self):
+
+        """这里需要访问，带有滑动验证码的页面，然后会获取滑块对其进行滑动"""
+
         WebDriverWait(self.browser, 20, 0.5).until(EC.presence_of_element_located((By.ID, 'tcaptcha_iframe')))  # 等待 iframe
         self.browser.switch_to.frame(self.browser.find_element_by_id('tcaptcha_iframe'))  # 加载 iframe
         time.sleep(0.5)
@@ -140,5 +143,8 @@ class TX:
 
 
 if __name__ == '__main__':
+    """
+    请在 tx_code 中访问含有 腾讯滑块的页面，然后会对其自动滑动
+    """
     xbt = TX()
     xbt.re_start()
