@@ -37,7 +37,7 @@ class TX:
         if self.save_img(bk_block):
             dex = self.get_pos()
             track_list = self.get_track(dex)
-
+            time.sleep(0.5)
             slid_ing = self.browser.find_element_by_xpath('//div[@id="tcaptcha_drag_thumb"]')  # 滑块定位
             ActionChains(self.browser).click_and_hold(on_element=slid_ing).perform()  # 鼠标按下
             time.sleep(0.2)
