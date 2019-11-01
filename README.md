@@ -80,6 +80,14 @@
 - [【scrapy 自定义拓展包】](https://github.com/wkunzhi/Python3-Spider/tree/master/原创工具/zok)
 
 
+## 【推荐】爬虫练习网
+> 一个很不错的爬虫练习题网，内涵十几个爬虫题目，由浅到深涵盖 **ip反爬、js反爬、字体反爬、验证码** 等题目。安利给大家，博主已撸完。
+
+- 登录网址 http://www.glidedsky.com/login
+- 题分排行榜 http://www.glidedsky.com/rank
+
+![](https://zok-blog.oss-cn-hangzhou.aliyuncs.com/images/%E7%88%AC%E8%99%AB%E9%A2%98%E8%AE%B0%E5%BD%95.png?x-oss-process=image/resize,h_500)
+
 ----
 
 ### 淘宝：自动登录
@@ -106,5 +114,7 @@
 
 ### 腾讯滑块缺口识别
 
-![缺口识别](https://zok-blog.oss-cn-hangzhou.aliyuncs.com/images/20190818/WX20191011-203441%402x.png)
+![缺口识别](https://zok-blog.oss-cn-hangzhou.aliyuncs.com/images/20190818/WX20191011-203441%402x.png?x-oss-process=image/resize,h_200)
+
+
 
