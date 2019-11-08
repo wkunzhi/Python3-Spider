@@ -101,5 +101,8 @@ class SSQ:
 
 
 if __name__ == "__main__":
-    ssq = SSQ('近期记录.xlsx', 'STHeiti Medium.ttc')
+    """
+    请自行准备一个字体文件并导入路径
+    """
+    ssq = SSQ('近期记录.xlsx', '你自己准备的字库路径')
     ssq.parse_history()
