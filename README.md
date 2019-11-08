@@ -61,7 +61,7 @@
 
 > **其他实战**  
 
- [美女壁纸下载](https://github.com/wkunzhi/Python3-Spider/tree/master/【壁纸】美女壁纸下载器) | [美团 解析与token生成](https://github.com/wkunzhi/Python3-Spider/tree/master/其他实战/【美团】数据解析、token生成) | [bilibili 视频下载](https://github.com/wkunzhi/Python3-Spider/tree/master/【bilibili】视频下载) | [51job 查岗位](https://github.com/wkunzhi/Python3-Spider/tree/master/【51Job】查岗位) | [百度 翻译](https://github.com/wkunzhi/Python3-Spider/tree/master/其他实战/【百度】翻译) | [美团 全国区域](https://github.com/wkunzhi/Python3-Spider/tree/master/各站案例/MeiTuanArea) | [快递查询](https://github.com/wkunzhi/Python3-Spider/tree/master/【快递】单号查询) | [金逸电影 注册](https://github.com/wkunzhi/Python3-Spider/tree/master/其他实战/【金逸电影】自动注册) | [Python加密库Demo](https://github.com/wkunzhi/Python3-Spider/tree/master/其他实战/【Python加密库】Demo)
+ [美女壁纸下载](https://github.com/wkunzhi/Python3-Spider/tree/master/【双色球】头奖分布) |  [美女壁纸下载](https://github.com/wkunzhi/Python3-Spider/tree/master/【壁纸】美女壁纸下载器) | [美团 解析与token生成](https://github.com/wkunzhi/Python3-Spider/tree/master/其他实战/【美团】数据解析、token生成) | [bilibili 视频下载](https://github.com/wkunzhi/Python3-Spider/tree/master/【bilibili】视频下载) | [51job 查岗位](https://github.com/wkunzhi/Python3-Spider/tree/master/【51Job】查岗位) | [百度 翻译](https://github.com/wkunzhi/Python3-Spider/tree/master/其他实战/【百度】翻译) | [美团 全国区域](https://github.com/wkunzhi/Python3-Spider/tree/master/各站案例/MeiTuanArea) | [快递查询](https://github.com/wkunzhi/Python3-Spider/tree/master/【快递】单号查询) | [金逸电影 注册](https://github.com/wkunzhi/Python3-Spider/tree/master/其他实战/【金逸电影】自动注册) | [Python加密库Demo](https://github.com/wkunzhi/Python3-Spider/tree/master/其他实战/【Python加密库】Demo)
 
 
 
@@ -94,6 +94,13 @@
 
 ![自动登录](https://zok-blog.oss-cn-hangzhou.aliyuncs.com/tglog3.gif)
 
+### 美女壁纸下载器
+![美女壁纸下载器](https://zok-blog.oss-cn-hangzhou.aliyuncs.com/images/20190818/WX20191106-114450.png)
+
+
+### 双色球头奖分布词云
+![双色球头奖](https://zok-blog.oss-cn-hangzhou.aliyuncs.com/images/20191107/result.jpg?x-oss-process=image/resize,w_700)
+![双色球](https://zok-blog.oss-cn-hangzhou.aliyuncs.com/images/20191107/WX20191108-152008%402x.png?x-oss-process=image/resize,w_700)
 
 ### 工具：解码器
 
@@ -103,19 +110,14 @@
 
 ![可拓展式编码转换器](https://zok-blog.oss-cn-hangzhou.aliyuncs.com/images/20190818/bg.png)
 
-还原图片
 
 ![可拓展式编码转换器](https://zok-blog.oss-cn-hangzhou.aliyuncs.com/images/20190818/chache.png)
 
-提交
-
-![可拓展式编码转换器](https://zok-blog.oss-cn-hangzhou.aliyuncs.com/images/20190818/WX20191011-090630.png)
 
 
 ### 腾讯滑块缺口识别
 
 ![缺口识别](https://zok-blog.oss-cn-hangzhou.aliyuncs.com/images/20190818/WX20191011-203441%402x.png?x-oss-process=image/resize,h_200)
 
-### 美女壁纸下载器
-![美女壁纸下载器](https://zok-blog.oss-cn-hangzhou.aliyuncs.com/images/20190818/WX20191106-114450.png)
+
 
