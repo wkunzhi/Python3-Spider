@@ -57,11 +57,11 @@
 
 > **自动登录**
 
- [淘宝](https://github.com/wkunzhi/Python3-Spider/tree/master/【淘宝】自动登陆) | [5173平台](https://github.com/wkunzhi/Python3-Spider/tree/master/其他实战/【5173网】自动登录) | [房天下](https://github.com/wkunzhi/Python3-Spider/tree/master/其他实战/【房天下】自动登录) | [Glidesky](https://github.com/wkunzhi/Python3-Spider/tree/master/其他实战/【Glidedsky】自动登陆) | [中关村](https://github.com/wkunzhi/Python3-Spider/tree/master/其他实战/【中关村】自动登录) | [9377平台](https://github.com/wkunzhi/Python3-Spider/tree/master/其他实战/【9377网】自动登录) | [逗游](https://github.com/wkunzhi/Python3-Spider/tree/master/其他实战/【逗游】自动登录) | [GitHub](https://github.com/wkunzhi/Python3-Spider/tree/master/其他实战/【GitHub】自动登录) | [万创帮](https://github.com/wkunzhi/Python3-Spider/tree/master/其他实战/【万创帮】自动登录) | [空中网](https://github.com/wkunzhi/Python3-Spider/tree/master/其他实战/【空中网】自动登录) | [易通贷](https://github.com/wkunzhi/Python3-Spider/tree/master/其他实战/【易通贷】自动登录) | [DNS](https://github.com/wkunzhi/Python3-Spider/tree/master/其他实战/【DNS】自动登录) | [TCL金融](https://github.com/wkunzhi/Python3-Spider/tree/master/其他实战/【TCL金融】自动登录) | [国鑫所](https://github.com/wkunzhi/Python3-Spider/tree/master/其他实战/【国鑫所】自动登录)  | [满级网](https://github.com/wkunzhi/Python3-Spider/tree/master/其他实战/满级网)
+[淘宝](https://github.com/wkunzhi/Python3-Spider/tree/master/【淘宝】自动登陆) | [5173平台](https://github.com/wkunzhi/Python3-Spider/tree/master/其他实战/【5173网】自动登录) | [房天下](https://github.com/wkunzhi/Python3-Spider/tree/master/其他实战/【房天下】自动登录) | [Glidesky](https://github.com/wkunzhi/Python3-Spider/tree/master/其他实战/【Glidedsky】自动登陆) | [中关村](https://github.com/wkunzhi/Python3-Spider/tree/master/其他实战/【中关村】自动登录) | [9377平台](https://github.com/wkunzhi/Python3-Spider/tree/master/其他实战/【9377网】自动登录) | [逗游](https://github.com/wkunzhi/Python3-Spider/tree/master/其他实战/【逗游】自动登录) | [GitHub](https://github.com/wkunzhi/Python3-Spider/tree/master/其他实战/【GitHub】自动登录) | [万创帮](https://github.com/wkunzhi/Python3-Spider/tree/master/其他实战/【万创帮】自动登录) | [空中网](https://github.com/wkunzhi/Python3-Spider/tree/master/其他实战/【空中网】自动登录) | [易通贷](https://github.com/wkunzhi/Python3-Spider/tree/master/其他实战/【易通贷】自动登录) | [DNS](https://github.com/wkunzhi/Python3-Spider/tree/master/其他实战/【DNS】自动登录) | [TCL金融](https://github.com/wkunzhi/Python3-Spider/tree/master/其他实战/【TCL金融】自动登录) | [国鑫所](https://github.com/wkunzhi/Python3-Spider/tree/master/其他实战/【国鑫所】自动登录)  | [满级网](https://github.com/wkunzhi/Python3-Spider/tree/master/其他实战/满级网)
 
 > **其他实战**  
 
- [美女壁纸下载](https://github.com/wkunzhi/Python3-Spider/tree/master/【双色球】头奖分布) |  [美女壁纸下载](https://github.com/wkunzhi/Python3-Spider/tree/master/【壁纸】美女壁纸下载器) | [美团 解析与token生成](https://github.com/wkunzhi/Python3-Spider/tree/master/其他实战/【美团】数据解析、token生成) | [bilibili 视频下载](https://github.com/wkunzhi/Python3-Spider/tree/master/【bilibili】视频下载) | [51job 查岗位](https://github.com/wkunzhi/Python3-Spider/tree/master/【51Job】查岗位) | [百度 翻译](https://github.com/wkunzhi/Python3-Spider/tree/master/其他实战/【百度】翻译) | [美团 全国区域](https://github.com/wkunzhi/Python3-Spider/tree/master/各站案例/MeiTuanArea) | [快递查询](https://github.com/wkunzhi/Python3-Spider/tree/master/【快递】单号查询) | [金逸电影 注册](https://github.com/wkunzhi/Python3-Spider/tree/master/其他实战/【金逸电影】自动注册) | [Python加密库Demo](https://github.com/wkunzhi/Python3-Spider/tree/master/其他实战/【Python加密库】Demo)
+[Python加密库Demo](https://github.com/wkunzhi/Python3-Spider/tree/master/其他实战/【企业名片】企业查询) ｜ [美女壁纸下载](https://github.com/wkunzhi/Python3-Spider/tree/master/【双色球】头奖分布) |  [美女壁纸下载](https://github.com/wkunzhi/Python3-Spider/tree/master/【壁纸】美女壁纸下载器) | [美团 解析与token生成](https://github.com/wkunzhi/Python3-Spider/tree/master/其他实战/【美团】数据解析、token生成) | [bilibili 视频下载](https://github.com/wkunzhi/Python3-Spider/tree/master/【bilibili】视频下载) | [51job 查岗位](https://github.com/wkunzhi/Python3-Spider/tree/master/【51Job】查岗位) | [百度 翻译](https://github.com/wkunzhi/Python3-Spider/tree/master/其他实战/【百度】翻译) | [美团 全国区域](https://github.com/wkunzhi/Python3-Spider/tree/master/各站案例/MeiTuanArea) | [快递查询](https://github.com/wkunzhi/Python3-Spider/tree/master/【快递】单号查询) | [金逸电影 注册](https://github.com/wkunzhi/Python3-Spider/tree/master/其他实战/【金逸电影】自动注册) | [Python加密库Demo](https://github.com/wkunzhi/Python3-Spider/tree/master/其他实战/【Python加密库】Demo) |
 
 
 
@@ -90,9 +90,14 @@
 
 ----
 
-### 淘宝：自动登录
+##淘宝：自动登录
 
 ![自动登录](https://zok-blog.oss-cn-hangzhou.aliyuncs.com/tglog3.gif)
+
+- 打开 `auto_login_pyppeteer.py` Run 代码，输入淘宝账号、密码即可自动登录
+
+
+----
 
 ### 美女壁纸下载器
 ![美女壁纸下载器](https://zok-blog.oss-cn-hangzhou.aliyuncs.com/images/20190818/WX20191106-114450.png)
