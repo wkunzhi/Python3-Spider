@@ -179,7 +179,5 @@ key =
 
 
 function get_info(send_info) {
-    let changes = JSON.parse(s("5e5062e82f15fe4ca9d24bc5", deco(send_info), 0, 0, "012345677890123", 1));
-    let result = JSON.stringify(changes);
-    return result
+    return s("5e5062e82f15fe4ca9d24bc5", deco(send_info), 0, 0, "012345677890123", 1)
 }

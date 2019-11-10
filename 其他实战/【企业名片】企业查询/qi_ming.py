@@ -32,4 +32,5 @@ response = requests.post('https://vipapi.qimingpian.com/DataList/productListVip'
 re_data = json.loads(response.text)
 
 data = js.call('get_info', re_data.get('encrypt_data'))
-print(data)
+print(data.encode('utf-8').decode('unicode_escape'))
+
