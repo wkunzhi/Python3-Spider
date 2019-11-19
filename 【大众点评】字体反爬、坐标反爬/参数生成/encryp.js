@@ -23,3 +23,10 @@ function test(love, you, babby) {
         return 0 < i.length && (r = o(r, i)), r.toString(16)
     }() + "-" + t + "-" + make()
 }
+
+function now_uu() {
+    return (65536 * (1 + Math.random()) | 0).toString(16).substring(1)
+}
+function puid() {
+    return  "owl-" +now_uu() + now_uu() + "-" + now_uu() + "-" + now_uu() + "-" + now_uu() + "-" + now_uu() + now_uu() + now_uu()
+}
