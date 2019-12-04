@@ -363,6 +363,15 @@ function _(e, i) {
     return A(e, i)[0]
 }
 
+getKeys = function (jsonData) {
+    var n = this;
+    var n = JSON.parse(jsonData);
+    1 == n.isEncrypt && (l(2 * n.maxdigits),
+        T = new t(n.e, "null", n.n),
+    true && undefined)
+};
+
+
 var B, z, O, I, P = 16,
     q = P,
     R = 65536,
@@ -378,12 +387,14 @@ var Q = (u(1e15),
         65534, 65535),
     W = new Array(0, 1, 3, 7, 15, 31, 63, 127, 255, 511, 1023, 2047, 4095, 8191, 16383, 32767, 65535)
 
-function enc(key_e, key_n, pwd) {
-    T = new t(key_e, "null", key_n);
-    return n(T, pwd);
-}
 
 function getTime() {
     let time = new Date;
-    return "&uniqueTimestamp=" + time.getFullYear() + time.getMonth() + time.getDay() + time.getHours() + time.getSeconds() + time.getUTCMilliseconds()
+    return "&uniqueTimestamp=" + time.getFullYear() + time.getMonth() + time.getDay() + time.getHours() + time.getSeconds() +
+        time.getUTCMilliseconds()
+}
+
+function enc(jsonkey, pwd) {
+    getKeys(jsonkey);
+    return n(T, pwd);
 }
