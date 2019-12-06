@@ -42,7 +42,7 @@
 
 > **字体加密**
 
-[大众点评](https://github.com/wkunzhi/Python3-Spider/tree/master/【大众点评】字体反爬、坐标反爬) | [谷雨](https://github.com/wkunzhi/Python3-Spider/tree/master/其他实战/【谷雨】数字解密) 
+[天眼查](https://github.com/wkunzhi/Python3-Spider/tree/master/【天眼查】字体加密) | [大众点评](https://github.com/wkunzhi/Python3-Spider/tree/master/【大众点评】字体反爬、坐标反爬) | [谷雨](https://github.com/wkunzhi/Python3-Spider/tree/master/其他实战/【谷雨】数字解密) 
 
 > **验证码【仅作学术讨论】**
 
