@@ -30,7 +30,7 @@
 
 
 ## QQ群 
-![](https://zok-blog.oss-cn-hangzhou.aliyuncs.com/2019/11/18/wx201911181627012x.png?x-oss-process=image/resize,h_120)|
+![](https://zok-blog.oss-cn-hangzhou.aliyuncs.com/2019/11/18/wx201911181627012x.png?x-oss-process=image/resize,h_120)
 
 
 <br />
@@ -127,4 +127,5 @@
 ![缺口识别](https://zok-blog.oss-cn-hangzhou.aliyuncs.com/images/20190818/WX20191011-203441%402x.png?x-oss-process=image/resize,h_200)
 
 
-![](https://zok-blog.oss-cn-hangzhou.aliyuncs.com/2019/11/18/wx201911181627012x.png?x-oss-process=image/resize,h_200)
+## QQ 群
+![](https://zok-blog.oss-cn-hangzhou.aliyuncs.com/2019/11/18/wx201911181627012x.png?x-oss-process=image/resize,h_300)
