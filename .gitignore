@@ -4,7 +4,13 @@
 /.idea
 */.idea
 
+.vscode
+/.vscode
+*/.vscode
+
 /__pycache__
 */__pycache__
+
+
 
 .README.md
