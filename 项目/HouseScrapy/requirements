@@ -1,0 +1,5 @@
+scrapy
+scrapy-redis
+pymysql
+redis>=3.2.1
+pymongo
