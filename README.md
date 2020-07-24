@@ -55,7 +55,7 @@
 
 > **参数生成**  
 
-[拼多多](https://github.com/wkunzhi/Python3-Spider/tree/master/【拼多多】登陆参数生成) | [小牛在线](https://github.com/wkunzhi/Python3-Spider/tree/master/其他实战/【小牛在线】登录参数生成) | [开鑫贷](https://github.com/wkunzhi/Python3-Spider/tree/master/其他实战/【开鑫贷】登陆参数生成) | [时光网](https://github.com/wkunzhi/Python3-Spider/tree/master/其他实战/【时光网】登陆参数生成) | [百度](https://github.com/wkunzhi/Python3-Spider/tree/master/其他实战/【百度】自动登录) | [公众号密码加密](https://github.com/wkunzhi/Python3-Spider/tree/master/其他实战/【微信】登录参数生成) | [移动](https://github.com/wkunzhi/Python3-Spider/tree/master/其他实战/【移动】登录参数生成) | [好莱客](https://github.com/wkunzhi/Python3-Spider/tree/master/其他实战/【好莱客】参数解析) | [青海移动](https://github.com/wkunzhi/Python3-Spider/tree/master/其他实战/【青海移动】登陆参数生成) | [新浪微博](https://github.com/wkunzhi/Python3-Spider/tree/master/其他实战/【新浪微博】密码解密) | [汽车之家](https://github.com/wkunzhi/Python3-Spider/tree/master/其他实战/【汽车之家】参数解密) | [steam](https://github.com/wkunzhi/Python3-Spider/tree/master/其他实战/【steam】登录) | [百度wap端sig生成](https://github.com/wkunzhi/Python3-Spider/tree/master/%E5%85%B6%E4%BB%96%E5%AE%9E%E6%88%98/%E3%80%90%E7%99%BE%E5%BA%A6%E3%80%91wap%E7%AB%AFsig%E7%94%9F%E6%88%90) 
+[拼多多](https://github.com/wkunzhi/Python3-Spider/tree/master/【拼多多】登陆参数生成) 失效！ | [小牛在线](https://github.com/wkunzhi/Python3-Spider/tree/master/其他实战/【小牛在线】登录参数生成) | [开鑫贷](https://github.com/wkunzhi/Python3-Spider/tree/master/其他实战/【开鑫贷】登陆参数生成) | [时光网](https://github.com/wkunzhi/Python3-Spider/tree/master/其他实战/【时光网】登陆参数生成) | [百度](https://github.com/wkunzhi/Python3-Spider/tree/master/其他实战/【百度】自动登录) | [公众号密码加密](https://github.com/wkunzhi/Python3-Spider/tree/master/其他实战/【微信】登录参数生成) | [移动](https://github.com/wkunzhi/Python3-Spider/tree/master/其他实战/【移动】登录参数生成) | [好莱客](https://github.com/wkunzhi/Python3-Spider/tree/master/其他实战/【好莱客】参数解析) | [青海移动](https://github.com/wkunzhi/Python3-Spider/tree/master/其他实战/【青海移动】登陆参数生成) | [新浪微博](https://github.com/wkunzhi/Python3-Spider/tree/master/其他实战/【新浪微博】密码解密) | [汽车之家](https://github.com/wkunzhi/Python3-Spider/tree/master/其他实战/【汽车之家】参数解密) | [steam](https://github.com/wkunzhi/Python3-Spider/tree/master/其他实战/【steam】登录) | [百度wap端sig生成](https://github.com/wkunzhi/Python3-Spider/tree/master/%E5%85%B6%E4%BB%96%E5%AE%9E%E6%88%98/%E3%80%90%E7%99%BE%E5%BA%A6%E3%80%91wap%E7%AB%AFsig%E7%94%9F%E6%88%90) 
 
 
 > **自动登录**
@@ -64,12 +64,9 @@
 
 > **其他实战**  
 
-[抖音无水印视频解析](https://github.com/wkunzhi/Python3-Spider/tree/master/【抖音】无水印视频解析) | [企业名片查询](https://github.com/wkunzhi/Python3-Spider/tree/master/其他实战/【企业名片】企业查询) ｜ [百度找回密码](https://github.com/wkunzhi/Python3-Spider/tree/master/其他实战/【百度】网页找回密码) ｜ [美女壁纸下载](https://github.com/wkunzhi/Python3-Spider/tree/master/【双色球】头奖分布) |  [美女壁纸下载](https://github.com/wkunzhi/Python3-Spider/tree/master/【壁纸】美女壁纸下载器) | [美团 解析与token生成](https://github.com/wkunzhi/Python3-Spider/tree/master/其他实战/【美团】数据解析、token生成) | [bilibili 视频下载](https://github.com/wkunzhi/Python3-Spider/tree/master/【bilibili】视频下载) | [51job 查岗位](https://github.com/wkunzhi/Python3-Spider/tree/master/【51Job】查岗位) | [百度 翻译](https://github.com/wkunzhi/Python3-Spider/tree/master/其他实战/【百度】翻译) | [美团 全国区域](https://github.com/wkunzhi/Python3-Spider/tree/master/各站案例/MeiTuanArea) |  [企业名片查询](https://github.com/wkunzhi/Python3-Spider/tree/master/其他实战/【餐饮】查询信息) | [快递查询](https://github.com/wkunzhi/Python3-Spider/tree/master/【快递】单号查询) | [金逸电影 注册](https://github.com/wkunzhi/Python3-Spider/tree/master/其他实战/【金逸电影】自动注册) | [Python加密库Demo](https://github.com/wkunzhi/Python3-Spider/tree/master/其他实战/【Python加密库】Demo) | [百度街拍图片下载](https://github.com/wkunzhi/Python3-Spider/tree/master/其他实战/【百度街拍】图片下载) ｜ [京东商品数据爬取](https://github.com/wkunzhi/Python3-Spider/tree/master/其他实战/【京东】商品数据爬取) | [房价获取](https://github.com/wkunzhi/Python3-Spider/tree/master/其他实战/【房价】房价获取)
+[文书网app查询接口](https://github.com/wkunzhi/Python3-Spider/tree/master/【文书】app查询接口) | [抖音无水印视频解析](https://github.com/wkunzhi/Python3-Spider/tree/master/【抖音】无水印视频解析) | [企业名片查询](https://github.com/wkunzhi/Python3-Spider/tree/master/其他实战/【企业名片】企业查询) ｜ [百度找回密码](https://github.com/wkunzhi/Python3-Spider/tree/master/其他实战/【百度】网页找回密码) ｜ [美女壁纸下载](https://github.com/wkunzhi/Python3-Spider/tree/master/【双色球】头奖分布) |  [美女壁纸下载](https://github.com/wkunzhi/Python3-Spider/tree/master/【壁纸】美女壁纸下载器) | [美团 解析与token生成](https://github.com/wkunzhi/Python3-Spider/tree/master/其他实战/【美团】数据解析、token生成) | [bilibili 视频下载](https://github.com/wkunzhi/Python3-Spider/tree/master/【bilibili】视频下载) | [51job 查岗位](https://github.com/wkunzhi/Python3-Spider/tree/master/【51Job】查岗位) | [百度 翻译](https://github.com/wkunzhi/Python3-Spider/tree/master/其他实战/【百度】翻译) | [美团 全国区域](https://github.com/wkunzhi/Python3-Spider/tree/master/各站案例/MeiTuanArea) |  [企业名片查询](https://github.com/wkunzhi/Python3-Spider/tree/master/其他实战/【餐饮】查询信息) | [快递查询](https://github.com/wkunzhi/Python3-Spider/tree/master/【快递】单号查询) | [金逸电影 注册](https://github.com/wkunzhi/Python3-Spider/tree/master/其他实战/【金逸电影】自动注册) | [Python加密库Demo](https://github.com/wkunzhi/Python3-Spider/tree/master/其他实战/【Python加密库】Demo) | [百度街拍图片下载](https://github.com/wkunzhi/Python3-Spider/tree/master/其他实战/【百度街拍】图片下载) ｜ [京东商品数据爬取](https://github.com/wkunzhi/Python3-Spider/tree/master/其他实战/【京东】商品数据爬取) | [房价获取](https://github.com/wkunzhi/Python3-Spider/tree/master/其他实战/【房价】房价获取)
 
 
-
-## 抖音视频解析器
-![](https://zok-blog.oss-cn-hangzhou.aliyuncs.com/images/20200210/317223745.png)
 
 
 ## 原创工具
@@ -99,6 +96,17 @@
 ![自动登录](https://zok-blog.oss-cn-hangzhou.aliyuncs.com/tglog3.gif)
 
 - 打开 `auto_login_pyppeteer.py` Run 代码，输入淘宝账号、密码即可自动登录
+
+
+----
+
+
+##文书网app
+
+[《入门级安卓逆向 - 文书网app爬虫教程》](https://www.zhangkunzhi.com/index.php/archives/162/)
+
+![](https://static.zhangkunzhi.com/typecho/2020/07/24/603402218498341/1595560337.png)
+
 
 
 ----
