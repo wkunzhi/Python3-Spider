@@ -48,9 +48,9 @@ class DownVideo(object):
             if not title:
                 title = video_title
             title = re.sub(r'[\/\\:*?"<>|]', '', title)  # 替换为空的
-            print('标题:' + title, 'ID', cid)
+            print(f'标题:{title}', 'ID', cid)
             page = str(item['page'])
-            start_url = start_url + "/?p=" + page
+            start_url = f"{start_url}/?p={page}"
             video_list = down.get_play_list(start_url, cid, quality)
             self.start_time = time.time()
             down.down_video(video_list, title, start_url, page)
@@ -65,20 +65,19 @@ class DownVideo(object):
         """
         entropy = 'rbMCKn@KuamXWlPMoJGsKcbiJKUfkPF_8dABscJntvqhRSETg'
         appkey, sec = ''.join([chr(ord(i) + 2) for i in entropy[::-1]]).split(':')
-        params = 'appkey=%s&cid=%s&otype=json&qn=%s&quality=%s&type=' % (appkey, cid, quality, quality)
+        params = f'appkey={appkey}&cid={cid}&otype=json&qn={quality}&quality={quality}&type='
         chksum = hashlib.md5(bytes(params + sec, 'utf8')).hexdigest()
-        url_api = 'https://interface.bilibili.com/v2/playurl?%s&sign=%s' % (params, chksum)
+        url_api = f'https://interface.bilibili.com/v2/playurl?{params}&sign={chksum}'
         headers = {
             'Referer': start_url,
             'User-Agent': 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36'
         }
         html = requests.get(url_api, headers=headers).json()
-        video_list = [html['durl'][0]['url']]
-        return video_list
+        return [html['durl'][0]['url']]
 
     def schedule_cmd(self, blocknum, blocksize, totalsize):
         speed = (blocknum * blocksize) / (time.time() - self.start_time)
-        speed_str = " Speed: %s" % self.format_size(speed)
+        speed_str = f" Speed: {self.format_size(speed)}"
         recv_size = blocknum * blocksize
 
         # 设置下载进度条
@@ -95,7 +94,7 @@ class DownVideo(object):
         """时间表
         """
         speed = (blocknum * blocksize) / (time.time() - self.start_time)
-        speed_str = " Speed: %s" % self.format_size(speed)
+        speed_str = f" Speed: {self.format_size(speed)}"
         recv_size = blocknum * blocksize
 
         # 设置下载进度条
@@ -118,23 +117,17 @@ class DownVideo(object):
         except:
             print("传入的字节格式不对")
             return "Error"
-        if kb >= 1024:
-            M = kb / 1024
-            if M >= 1024:
-                G = M / 1024
-                return "%.3fG" % (G)
-            else:
-                return "%.3fM" % (M)
-        else:
+        if kb < 1024:
             return "%.3fK" % (kb)
+        M = kb / 1024
+        return "%.3fG" % (M / 1024) if M >= 1024 else "%.3fM" % (M)
 
     def down_video(self, video_list, title, start_url, page):
         """下载视频
         """
-        num = 1
         print('正在下载请稍等...'.format(page))
         current_video_path = os.path.join(sys.path[0], 'bilibili下载目录', title)  # 当前目录作为下载目录
-        for i in video_list:
+        for num, i in enumerate(video_list, start=1):
             opener = urllib.request.build_opener()
             # 请求头
             opener.addheaders = [
@@ -154,13 +147,19 @@ class DownVideo(object):
                 os.makedirs(current_video_path)
             # 开始下载
             if len(video_list) > 1:
-                urllib.request.urlretrieve(url=i,
-                                           filename=os.path.join(current_video_path, r'{}-{}.mp4'.format(title, num)),
-                                           reporthook=self.schedule_cmd)
+                urllib.request.urlretrieve(
+                    url=i,
+                    filename=os.path.join(
+                        current_video_path, f'{title}-{num}.mp4'
+                    ),
+                    reporthook=self.schedule_cmd,
+                )
             else:
-                urllib.request.urlretrieve(url=i, filename=os.path.join(current_video_path, r'{}.mp4'.format(title)),
-                                           reporthook=self.schedule_cmd)
-            num += 1
+                urllib.request.urlretrieve(
+                    url=i,
+                    filename=os.path.join(current_video_path, f'{title}.mp4'),
+                    reporthook=self.schedule_cmd,
+                )
 
     @staticmethod
     def combine_video(video_list, title):
@@ -169,7 +168,7 @@ class DownVideo(object):
         current_video_path = os.path.join(sys.path[0], 'bilibili_video', title)  # 当前目录作为下载目录
         if len(video_list) >= 2:
             # 视频大于一段才要合并
-            print('下载完成,正在合并视频...' + title)
+            print(f'下载完成,正在合并视频...{title}')
             # 定义一个数组
             L = []
             # 访问 video 文件夹 (假设视频都放在这里面)
@@ -187,12 +186,14 @@ class DownVideo(object):
             # 拼接视频
             final_clip = concatenate_videoclips(L)
             # 生成目标视频文件
-            final_clip.to_videofile(os.path.join(root_dir, r'{}.mp4'.format(title)), fps=24, remove_temp=False)
-            print('视频合并完成' + title)
+            final_clip.to_videofile(
+                os.path.join(root_dir, f'{title}.mp4'), fps=24, remove_temp=False
+            )
+            print(f'视频合并完成{title}')
 
         else:
             # 视频只有一段则直接打印下载完成
-            print('视频合并完成:' + title)
+            print(f'视频合并完成:{title}')
 
 
 if __name__ == '__main__':

@@ -9,7 +9,9 @@ from zok.zok_config import *
 proxyServer = "http://http-dyn.abuyun.com:9020"
 
 
-proxyAuth = "Basic " + base64.urlsafe_b64encode(bytes((PROXY_USER + ":" + PROXY_PASS), "ascii")).decode("utf8")
+proxyAuth = "Basic " + base64.urlsafe_b64encode(
+    bytes(f"{PROXY_USER}:{PROXY_PASS}", "ascii")
+).decode("utf8")
 
 
 class ProxyMiddleware(object):

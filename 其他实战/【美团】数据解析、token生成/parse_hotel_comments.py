@@ -20,7 +20,7 @@ class ParseComments(object):
 
     def get_data(self):
 
-        url = 'https://ihotel.meituan.com/group/v1/poi/comment/' + self.hotel_id + '?'
+        url = f'https://ihotel.meituan.com/group/v1/poi/comment/{self.hotel_id}?'
         params = {
             'sortType': 'default',
             'noempty': '1',

@@ -32,5 +32,6 @@ def count_time(func):
         func()
         over_time = datetime.datetime.now()   # 程序结束时间
         total_time = (over_time-start_time).total_seconds()
-        print('程序耗时: %s 秒' % total_time)
+        print(f'程序耗时: {total_time} 秒')
+
     return int_time

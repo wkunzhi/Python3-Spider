@@ -30,10 +30,7 @@ class MakeToken():
 
     @property
     def join_token(self):
-        str_json = {}
-        str_json['rId'] = 100900
-        str_json['ver'] = '1.0.6'
-        str_json['ts'] = time.time()
+        str_json = {'rId': 100900, 'ver': '1.0.6', 'ts': time.time()}
         str_json['cts'] = time.time() + 110
         str_json['brVD'] = [1920, 315]
         str_json['brR'] = [[1920, 1080], [1920, 1057], 24, 24]
@@ -46,8 +43,7 @@ class MakeToken():
         str_json['sign'] = self.join_sign()
         token_decode = zlib.compress(
             bytes(json.dumps(str_json, separators=(',', ':'), ensure_ascii=False), encoding="utf8"))
-        token = str(base64.b64encode(token_decode), encoding="utf8")
-        return token
+        return str(base64.b64encode(token_decode), encoding="utf8")
 
 
 if __name__ == '__main__':

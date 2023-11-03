@@ -24,14 +24,12 @@ class YDT(object):
         return ctx.call("make_js", pwd)
 
     def make_data(self):
-        data = {
+        return {
             'loginName': self.user,
             'check': 'on',
             'next': 'null',
             'password': self.make_pwd(self.pwd),
         }
-
-        return data
 
     def login(self):
         data = self.make_data()

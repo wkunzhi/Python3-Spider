@@ -28,8 +28,7 @@ class MakeParam:
         response = requests.get(url.format(t=int(round(time.time() * 1000))), headers=headers)
         try:
             ret = re.search(r'return "(.*?)";', response.text).group(1)
-            _key = self.js.call('get_key_iv', ret)
-            return _key
+            return self.js.call('get_key_iv', ret)
         except AttributeError:
             print('获取key失败')
 

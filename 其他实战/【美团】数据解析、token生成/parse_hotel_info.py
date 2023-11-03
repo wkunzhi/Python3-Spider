@@ -28,12 +28,12 @@ class ParseHotelInfo(object):
         now_day = time.strftime('%Y-%m-%d', time.localtime(time.time()))
 
         # 组合 get 地址
-        url = 'https://hotel.meituan.com/' + self.p_id + '/?ci=' + now_day + '&co=' + now_day
+        url = f'https://hotel.meituan.com/{self.p_id}/?ci={now_day}&co={now_day}'
         data = requests.get(url, headers=self.headers).content.decode('utf-8')
 
-        # 提取有效区域
-        info = re.search(r'window.__INITIAL_STATE__=(.*?)</script>', data, flags=re.DOTALL)
-        if info:
+        if info := re.search(
+            r'window.__INITIAL_STATE__=(.*?)</script>', data, flags=re.DOTALL
+        ):
             info_dict = json.loads(info.group(1).strip()[:-1])
             self.parse_html(info_dict)
         else:

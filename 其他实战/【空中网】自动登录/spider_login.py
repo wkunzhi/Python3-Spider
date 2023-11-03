@@ -53,8 +53,7 @@ class SpiderLogin:
             t=self.login_time)
         response = self.session.get(target, headers=self.headers)
         try:
-            dc = re.search(r'"dc":"(.*?)","kzmsg', response.text).group(1)
-            return dc
+            return re.search(r'"dc":"(.*?)","kzmsg', response.text).group(1)
         except AttributeError:
             print('dc 捕获失败')
 

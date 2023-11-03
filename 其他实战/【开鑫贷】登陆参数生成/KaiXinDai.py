@@ -26,8 +26,7 @@ class KaiXinDai:
         }
         response = requests.get(url, headers=headers)
         etree = etree.HTML(response.text)
-        dlmy = etree.xpath('//*[@id="dlmy"]/@value')[0]
-        return dlmy
+        return etree.xpath('//*[@id="dlmy"]/@value')[0]
 
     def init_js(self):
         with open('encryp.js', 'r', encoding='utf-8') as f:

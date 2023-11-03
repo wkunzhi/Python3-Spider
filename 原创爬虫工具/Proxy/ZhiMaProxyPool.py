@@ -47,7 +47,7 @@ class ZhiMaPool(object):
             key=self.key, local=address)
         response = requests.get(url=url)
         code = json.loads(response.text).get('code')
-        if code == 0 or code == 115:
+        if code in [0, 115]:
             print('\033[1;35m初始化成功,启动中稍等..\033[0m')
         else:
             print('初始化芝麻账号失败')
@@ -67,14 +67,12 @@ class ZhiMaPool(object):
             score_str = str(int(node[1]))
             time_stamp = int(score_str[-10:])
             if time_stamp-now_time <= 0:
-                print('代理过期删除', str(node[0]))
+                print('代理过期删除', node[0])
                 self.r.zrem('ZhiMaProxy', node[0])
             if len(score_str[:-10]) == 0:
                 flag = True  # 删除
-            else:
-                # 可能由于频率过快出现负数
-                if int(node[1]) < 0:
-                    flag = True  # 删除
+            elif int(node[1]) < 0:
+                flag = True  # 删除
 
             if flag:
                 print('分数过低剔除')
@@ -105,16 +103,19 @@ class ZhiMaPool(object):
         """
         parse response json
         """
-        count = 0
         ret_dict = json.loads(json_data)
         if ret_dict.get('success'):
             nodes = ret_dict.get('data')
+            count = 0
             for node in nodes:
                 end_time = self.get_end_time(node.get('expire_time'))
                 if not end_time:
                     """该域名存活时间过短，已弃用"""
                     continue
-                self.save_to_redis(node.get('ip') + ':' + str(node.get('port')), int('10' + str(end_time)))
+                self.save_to_redis(
+                    node.get('ip') + ':' + str(node.get('port')),
+                    int(f'10{str(end_time)}'),
+                )
                 count += 1
 
             self.get_balance(count, len(nodes))  # get balance
@@ -129,8 +130,7 @@ class ZhiMaPool(object):
         b = parse(datetime.datetime.now().strftime("%Y-%m-%d %H:%M:%S"))
         results = (a - b).total_seconds()
         if results > self.ttl:
-            stamp = int(time.mktime(time.strptime(parse_time, "%Y-%m-%d %H:%M:%S")))
-            return stamp
+            return int(time.mktime(time.strptime(parse_time, "%Y-%m-%d %H:%M:%S")))
         else:
             return
 

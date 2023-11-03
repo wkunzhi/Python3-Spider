@@ -52,7 +52,7 @@ class TB_Spider:
             taobao_name = self.wait.until(EC.presence_of_element_located((By.CSS_SELECTOR,
                                                                           '.site-nav-bd > ul.site-nav-bd-l > li#J_SiteNavLogin > div.site-nav-menu-hd > div.site-nav-user > a.site-nav-login-info-nick ')))
             # 登陆成功打印提示信息
-            print("登陆成功：%s" % taobao_name.text)
+            print(f"登陆成功：{taobao_name.text}")
         except Exception:
             self.browser.close()
             print("登陆失败")

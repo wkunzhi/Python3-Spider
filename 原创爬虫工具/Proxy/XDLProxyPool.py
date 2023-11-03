@@ -105,7 +105,7 @@ class XDLProxyPool(object):
         """
         推送到redis集合中
         """
-        print('代理 %s 推入redis集合' % proxy)
+        print(f'代理 {proxy} 推入redis集合')
         self.r.zadd('XDLProxy', {proxy: expire})
 
 

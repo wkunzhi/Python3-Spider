@@ -29,9 +29,9 @@ class ParsePlayInfo(object):
         url = self.target_url.format(p_id=self.restaurant_id)
         data = requests.get(url, headers=self.headers).text
 
-        # 提取有效区域
-        data = re.search(r'"params":{"poiInfo":(.*?)},"fallbackPara', data, flags=re.DOTALL)
-        if data:
+        if data := re.search(
+            r'"params":{"poiInfo":(.*?)},"fallbackPara', data, flags=re.DOTALL
+        ):
             self.parse_html(json.loads(data.group(1)))
         else:
             print('访问失效')
@@ -54,10 +54,8 @@ class ParsePlayInfo(object):
         print('纬度', data.get('lat'))
         print('类型', data.get('breadCrumbNavDTOList')[2].get('title')[len(data.get('cityName')):])
 
-        albums = []
         images = data.get('albumDTOList')
-        for node in images:
-            albums.append(node.get('url'))
+        albums = [node.get('url') for node in images]
         print('相册', albums)
 
 

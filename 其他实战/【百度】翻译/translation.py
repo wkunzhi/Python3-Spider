@@ -31,18 +31,16 @@ class FanYiSpider(object):
         with open("translate.js", "r", encoding="utf-8") as f:
             self.context.execute(f.read())
 
-        sign = self.context.a(self.query)
-        return sign
+        return self.context.a(self.query)
 
     def make_data(self, sign):
-        data = {
+        return {
             "query": self.query,
             "from": "en",
             "to": "zh",
             "token": "6f5c83b84d69ad3633abdf18abcb030d",
-            "sign": sign
+            "sign": sign,
         }
-        return data
 
     def get_content(self, data):
         response = requests.post(
@@ -56,8 +54,7 @@ class FanYiSpider(object):
     def run(self):
         sign = self.make_sign() # 获取sign的值
         data = self.make_data(sign)  # 构建参数
-        content = self.get_content(data)  # 获取翻译内容
-        return content
+        return self.get_content(data)
 
 
 if __name__ == '__main__':

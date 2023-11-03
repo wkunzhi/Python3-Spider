@@ -25,8 +25,7 @@ class DouYou:
             nonce, ts = self.get_token()
             with open("encryp.js", "r", encoding="utf-8") as f:
                 self.context.execute(f.read())
-            pwd_hash = self.context.get_value(self.password, nonce, ts)
-            return pwd_hash  # 打印加密之后的密码
+            return self.context.get_value(self.password, nonce, ts)
         except:
             print('获取token失败')
 

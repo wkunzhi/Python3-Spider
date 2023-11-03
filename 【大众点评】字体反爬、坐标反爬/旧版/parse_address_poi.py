@@ -35,11 +35,9 @@ def decode(C):
     I = -1
     H = 0
     B = ''
-    J = len(C)
     G = ord(C[-1])
+    J = len(C) - 1
     C = C[:-1]
-    J -= 1
-
     for E in range(J):
         D = int(C[E], cha) - add
         if D >= add:
@@ -51,7 +49,7 @@ def decode(C):
 
     A = int(B[:I], digi)
     F = int(B[I + 1:], digi)
-    L = (A + F - int(G)) / 2
+    L = (A + F - G) / 2
     K = float(F - L) / 100000
     L = float(L) / 100000
     return {'lng': L, 'lat': K}

@@ -11,7 +11,7 @@ class ParseVideo:
 
     def __init__(self, share):
         path = self.get_url(share)
-        self.url = 'https://v.douyin.com/' + path + '/'
+        self.url = f'https://v.douyin.com/{path}/'
         self.headers = {
             'user-agent': 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1',
         }
@@ -25,12 +25,13 @@ class ParseVideo:
     def go_location(self):
         response = self.session.get(self.url, headers=self.headers)
         self.first_url = response.url
-        result = re.search(r'itemId: "(.*?)",[\s\S]*?uid: "(.*?)",[\s\S]*?authorName: "(.*?)",[\s\S]*?dytk: "(.*?)"',
-                           response.text)
-        return result
+        return re.search(
+            r'itemId: "(.*?)",[\s\S]*?uid: "(.*?)",[\s\S]*?authorName: "(.*?)",[\s\S]*?dytk: "(.*?)"',
+            response.text,
+        )
 
     def go_message(self, ret):
-        url = 'https://www.iesdouyin.com/web/api/v2/aweme/iteminfo/?item_ids=' + ret.group(1) + '&dytk=' + ret.group(4)
+        url = f'https://www.iesdouyin.com/web/api/v2/aweme/iteminfo/?item_ids={ret.group(1)}&dytk={ret.group(4)}'
         response = self.session.get(url, headers=self.headers)
         json_data = json.loads(response.text)
         user_id = ret.group(2)

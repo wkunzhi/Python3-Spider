@@ -72,17 +72,13 @@ class GetAreaSpider(scrapy.Spider):
 
                 subs = area.get('subAreas')
                 # 判断是否有下级，有的区域么有下级了
-                if len(subs) > 1:
-                    item['haschild'] = 1
-                else:
-                    item['haschild'] = 0
-
+                item['haschild'] = 1 if len(subs) > 1 else 0
                 yield item
 
                 # 解析 4 级
                 if len(subs) > 1:
                     for sub in subs:
-                        if not sub.get('name') == '全部':
+                        if sub.get('name') != '全部':
                             item['haschild'] = 0
                             item['type'] = 'address'
                             item['id'] = sub.get('id')

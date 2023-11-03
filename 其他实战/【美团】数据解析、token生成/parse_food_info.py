@@ -27,9 +27,7 @@ class ParseRestaurantInfo(object):
         url = self.target_url.format(p_id=self.restaurant_id)
         data = requests.get(url, headers=self.headers).text
 
-        # 提取有效区域
-        data = re.search(r'12315消费争议(.*?)"dealList":', data, flags=re.DOTALL)
-        if data:
+        if data := re.search(r'12315消费争议(.*?)"dealList":', data, flags=re.DOTALL):
             self.parse_html(data.group(1))
         else:
             print('访问失效')
@@ -39,11 +37,10 @@ class ParseRestaurantInfo(object):
         """解析数据
         """
 
-        # 细节信息
-        detail_info = re.search(
+        if detail_info := re.search(
             r'"detailInfo":\{"poiId":(\d+),"name":"(.*?)","avgScore":(.*?),"address":"(.*?)","phone":"(.*?)","openTime":"(.*?)","extraInfos":\[(.*?)\],"hasFoodSafeInfo":(.*?),"longitude":(.*?),"latitude":(.*?),"avgPrice":(\d+),"brandId":(\d+),"brandName":"(.*?)",".*?photos":{"frontImgUrl":"(.*?)","albumImgUrls":(.*?)},"recommended":(.*?),"crumbNav":(.*?),"prefer',
-            data)
-        if detail_info:
+            data,
+        ):
             poiId = detail_info.group(1)
             name = detail_info.group(2)
             avgScore = detail_info.group(3)
@@ -62,7 +59,7 @@ class ParseRestaurantInfo(object):
 
             # 其他信息解析
             if extraInfos:
-                items = json.loads("[" + extraInfos + "]")
+                items = json.loads(f"[{extraInfos}]")
                 extraInfos = ''
                 for item in items:
                     extraInfos = item.get('text') + '  ' + extraInfos

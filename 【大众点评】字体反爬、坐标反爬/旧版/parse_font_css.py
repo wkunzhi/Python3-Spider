@@ -25,8 +25,7 @@ class DianPing(object):
         if not svg_text_css:
             raise Exception("未找到链接")
         css_url = svg_text_css.group(1)
-        content = self.parse_url('https:' + css_url)
-        return content
+        return self.parse_url(f'https:{css_url}')
 
     # 获取定义偏移量的css文件后将结果以字典形式存储
     @ staticmethod
@@ -36,13 +35,7 @@ class DianPing(object):
         :return: {'xxx': ['192', '1550']}
         """
         offset_item = re.findall(r'(\.[a-zA-Z0-9-]+)\{background:-(\d+).0px -(\d+).0px', content_css)
-        result = {}
-        for item in offset_item:
-            css_class = item[0][1:]
-            x_offset = item[1]
-            y_offset = item[2]
-            result[css_class] = [x_offset, y_offset]
-        return result
+        return {item[0][1:]: [item[1], item[2]] for item in offset_item}
 
     # 获取svg url组
     @staticmethod
@@ -50,7 +43,7 @@ class DianPing(object):
         items = re.findall(r'span\[class\^="(.*?)"\].*?width: (\d+)px;.*?background-image: url\((.*?)\);', content_css)
         result = {}
         for code, size, url in items:
-            svg_list = [int(size), 'https:' + url]
+            svg_list = [int(size), f'https:{url}']
             result[code] = svg_list
         return result
 
@@ -100,7 +93,7 @@ class DianPing(object):
                 svg_url = svg[1]
                 new_num = self.parse_comment_css(svg_url, size, x_offset, y_offset)
                 num = num * 10 + int(new_num)
-            print("餐馆: {}, 点评数: {}".format(shop_name, num))
+            print(f"餐馆: {shop_name}, 点评数: {num}")
 
 
 if __name__ == '__main__':

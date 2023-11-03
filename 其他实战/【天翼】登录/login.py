@@ -22,9 +22,7 @@ def login(username, password):
     response = session.get(url, headers={"User-Agent": UA})
     ret = re.search(r'sign=(.*?)&appId=(.*?)&paras=(.*?)&format=(.*?)&clientType=(.*?)&version=(.*?)">', response.text)
 
-    url = 'https://open.e.189.cn/api/logbox/oauth2/unifyAccountLogin.do?sign=' + ret.group(1) + '&appId=' + ret.group(
-        2) + '&paras=' + ret.group(3) + '&format=' + ret.group(4) + '&clientType=' + ret.group(
-        5) + '&version=' + ret.group(6)
+    url = f'https://open.e.189.cn/api/logbox/oauth2/unifyAccountLogin.do?sign={ret.group(1)}&appId={ret.group(2)}&paras={ret.group(3)}&format={ret.group(4)}&clientType={ret.group(5)}&version={ret.group(6)}'
 
     response = session.get(url, headers={"User-Agent": UA})
     text = response.text

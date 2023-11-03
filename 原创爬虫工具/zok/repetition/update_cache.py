@@ -34,10 +34,7 @@ class CacheRedis(object):
         :return: True or False
         """
         print()
-        if self.r.sismember(member, md5):
-            return True
-        else:
-            return False
+        return bool(self.r.sismember(member, md5))
 
     def save_redis(self, member, md5):
         self.r.sadd(member, md5)

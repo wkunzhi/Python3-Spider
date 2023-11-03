@@ -29,7 +29,7 @@ class MyProxy(object):
         # 此处对接redis
         data = r.zrangebyscore('XDLProxy', 1, 100, withscores=True)
         ip, score = random.choice(data)
-        request.meta['proxy'] = 'http://'+ip  # 根据自己情况填写
+        request.meta['proxy'] = f'http://{ip}'
 
 
 
@@ -42,23 +42,21 @@ class DownloaderMiddleware(object):
     def process_response(self, request, response, spider):
         # 对代理ip进行清洗
         proxy = request._meta.get('proxy')
-        if not response.status == 200:
+        if response.status != 200:
             print('IP访问失败')
             if proxy:
                 proxy = proxy[proxy.find('/')+2:]  # 提取当此访问proxy
                 r.zincrby('XDLProxy', -1, proxy)  # redis 命令修改
-        else:
-            if proxy:
-                proxy = proxy[proxy.find('/') + 2:]  # 提取当此访问proxy
-                score = r.zscore('XDLProxy', proxy)  # 取出分数
-                if score < 20:
-                    r.zincrby('XDLProxy', 1, proxy)  # redis 新版本命令更改这样了
+        elif proxy:
+            proxy = proxy[proxy.find('/') + 2:]  # 提取当此访问proxy
+            score = r.zscore('XDLProxy', proxy)  # 取出分数
+            if score < 20:
+                r.zincrby('XDLProxy', 1, proxy)  # redis 新版本命令更改这样了
         return response
 
     def process_exception(self, request, exception, spider):  # 可能由于IP质量问题无法访问超时
         print('超时异常')
-        proxy = request._meta.get('proxy')
-        if proxy:
+        if proxy := request._meta.get('proxy'):
             proxy = proxy[proxy.find('/') + 2:]
             r.zincrby('XDLProxy', -1, proxy)  # redis 新版本命令更改这样了
             return request

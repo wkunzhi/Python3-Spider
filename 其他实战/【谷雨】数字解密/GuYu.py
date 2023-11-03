@@ -47,9 +47,7 @@ class Font:
         print(self._list)
 
     def parse(self, number):
-        _str = ''
-        for num in number:
-            _str += str(self._list[int(num)])
+        _str = ''.join(str(self._list[int(num)]) for num in number)
         print('最终展示字', int(_str))
 
 

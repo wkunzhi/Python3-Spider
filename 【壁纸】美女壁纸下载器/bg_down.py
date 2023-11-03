@@ -38,7 +38,7 @@ class DownBg:
                         all_photo_count), end=" ")
         # 下载完图片后获取图片扩展名，并为其增加扩展名
         file_type = guess(file_full_name)
-        rename(file_full_name, file_full_name + '.' + file_type.extension)
+        rename(file_full_name, f'{file_full_name}.{file_type.extension}')
 
     def crawler_photo(self, type_id, photo_count):
         """
@@ -70,8 +70,8 @@ class DownBg:
         for photo in photo_data:
 
             # 创建一个文件夹存放我们下载的图片
-            if not exists('./' + str(type_id)):
-                makedirs('./' + str(type_id))
+            if not exists(f'./{str(type_id)}'):
+                makedirs(f'./{str(type_id)}')
 
             # 准备下载的图片链接
             file_url = photo['urls']['raw']
@@ -81,7 +81,7 @@ class DownBg:
             file_name_only = file_name_only[len(file_name_only) - 1]
 
             # 准备保存到本地的完整路径
-            file_full_name = './' + str(type_id) + '/' + file_name_only
+            file_full_name = f'./{str(type_id)}/{file_name_only}'
 
             # 开始下载图片
             self.down_load(file_url, file_full_name, now_photo_count, all_photo_count)

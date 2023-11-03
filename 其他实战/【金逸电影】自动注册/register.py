@@ -23,8 +23,7 @@ class JinYiRegister:
         with open('encryp.js', 'r', encoding='utf-8') as f:
             js = execjs.compile(f.read())
         try:
-            result = js.call("getEncryption", json_data)
-            return result
+            return js.call("getEncryption", json_data)
         except Exception:
             print('js 异常')
 

@@ -40,7 +40,7 @@ class ParseComments(object):
     def get_originUrl(self):
         """编码解码
         """
-        return parse.quote_plus('http://www.meituan.com/meishi/' + self.shop_id + '/')
+        return parse.quote_plus(f'http://www.meituan.com/meishi/{self.shop_id}/')
 
     def parse(self, data):
         """解析数据

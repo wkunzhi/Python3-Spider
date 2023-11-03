@@ -38,10 +38,8 @@ class SSQ:
         清洗数据
         :return:
         """
-        columns = []
-
-        for item in data.get('result'):
-            columns.append([
+        columns = [
+            [
                 item.get('code'),
                 item.get('date'),
                 item.get('week'),
@@ -56,8 +54,9 @@ class SSQ:
                 item.get('prizegrades')[1].get('typenum'),
                 item.get('prizegrades')[2].get('typemoney'),
                 item.get('prizegrades')[2].get('typenum'),
-            ])
-
+            ]
+            for item in data.get('result')
+        ]
         df = pd.DataFrame(
             columns,
             columns=["期数", "开奖日期", "星期数", "红球", "蓝球", "销售金额", "奖池", "中奖地区", "一等奖金", "一等奖人数", "二等奖金", "二等奖人数", "三等奖金", "三等奖人数"],  # 指定列
@@ -79,8 +78,7 @@ class SSQ:
         for i in df['中奖地区']:
             for addr in i.split(',')[:-1]:
                 name, num = jieba.cut(addr[:-1])
-                for n in range(int(num)):
-                    cut_text.append(name)
+                cut_text.extend(name for _ in range(int(num)))
         print(" ".join(cut_text))
 
         w = wordcloud.WordCloud(font_path=self.font, background_color="white", scale=4)

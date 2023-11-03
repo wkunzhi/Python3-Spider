@@ -50,8 +50,8 @@ class ParseFontClass:
         result_list = self.r.hmget(HASH_TABLE, self.name_list)  # 取出对应字库表（已修复bug）
         for result in result_list:
             json_data = json.loads(result)
-            if 'uni' + clean_code in json_data:
-                return json_data['uni' + clean_code]
+            if f'uni{clean_code}' in json_data:
+                return json_data[f'uni{clean_code}']
         return False
 
     def add_hash(self, name, json_data):
@@ -86,13 +86,13 @@ class ParseFontClass:
                 # 已存在无需安装
                 continue
             # 安装字体
-            with open(name + '.woff', 'wb+') as f:
-                f.write(requests.get('http://' + ttf_list[index]).content)  # 下载写入
-                font = TTFont(name + '.woff')
+            with open(f'{name}.woff', 'wb+') as f:
+                f.write(requests.get(f'http://{ttf_list[index]}').content)
+                font = TTFont(f'{name}.woff')
                 uni_list = font['cmap'].tables[0].ttFont.getGlyphOrder()  # 取出字形保存到uniList中
                 json_data = json.dumps(dict(zip(uni_list, self.FONT_LIST)), ensure_ascii=False)
                 self.add_hash(name, json_data)
-                os.remove(name + '.woff')  # 用完了删掉，节省资源占用
+                os.remove(f'{name}.woff')
 
     @staticmethod
     def get_ttf_urls(text):

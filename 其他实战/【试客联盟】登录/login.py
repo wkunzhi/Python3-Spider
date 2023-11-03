@@ -18,8 +18,7 @@ def main(pwd):
         js = execjs.compile(f.read())
 
         print('引擎', execjs.get().name)
-        sign = js.call('get_pwd', pwd)
-        return sign
+        return js.call('get_pwd', pwd)
 
 
 def login(sign_pwd, username):

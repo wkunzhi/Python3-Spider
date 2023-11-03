@@ -43,8 +43,7 @@ def main(pwd, publickey_mod, publickey_exp):
     with open('execute.js', 'r', encoding='utf-8') as f:
         js = execjs.compile(f.read())
         print('引擎', execjs.get().name)
-        sign = js.call('get_pwd', pwd, publickey_mod, publickey_exp)
-        return sign
+        return js.call('get_pwd', pwd, publickey_mod, publickey_exp)
 
 
 if __name__ == '__main__':
