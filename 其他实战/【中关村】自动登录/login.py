@@ -62,20 +62,18 @@ class ZGC:
         }
 
         response = requests.post(login_url, headers=self.headers, data=data, cookies=cookies)
-        msg = json.loads(response.content)
-        return msg
+        return json.loads(response.content)
 
     @staticmethod
     def make_md5(_str):
         """md5 生成
         """
         # 待加密信息
-        text = _str + 'zol'
+        text = f'{_str}zol'
         # 创建md5对象
         m = hashlib.md5()
         m.update(text.encode(encoding='utf-8'))
-        str_md5 = m.hexdigest()
-        return str_md5
+        return m.hexdigest()
 
     def main(self):
         ipck = self.get_cookies()

@@ -56,7 +56,7 @@ def getPage(offset):
         'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.26 Safari/537.36 Core/1.63.6735.400 QQBrowser/10.2.2328.400',
         'X-Requested-With': 'XMLHttpRequest',
     }
-    url = 'https://image.baidu.com/search/acjson?' + urlencode(data)
+    url = f'https://image.baidu.com/search/acjson?{urlencode(data)}'
     try:
         res = requests.get(url, data=data, headers=headers)
         res.encoding = 'utf-8'  # 网页信息编码
@@ -69,8 +69,7 @@ def getPage(offset):
 def getImage(json):
     '''解析网页数据并爬取所需的信息'''
     try:
-        data = json.get('data')
-        if data:
+        if data := json.get('data'):
             for item in data:
                 yield {
                     'image': item.get('hoverURL'),
@@ -86,8 +85,8 @@ def saveImage(item):
         m = item.get('title')
         local_image = item.get('image')  # 获取图片的url
         image_url = local_image
-        urlretrieve(image_url, './pic/' + str(m) + '.jpg')
-        # print('p'+str(m) + '.jpg')
+        urlretrieve(image_url, f'./pic/{str(m)}.jpg')
+            # print('p'+str(m) + '.jpg')
     except:
         return None
 

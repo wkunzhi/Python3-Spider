@@ -15,8 +15,7 @@ def main(pwd):
 
     print('引擎', execjs.get().name)
 
-    sign = js.call('hex_md5', pwd)
-    return sign
+    return js.call('hex_md5', pwd)
 
 
 if __name__ == '__main__':

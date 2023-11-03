@@ -74,8 +74,7 @@ class UseRSA:
         :return: bytes
         """
         content = _str.encode('utf-8')
-        crypto = rsa.encrypt(content, self.pubkey)
-        return crypto
+        return rsa.encrypt(content, self.pubkey)
 
     def decrypt(self, text):
         """
@@ -83,8 +82,7 @@ class UseRSA:
         :return: str
         """
         content = rsa.decrypt(text, self.private_key)
-        con = content.decode('utf-8')
-        return con
+        return content.decode('utf-8')
 
     @staticmethod
     def save_pem(path_name, text):
@@ -95,7 +93,7 @@ class UseRSA:
         """
         if "PEM" in path_name.upper():
             path_name = path_name[:-4]
-        with open('{}.pem'.format(path_name), 'bw') as f:
+        with open(f'{path_name}.pem', 'bw') as f:
             f.write(text.save_pkcs1())
 
     def read_pem(self, path_name, key_type):
@@ -130,7 +128,7 @@ class UseRSA:
         :param pubkey:
         :return: str
         """
-        if None == pubkey:
+        if pubkey is None:
             pubkey = self.private_key
         try:
             result = rsa.verify(mess, result, pubkey)
@@ -168,8 +166,7 @@ class UseDES:
         secret_key = self.key
         iv = self.iv
         k = des(secret_key, CBC, iv, pad=None, padmode=PAD_PKCS5)
-        en = k.encrypt(text, padmode=PAD_PKCS5)
-        return en
+        return k.encrypt(text, padmode=PAD_PKCS5)
 
     def des_crypt(self, text):
         """
@@ -217,14 +214,12 @@ class UseDES3:
         x = len(text) % 8
         text = text + b'\0' * x
         de = DES3.new(self.key, self.mode)
-        cipher_text = de.encrypt(text)
-        return cipher_text
+        return de.encrypt(text)
 
     def decrypt(self, text):
         de = DES3.new(self.key, self.mode)
         plain_text = de.decrypt(text)
-        st = str(plain_text.decode("utf-8")).rstrip('\0')
-        return st
+        return str(plain_text.decode("utf-8")).rstrip('\0')
 
 
 def use_md5(test):
@@ -248,8 +243,7 @@ def use_sha(text):
     if not isinstance(text, bytes):
         text = bytes(text, 'utf-8')
     sha = hashlib.sha1(text)
-    encrypts = sha.hexdigest()
-    return encrypts
+    return sha.hexdigest()
 
 
 if __name__ == '__main__':

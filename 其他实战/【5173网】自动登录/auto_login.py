@@ -29,7 +29,7 @@ class YX(object):
         return ctx.call("make_js", self.pwd, key)
 
     def make_data(self, token, key):
-        data = {
+        return {
             'userName': self.user,
             'password': self.make_pwd(key),
             'mobileNo': '',
@@ -41,7 +41,6 @@ class YX(object):
             '__validationToken__': token,
             '__validationDna__': '',
         }
-        return data
 
     def login(self):
         """start

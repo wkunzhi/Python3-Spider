@@ -31,8 +31,10 @@ class ParseAreas(object):
         """解析数据
         """
         py_dict = {}
-        text = re.search(r'"city":{"id":(.*?),"name":"(.*?)","pinyin".*?"area":(.*?),"category":', data)
-        if text:
+        if text := re.search(
+            r'"city":{"id":(.*?),"name":"(.*?)","pinyin".*?"area":(.*?),"category":',
+            data,
+        ):
             py_dict = {'城市': text.group(2), '城市ID': text.group(1)}
             dict_info = json.loads(text.group(3)).get('children')  # 提取区域信息
             py_dict['区'] = []
@@ -41,14 +43,20 @@ class ParseAreas(object):
                 if node.get('name') == '推荐商圈':
                     continue  # 推荐商圈过滤
                 # 二级区域
-                district = {'区名': node.get('name'), '区ID': node.get('id'),
-                            '区链接': url + 'b' + str(node.get('id')) + '/'}
+                district = {
+                    '区名': node.get('name'),
+                    '区ID': node.get('id'),
+                    '区链接': f'{url}b' + str(node.get('id')) + '/',
+                }
                 if node.get('children'):
                     district['街道'] = []
                     # 三级区域
                     for i in node.get('children'):
-                        area = {'街道名': i.get('name'), '街道ID': i.get('id'),
-                                '街道链接': url + 'b' + str(i.get('id')) + '/'}
+                        area = {
+                            '街道名': i.get('name'),
+                            '街道ID': i.get('id'),
+                            '街道链接': f'{url}b' + str(i.get('id')) + '/',
+                        }
                         district['街道'].append(area)
 
                 py_dict['区'].append(district)

@@ -12,7 +12,7 @@ class RandomUserAgentMiddleware(object):
     """
 
     def __init__(self):
-        location = os.getcwd() + '/toolkits/fake_useragent.json'
+        location = f'{os.getcwd()}/toolkits/fake_useragent.json'
         self.agent = UserAgent(path=location)
         # self.agent = UserAgent(verify_ssl=False)
         # self.agent = UserAgent(use_cache_server=False)

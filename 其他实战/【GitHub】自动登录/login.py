@@ -63,9 +63,7 @@ class Login(object):
         response = self.session.get(self.login_url, headers=self.headers)
         html = etree.HTML(response.content.decode())
 
-        token = html.xpath('//input[@name="authenticity_token"]/@value')[0]
-
-        return token
+        return html.xpath('//input[@name="authenticity_token"]/@value')[0]
 
 
 if __name__ == '__main__':

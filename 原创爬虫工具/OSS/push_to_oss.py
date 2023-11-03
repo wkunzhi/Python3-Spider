@@ -56,7 +56,7 @@ if __name__ == '__main__':
     list_len = get_len()
     print('专辑总图数量', list_len)
     pool = ThreadPoolExecutor()  # 设置线程池大小，默认等于cpu核数
-    for i in range(list_len):
+    for _ in range(list_len):
         pool.submit(put_img)
 
     pool.shutdown(wait=True)

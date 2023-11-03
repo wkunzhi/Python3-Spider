@@ -64,11 +64,10 @@ class YMReg(object):
         balance_api = 'http://api.fxhyd.cn/UserInterface.aspx?action=getaccountinfo&token={token}&format=1'
         target_url = balance_api.format(token=self.token)
         response = requests.get(target_url)
-        if response.status_code == 200:
-            state, data = response.text.split('|')
-            return '当前余额： %s 元' % json.loads(data).get('Balance')
-        else:
+        if response.status_code != 200:
             return '获取失败请检测账号'
+        state, data = response.text.split('|')
+        return f"当前余额： {json.loads(data).get('Balance')} 元"
 
     @ staticmethod
     def filter_info(message):
@@ -84,18 +83,17 @@ class YMReg(object):
     async def get_node(self, session, phone):
         """接收短信
         """
-        for i in range(12):
+        for _ in range(12):
             await asyncio.sleep(5)
             node_api = 'http://api.fxhyd.cn/UserInterface.aspx?action=getsms&token={token}&itemid={itemid}&mobile={phone}&release=1&timestamp={time}'
             target_url = node_api.format(token=self.token, itemid=self.project_code, phone=phone, time=time.time())
             async with session.get(target_url) as response:
                 message = await response.text()
-                rest = self.filter_info(message)
-                if rest:
+                if rest := self.filter_info(message):
                     return phone + rest
 
         await self.join_black_list(session, phone)  # 获取失败加入黑名单
-        return '%s 短信获取失败' % phone
+        return f'{phone} 短信获取失败'
 
     async def fetch_phone(self, session):
         """获取手机

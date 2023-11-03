@@ -28,7 +28,7 @@ class MyProxy(object):
         # 此处对接redis
         data = r.zrange('ZhiMaProxy', 0, -1, withscores=True)
         ip, score = random.choice(data)
-        request.meta['proxy'] = 'http://'+ip
+        request.meta['proxy'] = f'http://{ip}'
 
 
 
@@ -56,8 +56,7 @@ class DownloaderMiddleware(object):
 
     def process_exception(self, request, exception, spider):  # 可能由于IP质量问题无法访问超时，必须在这里捕获然后扣分
         print('超时异常')
-        proxy = request._meta.get('proxy')
-        if proxy:
+        if proxy := request._meta.get('proxy'):
             proxy = proxy[proxy.find('/') + 2:]
             r.zincrby('ZhiMaProxy', -10000000000, proxy)  # redis 新版本命令更改这样了
             return request

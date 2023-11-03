@@ -6,6 +6,7 @@
     从网页下载一个字体文件获取对应推导式，动态获取请自行拓展
 """
 
+
 from fontTools.ttLib import TTFont
 import re
 
@@ -15,7 +16,7 @@ with open('tyc-num.xml', 'r') as f:
     xml = f.read()  # 读取tyc-num.xml赋值给xml
 GlyphID = re.findall(r'<GlyphID id="(.*?)" name="(\d+)"/>', xml)  # 获得对应关系
 print(GlyphID)
-GlyphIDNameLists = list(set([int(Gname) for Gid, Gname in GlyphID])) # 对应关系数量转换
+GlyphIDNameLists = list({int(Gname) for Gid, Gname in GlyphID})
 print(GlyphIDNameLists)
 DigitalDicts = {str(i): str(GlyphIDNameLists[i - 2]) for i in range(2, len(GlyphIDNameLists)+2)}  # 数字对应关系的字典推导式
 print(DigitalDicts)

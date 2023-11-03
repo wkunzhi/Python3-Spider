@@ -29,8 +29,7 @@ def des3_decrypt(s):
     """
     _str = base64.b64decode(s)
     k = triple_des(KEY, CBC, IV, pad=None, padmode=PAD_PKCS5)
-    en = k.decrypt(_str, padmode=PAD_PKCS5).decode('utf-8')
-    return en
+    return k.decrypt(_str, padmode=PAD_PKCS5).decode('utf-8')
 
 
 def decrypt_str(s):
@@ -38,10 +37,12 @@ def decrypt_str(s):
     content = info[:-6]
     hIndex = base64.b64decode(info[-6:].replace("==", "")).decode().split("_")
     content2 = content[int(hIndex[0]):]
-    txt = base64.b64decode(
-        content2[: len(content2)-int(hIndex[1])][::-1]
-    ).decode('utf-8').replace("##", "").replace("{@mk7}", "")
-    return txt
+    return (
+        base64.b64decode(content2[: len(content2) - int(hIndex[1])][::-1])
+        .decode('utf-8')
+        .replace("##", "")
+        .replace("{@mk7}", "")
+    )
 
 
 def make_str(enB):
@@ -54,9 +55,7 @@ def make_str(enB):
         sumResult = Long.valueOf(sumResult.longValue() + ((long) item));
     }
     """
-    count = 0
-    for i in enB:
-        count += ord(i)
+    count = sum(ord(i) for i in enB)
     # print('合', count)  # 每个字符的 Ascii 码的总和
     p = count % len(enB)
     n = 1
@@ -76,7 +75,7 @@ def rep(source, index, rep_str):
     复写的java层字符转换方法
     :return:
     """
-    str1 = source[0: index]
+    str1 = source[:index]
     return str1 + rep_str + source[index + 1:]
 
 

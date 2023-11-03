@@ -8,13 +8,14 @@ wap端 sig 参数生成
 需要 V8 引擎！
 """
 
+
 import execjs
 import os
 
 print(execjs.get().name)
 
 
-with open(os.path.dirname(__file__) + '/v3_update.js') as f:
+with open(f'{os.path.dirname(__file__)}/v3_update.js') as f:
     js = execjs.compile(f.read())
 
 

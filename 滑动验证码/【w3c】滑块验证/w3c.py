@@ -46,7 +46,7 @@ class W3C:
         img_cha = self.split_img(bg_img, css_list)
         xy = None  # 识别结果
         for n in range(4):
-            full_image = Image.open('img/'+str(n)+'.png')
+            full_image = Image.open(f'img/{str(n)}.png')
             # 获取缺口位置
             xy = self.get_distance(img_cha, full_image)
             if xy and xy > 0:
@@ -90,13 +90,13 @@ class W3C:
         # 设置一个判定值，像素值之差超过判定值则认为该像素不相同
         threshold = 1  # 可根据识别效果调整
         # 判断像素的各个颜色之差，abs()用于取绝对值
-        if (abs(bg_pixel[0] - full_pixel[0] < threshold) and abs(bg_pixel[1] - full_pixel[1] < threshold) and abs(
-                bg_pixel[2] - full_pixel[2] < threshold)):
-            # 如果差值在判断值之内，返回是相同像素
-            return True
-        else:
-            # 如果差值在判断值之外，返回不是相同像素
-            return False
+        return bool(
+            (
+                abs(bg_pixel[0] - full_pixel[0] < threshold)
+                and abs(bg_pixel[1] - full_pixel[1] < threshold)
+                and abs(bg_pixel[2] - full_pixel[2] < threshold)
+            )
+        )
 
     def split_img(self, bg_img, css_list):
         """图片还原"""
@@ -121,9 +121,7 @@ class W3C:
 
     def check_code(self):
         """滑块认证"""
-        point = self.get_img()
-
-        if point:
+        if point := self.get_img():
             print('\033[1;34m识别成功: 缺口位置 x: %s \033[0m' % point)
             print('\033[1;36m提交数据中...\033[0m')
             result = self.session.post(self.check, data={'point': point}, headers=self.headers)

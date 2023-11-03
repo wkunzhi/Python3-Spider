@@ -44,7 +44,11 @@ class HouseSpider(scrapy.Spider):
             url = HOST + href[:href.find(';')] if ';' in href else HOST + href
 
             # 获取基础信息
-            yield scrapy.Request(url + '/detail.htm', callback=self.parse_base, meta={'name': title, 'base_url': url})
+            yield scrapy.Request(
+                f'{url}/detail.htm',
+                callback=self.parse_base,
+                meta={'name': title, 'base_url': url},
+            )
 
     def parse_base(self, response):
         """解析楼盘基础信息
@@ -66,8 +70,11 @@ class HouseSpider(scrapy.Spider):
             base_url = response.meta.get('base_url')
 
             # 获取 最新动态
-            yield scrapy.Request(base_url + '/news.htm', callback=self.parse_news,
-                                 meta={'base_url': base_url, 'data': data})
+            yield scrapy.Request(
+                f'{base_url}/news.htm',
+                callback=self.parse_news,
+                meta={'base_url': base_url, 'data': data},
+            )
 
     def parse_news(self, response):
         """解析新闻

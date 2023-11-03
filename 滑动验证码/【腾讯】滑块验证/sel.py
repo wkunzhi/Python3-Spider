@@ -108,12 +108,7 @@ class TX:
         distance += 10  # 先滑过一点，最后再反着滑动回来
         # a = random.randint(1,3)
         while current < distance:
-            if current < mid:
-                # 加速度越小，单位时间的位移越小,模拟的轨迹就越多越详细
-                a = random.randint(2, 4)  # 加速运动
-            else:
-                a = -random.randint(3, 5)  # 减速运动
-
+            a = random.randint(2, 4) if current < mid else -random.randint(3, 5)
             # 初速度
             v0 = v
             # 0.2秒时间内的位移
@@ -127,10 +122,8 @@ class TX:
             v = v0 + a * t
 
         # 反着滑动到大概准确位置
-        for i in range(4):
-            tracks.append(-random.randint(2, 3))
-        for i in range(4):
-            tracks.append(-random.randint(1, 3))
+        tracks.extend(-random.randint(2, 3) for _ in range(4))
+        tracks.extend(-random.randint(1, 3) for _ in range(4))
         return tracks
 
     def move_to(self, index):

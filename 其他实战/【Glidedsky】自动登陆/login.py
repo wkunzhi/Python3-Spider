@@ -25,8 +25,7 @@ class Gli:
 
     def get_token(self):
         response = self.session.get(self.url, headers=self.headers)
-        _token = re.search(r'name="csrf-token" content="(.*?)">', response.text).group(1)
-        return _token
+        return re.search(r'name="csrf-token" content="(.*?)">', response.text).group(1)
 
     def login(self):
         data = {'_token': self.get_token(), 'email': self.user, 'password': self.pwd}

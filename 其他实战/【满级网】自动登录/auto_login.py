@@ -34,12 +34,11 @@ class YX(object):
         return cipher_text.decode()
 
     def make_data(self):
-        data = {
+        return {
             'account': self.user,
             'password': self.make_pwd(),
-            'returnUrl': '/'
+            'returnUrl': '/',
         }
-        return data
 
     def login(self):
         """start

@@ -46,8 +46,7 @@ def main(pwd):
 
         print('引擎', execjs.get().name)
         publickey, time, nonce = Get_parameters()
-        sign = js.call('get_up', pwd, publickey, time, nonce)
-        return sign
+        return js.call('get_up', pwd, publickey, time, nonce)
 
 
 if __name__ == '__main__':

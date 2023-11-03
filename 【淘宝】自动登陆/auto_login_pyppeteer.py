@@ -78,9 +78,8 @@ class LoginTaoBao:
             slider_again = await self.page.querySelectorEval('#nc_1__scale_text', 'node => node.textContent')
             if slider_again != '验证通过':
                 return None
-            else:
-                print('验证通过')
-                return True
+            print('验证通过')
+            return True
 
     async def main(self, username_, pwd_):
         """登陆

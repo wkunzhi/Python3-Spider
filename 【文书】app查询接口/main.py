@@ -23,8 +23,11 @@ class TripleDesUtils:
         """3des 解密
         """
         data = self._base64decode(data)
-        _decrypt_result = pyDes.triple_des(key, pyDes.CBC, iv, None, pyDes.PAD_PKCS5).decrypt(data).decode('utf-8')
-        return _decrypt_result
+        return (
+            pyDes.triple_des(key, pyDes.CBC, iv, None, pyDes.PAD_PKCS5)
+            .decrypt(data)
+            .decode('utf-8')
+        )
 
     @staticmethod
     def _base64encode(data):
@@ -58,12 +61,9 @@ class WenShu:
     def random_key():
         """字符串
         """
-        random_str = ''
         base_str = 'ABCDEFGHIGKLMNOPQRSTUVWXYZabcdefghigklmnopqrstuvwxyz0123456789'
         length = len(base_str) - 1
-        for i in range(24):
-            random_str += base_str[random.randint(0, length)]
-        return random_str
+        return ''.join(base_str[random.randint(0, length)] for _ in range(24))
 
     @staticmethod
     def make_id():
@@ -97,7 +97,7 @@ class WenShu:
         """生成明文的请求 data 内容
         【这里需要根据实际需求修改请求内容】自行抓包研究！！
         """
-        info = {
+        return {
             "id": self.make_id(),  # 年月日时分秒
             "command": "queryDoc",  # 固定
             "params": {
@@ -107,13 +107,9 @@ class WenShu:
                 "pageSize": "20",
                 "sortFields": "s50:desc",  # 固定
                 "pageNum": "1",
-                "queryCondition": [{
-                    "key": "s8",
-                    "value": "02"
-                }]  # 关键词 + 搜索文本的类型；
-            }
+                "queryCondition": [{"key": "s8", "value": "02"}],  # 关键词 + 搜索文本的类型；
+            },
         }
-        return info
 
     def to_index(self):
         url = 'http://wenshuapp.court.gov.cn/appinterface/rest.q4w'

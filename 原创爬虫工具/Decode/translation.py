@@ -10,7 +10,7 @@ COLOR = {'red': 1, 'green': 2, 'yellow': 3, 'blue': 4}
 
 class TranslationMetaClass(type):
     """Meta 类"""
-    def __new__(mcs, name, bases, attrs):
+    def __new__(cls, name, bases, attrs):
         count = 0
         attrs['__Decode__'] = {}
         for k, v in attrs.items():
@@ -18,7 +18,7 @@ class TranslationMetaClass(type):
                 count += 1
                 attrs['__Decode__'][str(count)] = k
         attrs['__TranslationFuncCount__'] = count
-        return type.__new__(mcs, name, bases, attrs)
+        return type.__new__(cls, name, bases, attrs)
 
 
 class Util(object):
@@ -28,8 +28,8 @@ class Util(object):
     def _print(color, msg):
         """print color control
         """
-        node = '\033[1;3{id}m{msg}\033[0m'
         if COLOR.get(color):
+            node = '\033[1;3{id}m{msg}\033[0m'
             print(node.format(id=COLOR.get(color), msg=msg))
         else:
             print(msg)
@@ -38,7 +38,7 @@ class Util(object):
         """print decode func
         """
         for k in self.__Decode__:
-            self._print('yellow', str(k) + ': ' + self.__Decode__[k][7:])
+            self._print('yellow', f'{str(k)}: {self.__Decode__[k][7:]}')
         self._print('yellow', 'r: 【重制】 e:【退出】')
         return input('请选择 >>>').lower()
 
@@ -59,13 +59,13 @@ class Decode(Util, metaclass=TranslationMetaClass):
         while choice != 'e':
             if choice == 'r':  # 重制
                 self._key, self.crumbs = self._copy, ''
-                self._print('blue', '重制成功: ' + self._key)
+                self._print('blue', f'重制成功: {self._key}')
                 choice = self.msg()
             elif choice in self.__Decode__:  # 选择是否在现有函数选项中
                 try:
-                    eval("self.{}()".format(self.__Decode__[choice]))  # 字符串转函数运行
+                    eval(f"self.{self.__Decode__[choice]}()")
                     self._print('blue', self._key)
-                    self.crumbs += self.__Decode__[choice][7:] + ' > '
+                    self.crumbs += f'{self.__Decode__[choice][7:]} > '
                     self._print('green', self.crumbs)
                     choice = self.msg()
                 except Exception:

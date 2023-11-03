@@ -108,11 +108,11 @@ class LoginBli:
         # 阈值 允许误差
         threshold = 10
         # 对比
-        if abs(c_pixel[0] - ic_pixel[0]) < threshold and \
-                abs(c_pixel[1] - ic_pixel[1]) < threshold and \
-                abs(c_pixel[2] - ic_pixel[2]) < threshold:
-            return True
-        return False
+        return (
+            abs(c_pixel[0] - ic_pixel[0]) < threshold
+            and abs(c_pixel[1] - ic_pixel[1]) < threshold
+            and abs(c_pixel[2] - ic_pixel[2]) < threshold
+        )
 
     def get_slice_gap(self, image1, image2):
         """获取缺口的偏移量
@@ -168,12 +168,7 @@ class LoginBli:
         v = 0
 
         while current < distance:
-            if current < mid:
-                # 加速度为正2
-                a = 20
-            else:
-                # 加速度为负3
-                a = -30
+            a = 20 if current < mid else -30
             # 初速度v0
             v0 = v
             # 当前速度v = v0 + at

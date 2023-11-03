@@ -36,7 +36,7 @@ class BaiDu:
         with open("dv.js", "r", encoding="utf-8") as f:
             js_dv = execjs.compile(f.read())
         _time = int(round(time.time() * 1000)) / 1000
-        tk = "tk0.29" + str(random.randint(104771190122337, 904771190122337)) + str(_time * 1000)
+        tk = f"tk0.29{random.randint(104771190122337, 904771190122337)}{str(_time * 1000)}"
         self.dv = js_dv.call('MakeDv', _time, tk)
         print('【生成dv】', self.dv)
 
@@ -69,8 +69,11 @@ class BaiDu:
         第三补 请求图片
         :return:
         """
-        response = requests.get('https://passport.baidu.com/cgi-bin/genimage?' + verify_str, cookies=self.cookies,
-                                headers=headers_img)
+        response = requests.get(
+            f'https://passport.baidu.com/cgi-bin/genimage?{verify_str}',
+            cookies=self.cookies,
+            headers=headers_img,
+        )
         with open('验证码.png', 'wb') as f:
             f.write(response.content)
 
@@ -115,8 +118,7 @@ class BaiDu:
         第五步 获取电话
         :return:
         """
-        url = 'https://passport.baidu.com/v2/sapi/authwidgetverify?authtoken=' + parse.quote(
-            token) + '&type=&jsonp=1&apiver=v3&verifychannel=&action=getapi&vcode=&questionAndAnswer=&needsid=&rsakey=&countrycode=&u=https%3A%2F%2Fpassport.qatest.baidu.com%2F%3Fgetpassresetpwd&tpl=&winsdk=&authAction=&callback=bd__cbs__oeq73u'
+        url = f'https://passport.baidu.com/v2/sapi/authwidgetverify?authtoken={parse.quote(token)}&type=&jsonp=1&apiver=v3&verifychannel=&action=getapi&vcode=&questionAndAnswer=&needsid=&rsakey=&countrycode=&u=https%3A%2F%2Fpassport.qatest.baidu.com%2F%3Fgetpassresetpwd&tpl=&winsdk=&authAction=&callback=bd__cbs__oeq73u'
         response = requests.get(url, cookies=self.cookies, headers=headers_get_phone)
         text = response.content.decode("utf-8")
         if '系统繁忙' in text:
